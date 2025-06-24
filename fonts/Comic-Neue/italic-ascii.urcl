@@ -1,0 +1,6335 @@
+!urcltype_Mappings
+.Mappings
+RW [ 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 0  ]
+!urcltype_UnicodeMappings
+.UnicodeMappings
+RW [ 160 302 0 ]
+!urcltype_Glyphs
+.Glyphs
+RW [ .Contours0 .Bounds0 .Kerning0 .Substitutions0 ]
+RW [ 0 0 0 0 ]
+RW [ .Contours2 .Bounds2 .Kerning2 .Substitutions2 ]
+RW [ .Contours3 .Bounds3 .Kerning3 .Substitutions3 ]
+RW [ .Contours4 .Bounds4 .Kerning4 .Substitutions4 ]
+RW [ .Contours5 .Bounds5 .Kerning5 .Substitutions5 ]
+RW [ .Contours6 .Bounds6 .Kerning6 .Substitutions6 ]
+RW [ .Contours7 .Bounds7 .Kerning7 .Substitutions7 ]
+RW [ .Contours8 .Bounds8 .Kerning8 .Substitutions8 ]
+RW [ .Contours9 .Bounds9 .Kerning9 .Substitutions9 ]
+RW [ .Contours10 .Bounds10 .Kerning10 .Substitutions10 ]
+RW [ .Contours11 .Bounds11 .Kerning11 .Substitutions11 ]
+RW [ .Contours12 .Bounds12 .Kerning12 .Substitutions12 ]
+RW [ .Contours13 .Bounds13 .Kerning13 .Substitutions13 ]
+RW [ .Contours14 .Bounds14 .Kerning14 .Substitutions14 ]
+RW [ .Contours15 .Bounds15 .Kerning15 .Substitutions15 ]
+RW [ .Contours16 .Bounds16 .Kerning16 .Substitutions16 ]
+RW [ .Contours17 .Bounds17 .Kerning17 .Substitutions17 ]
+RW [ .Contours18 .Bounds18 .Kerning18 .Substitutions18 ]
+RW [ .Contours19 .Bounds19 .Kerning19 .Substitutions19 ]
+RW [ .Contours20 .Bounds20 .Kerning20 .Substitutions20 ]
+RW [ .Contours21 .Bounds21 .Kerning21 .Substitutions21 ]
+RW [ .Contours22 .Bounds22 .Kerning22 .Substitutions22 ]
+RW [ .Contours23 .Bounds23 .Kerning23 .Substitutions23 ]
+RW [ .Contours24 .Bounds24 .Kerning24 .Substitutions24 ]
+RW [ .Contours25 .Bounds25 .Kerning25 .Substitutions25 ]
+RW [ .Contours26 .Bounds26 .Kerning26 .Substitutions26 ]
+RW [ .Contours27 .Bounds27 .Kerning27 .Substitutions27 ]
+RW [ .Contours28 .Bounds28 .Kerning28 .Substitutions28 ]
+RW [ .Contours29 .Bounds29 .Kerning29 .Substitutions29 ]
+RW [ .Contours30 .Bounds30 .Kerning30 .Substitutions30 ]
+RW [ .Contours31 .Bounds31 .Kerning31 .Substitutions31 ]
+RW [ .Contours32 .Bounds32 .Kerning32 .Substitutions32 ]
+RW [ .Contours33 .Bounds33 .Kerning33 .Substitutions33 ]
+RW [ .Contours34 .Bounds34 .Kerning34 .Substitutions34 ]
+RW [ .Contours35 .Bounds35 .Kerning35 .Substitutions35 ]
+RW [ .Contours36 .Bounds36 .Kerning36 .Substitutions36 ]
+RW [ .Contours37 .Bounds37 .Kerning37 .Substitutions37 ]
+RW [ .Contours38 .Bounds38 .Kerning38 .Substitutions38 ]
+RW [ .Contours39 .Bounds39 .Kerning39 .Substitutions39 ]
+RW [ .Contours40 .Bounds40 .Kerning40 .Substitutions40 ]
+RW [ .Contours41 .Bounds41 .Kerning41 .Substitutions41 ]
+RW [ .Contours42 .Bounds42 .Kerning42 .Substitutions42 ]
+RW [ .Contours43 .Bounds43 .Kerning43 .Substitutions43 ]
+RW [ .Contours44 .Bounds44 .Kerning44 .Substitutions44 ]
+RW [ .Contours45 .Bounds45 .Kerning45 .Substitutions45 ]
+RW [ .Contours46 .Bounds46 .Kerning46 .Substitutions46 ]
+RW [ .Contours47 .Bounds47 .Kerning47 .Substitutions47 ]
+RW [ .Contours48 .Bounds48 .Kerning48 .Substitutions48 ]
+RW [ .Contours49 .Bounds49 .Kerning49 .Substitutions49 ]
+RW [ .Contours50 .Bounds50 .Kerning50 .Substitutions50 ]
+RW [ .Contours51 .Bounds51 .Kerning51 .Substitutions51 ]
+RW [ .Contours52 .Bounds52 .Kerning52 .Substitutions52 ]
+RW [ .Contours53 .Bounds53 .Kerning53 .Substitutions53 ]
+RW [ .Contours54 .Bounds54 .Kerning54 .Substitutions54 ]
+RW [ .Contours55 .Bounds55 .Kerning55 .Substitutions55 ]
+RW [ .Contours56 .Bounds56 .Kerning56 .Substitutions56 ]
+RW [ .Contours57 .Bounds57 .Kerning57 .Substitutions57 ]
+RW [ .Contours58 .Bounds58 .Kerning58 .Substitutions58 ]
+RW [ .Contours59 .Bounds59 .Kerning59 .Substitutions59 ]
+RW [ .Contours60 .Bounds60 .Kerning60 .Substitutions60 ]
+RW [ .Contours61 .Bounds61 .Kerning61 .Substitutions61 ]
+RW [ .Contours62 .Bounds62 .Kerning62 .Substitutions62 ]
+RW [ .Contours63 .Bounds63 .Kerning63 .Substitutions63 ]
+RW [ .Contours64 .Bounds64 .Kerning64 .Substitutions64 ]
+RW [ .Contours65 .Bounds65 .Kerning65 .Substitutions65 ]
+RW [ .Contours66 .Bounds66 .Kerning66 .Substitutions66 ]
+RW [ .Contours67 .Bounds67 .Kerning67 .Substitutions67 ]
+RW [ .Contours68 .Bounds68 .Kerning68 .Substitutions68 ]
+RW [ .Contours69 .Bounds69 .Kerning69 .Substitutions69 ]
+RW [ .Contours70 .Bounds70 .Kerning70 .Substitutions70 ]
+RW [ .Contours71 .Bounds71 .Kerning71 .Substitutions71 ]
+RW [ .Contours72 .Bounds72 .Kerning72 .Substitutions72 ]
+RW [ .Contours73 .Bounds73 .Kerning73 .Substitutions73 ]
+RW [ .Contours74 .Bounds74 .Kerning74 .Substitutions74 ]
+RW [ .Contours75 .Bounds75 .Kerning75 .Substitutions75 ]
+RW [ .Contours76 .Bounds76 .Kerning76 .Substitutions76 ]
+RW [ .Contours77 .Bounds77 .Kerning77 .Substitutions77 ]
+RW [ .Contours78 .Bounds78 .Kerning78 .Substitutions78 ]
+RW [ .Contours79 .Bounds79 .Kerning79 .Substitutions79 ]
+RW [ .Contours80 .Bounds80 .Kerning80 .Substitutions80 ]
+RW [ .Contours81 .Bounds81 .Kerning81 .Substitutions81 ]
+RW [ .Contours82 .Bounds82 .Kerning82 .Substitutions82 ]
+RW [ .Contours83 .Bounds83 .Kerning83 .Substitutions83 ]
+RW [ .Contours84 .Bounds84 .Kerning84 .Substitutions84 ]
+RW [ .Contours85 .Bounds85 .Kerning85 .Substitutions85 ]
+RW [ .Contours86 .Bounds86 .Kerning86 .Substitutions86 ]
+RW [ .Contours87 .Bounds87 .Kerning87 .Substitutions87 ]
+RW [ .Contours88 .Bounds88 .Kerning88 .Substitutions88 ]
+RW [ .Contours89 .Bounds89 .Kerning89 .Substitutions89 ]
+RW [ .Contours90 .Bounds90 .Kerning90 .Substitutions90 ]
+RW [ .Contours91 .Bounds91 .Kerning91 .Substitutions91 ]
+RW [ .Contours92 .Bounds92 .Kerning92 .Substitutions92 ]
+RW [ .Contours93 .Bounds93 .Kerning93 .Substitutions93 ]
+RW [ .Contours94 .Bounds94 .Kerning94 .Substitutions94 ]
+RW [ .Contours95 .Bounds95 .Kerning95 .Substitutions95 ]
+RW [ .Contours96 .Bounds96 .Kerning96 .Substitutions96 ]
+RW [ .Contours97 .Bounds97 .Kerning97 .Substitutions97 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ 0 0 0 0 ]
+RW [ .Contours302 .Bounds302 .Kerning302 .Substitutions302 ]
+.Bounds0
+RW [ 0.017000 0.480000 -0.006000 0.675000 0.503000 ]
+.Kerning0
+RW [ 0 ]
+.Substitutions0
+RW [ 0 ]
+.Contours0
+RW [ .Path0 .Path0_10 ]
+RW [ .Path1 .Path1_1 ]
+RW [ .Path2 .Path2_1 ]
+RW [ .Path3 .Path3_1 ]
+RW [ .Path4 .Path4_1 ]
+RW 0
+.Bounds2
+RW [ 0.000000 0.000000 0.000000 0.000000 0.600000 ]
+.Kerning2
+RW [ 0 ]
+.Substitutions2
+RW [ 0 ]
+.Contours2
+RW 0
+.Bounds3
+RW [ 0.000000 0.000000 0.000000 0.000000 0.333000 ]
+.Kerning3
+RW [ 0 ]
+.Substitutions3
+RW [ 0 ]
+.Contours3
+RW 0
+.Bounds4
+RW [ 0.038000 0.245000 -0.006000 0.685000 0.244000 ]
+.Kerning4
+RW [ 0 ]
+.Substitutions4
+RW [ 0 ]
+.Contours4
+RW [ .Path5 .Path5_8 ]
+RW [ .Path6 .Path6_6 ]
+RW 0
+.Bounds5
+RW [ 0.116000 0.330000 0.489000 0.682000 0.291000 ]
+.Kerning5
+RW [ 0 ]
+.Substitutions5
+RW [ 0 ]
+.Contours5
+RW [ .Path7 .Path7_8 ]
+RW [ .Path8 .Path8_8 ]
+RW 0
+.Bounds6
+RW [ 0.061000 0.730000 -0.006000 0.681000 0.750000 ]
+.Kerning6
+RW [ 0 ]
+.Substitutions6
+RW [ 0 ]
+.Contours6
+RW [ .Path9 .Path9_54 ]
+RW [ .Path10 .Path10_2 ]
+RW 0
+.Bounds7
+RW [ 0.027000 0.583000 -0.079000 0.743000 0.603000 ]
+.Kerning7
+RW [ 0 ]
+.Substitutions7
+RW [ 0 ]
+.Contours7
+RW [ .Path11 .Path11_39 ]
+RW [ .Path12 .Path12_3 ]
+RW [ .Path13 .Path13_3 ]
+RW 0
+.Bounds8
+RW [ 0.103000 0.648000 -0.014000 0.686000 0.706000 ]
+.Kerning8
+RW [ 0 ]
+.Substitutions8
+RW [ 0 ]
+.Contours8
+RW [ .Path14 .Path14_8 ]
+RW [ .Path15 .Path15_8 ]
+RW [ .Path16 .Path16_7 ]
+RW [ .Path17 .Path17_8 ]
+RW [ .Path18 .Path18_6 ]
+RW 0
+.Bounds9
+RW [ 0.042000 0.547000 -0.006000 0.686000 0.647000 ]
+.Kerning9
+RW [ 0 ]
+.Substitutions9
+RW [ 0 ]
+.Contours9
+RW [ .Path19 .Path19_30 ]
+RW [ .Path20 .Path20_7 ]
+RW [ .Path21 .Path21_7 ]
+RW 0
+.Bounds10
+RW [ 0.119000 0.212000 0.489000 0.682000 0.174000 ]
+.Kerning10
+RW [ 0 ]
+.Substitutions10
+RW [ 0 ]
+.Contours10
+RW [ .Path22 .Path22_8 ]
+RW 0
+.Bounds11
+RW [ 0.077000 0.421000 -0.113000 0.786000 0.345000 ]
+.Kerning11
+RW [ 0 ]
+.Substitutions11
+RW [ 0 ]
+.Contours11
+RW [ .Path23 .Path23_17 ]
+RW 0
+.Bounds12
+RW [ -0.023000 0.308000 -0.114000 0.786000 0.345000 ]
+.Kerning12
+RW [ 0 ]
+.Substitutions12
+RW [ 0 ]
+.Contours12
+RW [ .Path24 .Path24_15 ]
+RW 0
+.Bounds13
+RW [ 0.131000 0.398000 0.449000 0.703000 0.374000 ]
+.Kerning13
+RW [ 0 ]
+.Substitutions13
+RW [ 0 ]
+.Contours13
+RW [ .Path25 .Path25_32 ]
+RW 0
+.Bounds14
+RW [ 0.055000 0.393000 0.084000 0.408000 0.444000 ]
+.Kerning14
+RW [ 0 ]
+.Substitutions14
+RW [ 0 ]
+.Contours14
+RW [ .Path26 .Path26_22 ]
+RW 0
+.Bounds15
+RW [ -0.035000 0.081000 -0.092000 0.081000 0.162000 ]
+.Kerning15
+RW [ 0 ]
+.Substitutions15
+RW [ 0 ]
+.Contours15
+RW [ .Path27 .Path27_11 ]
+RW 0
+.Bounds16
+RW [ 0.055000 0.359000 0.221000 0.279000 0.411000 ]
+.Kerning16
+RW [ 55 -0.060000 57 -0.050000 58 -0.030000 60 -0.054000 154 -0.054000 241 -0.060000 249 -0.054000 256 -0.060000 0 ]
+.Substitutions16
+RW [ 0 ]
+.Contours16
+RW [ .Path28 .Path28_8 ]
+RW 0
+.Bounds17
+RW [ -0.010000 0.069000 0.000000 0.087000 0.144000 ]
+.Kerning17
+RW [ 0 ]
+.Substitutions17
+RW [ 0 ]
+.Contours17
+RW [ .Path29 .Path29_6 ]
+RW 0
+.Bounds18
+RW [ -0.013000 0.533000 -0.001000 0.690000 0.478000 ]
+.Kerning18
+RW [ 15 -0.150000 16 -0.100000 17 -0.150000 18 -0.120000 29 -0.150000 30 -0.150000 265 -0.100000 266 -0.100000 269 -0.150000 272 -0.150000 274 -0.150000 299 -0.100000 0 ]
+.Substitutions18
+RW [ 0 ]
+.Contours18
+RW [ .Path30 .Path30_9 ]
+RW 0
+.Bounds19
+RW [ 0.074000 0.579000 -0.006000 0.681000 0.612000 ]
+.Kerning19
+RW [ 0 ]
+.Substitutions19
+RW [ 0 ]
+.Contours19
+RW [ .Path31 .Path31_9 ]
+RW [ .Path32 .Path32_8 ]
+RW 0
+.Bounds20
+RW [ 0.020000 0.337000 0.000000 0.672000 0.396000 ]
+.Kerning20
+RW [ 0 ]
+.Substitutions20
+RW [ 0 ]
+.Contours20
+RW [ .Path33 .Path33_20 ]
+RW 0
+.Bounds21
+RW [ 0.014000 0.516000 0.000000 0.674000 0.526000 ]
+.Kerning21
+RW [ 0 ]
+.Substitutions21
+RW [ 0 ]
+.Contours21
+RW [ .Path34 .Path34_32 ]
+RW 0
+.Bounds22
+RW [ 0.011000 0.491000 -0.006000 0.682000 0.508000 ]
+.Kerning22
+RW [ 0 ]
+.Substitutions22
+RW [ 0 ]
+.Contours22
+RW [ .Path35 .Path35_39 ]
+RW 0
+.Bounds23
+RW [ 0.022000 0.458000 -0.006000 0.677000 0.485000 ]
+.Kerning23
+RW [ 0 ]
+.Substitutions23
+RW [ 0 ]
+.Contours23
+RW [ .Path36 .Path36_19 ]
+RW [ .Path37 .Path37_1 ]
+RW 0
+.Bounds24
+RW [ 0.025000 0.538000 -0.006000 0.668000 0.544000 ]
+.Kerning24
+RW [ 0 ]
+.Substitutions24
+RW [ 0 ]
+.Contours24
+RW [ .Path38 .Path38_34 ]
+RW 0
+.Bounds25
+RW [ 0.050000 0.484000 -0.006000 0.676000 0.544000 ]
+.Kerning25
+RW [ 0 ]
+.Substitutions25
+RW [ 0 ]
+.Contours25
+RW [ .Path39 .Path39_15 ]
+RW [ .Path40 .Path40_9 ]
+RW 0
+.Bounds26
+RW [ 0.042000 0.541000 -0.006000 0.664000 0.477000 ]
+.Kerning26
+RW [ 16 -0.080000 23 -0.080000 265 -0.080000 266 -0.080000 299 -0.080000 0 ]
+.Substitutions26
+RW [ 0 ]
+.Contours26
+RW [ .Path41 .Path41_14 ]
+RW 0
+.Bounds27
+RW [ 0.032000 0.509000 -0.006000 0.681000 0.516000 ]
+.Kerning27
+RW [ 0 ]
+.Substitutions27
+RW [ 0 ]
+.Contours27
+RW [ .Path42 .Path42_14 ]
+RW [ .Path43 .Path43_7 ]
+RW [ .Path44 .Path44_7 ]
+RW 0
+.Bounds28
+RW [ 0.082000 0.516000 -0.006000 0.676000 0.533000 ]
+.Kerning28
+RW [ 0 ]
+.Substitutions28
+RW [ 0 ]
+.Contours28
+RW [ .Path45 .Path45_16 ]
+RW [ .Path46 .Path46_8 ]
+RW 0
+.Bounds29
+RW [ -0.011000 0.173000 -0.006000 0.436000 0.174000 ]
+.Kerning29
+RW [ 0 ]
+.Substitutions29
+RW [ 0 ]
+.Contours29
+RW [ .Path47 .Path47_6 ]
+RW [ .Path48 .Path48_6 ]
+RW 0
+.Bounds30
+RW [ -0.035000 0.192000 -0.092000 0.436000 0.198000 ]
+.Kerning30
+RW [ 0 ]
+.Substitutions30
+RW [ 0 ]
+.Contours30
+RW [ .Path49 .Path49_6 ]
+RW [ .Path50 .Path50_11 ]
+RW 0
+.Bounds31
+RW [ 0.045000 0.488000 0.009000 0.493000 0.479000 ]
+.Kerning31
+RW [ 0 ]
+.Substitutions31
+RW [ 0 ]
+.Contours31
+RW [ .Path51 .Path51_12 ]
+RW 0
+.Bounds32
+RW [ 0.043000 0.420000 0.142000 0.357000 0.462000 ]
+.Kerning32
+RW [ 0 ]
+.Substitutions32
+RW [ 0 ]
+.Contours32
+RW [ .Path52 .Path52_8 ]
+RW [ .Path53 .Path53_8 ]
+RW 0
+.Bounds33
+RW [ 0.009000 0.431000 0.008000 0.492000 0.474000 ]
+.Kerning33
+RW [ 0 ]
+.Substitutions33
+RW [ 0 ]
+.Contours33
+RW [ .Path54 .Path54_13 ]
+RW 0
+.Bounds34
+RW [ 0.050000 0.493000 0.000000 0.709000 0.487000 ]
+.Kerning34
+RW [ 0 ]
+.Substitutions34
+RW [ 0 ]
+.Contours34
+RW [ .Path55 .Path55_24 ]
+RW [ .Path56 .Path56_6 ]
+RW 0
+.Bounds35
+RW [ 0.055000 0.775000 -0.100000 0.612000 0.812000 ]
+.Kerning35
+RW [ 0 ]
+.Substitutions35
+RW [ 0 ]
+.Contours35
+RW [ .Path57 .Path57_61 ]
+RW 0
+.Bounds36
+RW [ -0.019000 0.508000 -0.006000 0.683000 0.583000 ]
+.Kerning36
+RW [ 16 -0.040000 55 -0.060000 57 -0.033000 60 -0.032000 154 -0.032000 241 -0.060000 249 -0.032000 256 -0.060000 265 -0.040000 266 -0.040000 299 -0.040000 0 ]
+.Substitutions36
+RW [ 0 ]
+.Contours36
+RW [ .Path58 .Path58_23 ]
+RW [ .Path59 .Path59_1 ]
+RW 0
+.Bounds37
+RW [ 0.038000 0.573000 -0.008000 0.669000 0.621000 ]
+.Kerning37
+RW [ 0 ]
+.Substitutions37
+RW [ 0 ]
+.Contours37
+RW [ .Path60 .Path60_12 ]
+RW [ .Path61 .Path61_6 ]
+RW [ .Path62 .Path62_4 ]
+RW 0
+.Bounds38
+RW [ 0.049000 0.629000 -0.008000 0.678000 0.614000 ]
+.Kerning38
+RW [ 0 ]
+.Substitutions38
+RW [ 0 ]
+.Contours38
+RW [ .Path63 .Path63_29 ]
+RW 0
+.Bounds39
+RW [ 0.034000 0.600000 -0.016000 0.685000 0.630000 ]
+.Kerning39
+RW [ 15 -0.003000 17 -0.003000 29 -0.003000 30 -0.003000 55 -0.042000 241 -0.042000 256 -0.042000 269 -0.003000 272 -0.003000 274 -0.003000 0 ]
+.Substitutions39
+RW [ 0 ]
+.Contours39
+RW [ .Path64 .Path64_9 ]
+RW [ .Path65 .Path65_5 ]
+RW 0
+.Bounds40
+RW [ 0.035000 0.656000 0.000000 0.670000 0.606000 ]
+.Kerning40
+RW [ 0 ]
+.Substitutions40
+RW [ 0 ]
+.Contours40
+RW [ .Path66 .Path66_23 ]
+RW 0
+.Bounds41
+RW [ 0.034000 0.655000 -0.006000 0.670000 0.577000 ]
+.Kerning41
+RW [ 15 -0.007000 17 -0.007000 29 -0.007000 30 -0.007000 36 -0.007000 68 -0.004000 70 -0.004000 71 -0.004000 72 -0.004000 74 -0.004000 82 -0.004000 84 -0.004000 125 -0.007000 126 -0.007000 127 -0.007000 128 -0.007000 129 -0.007000 130 -0.007000 157 -0.004000 158 -0.004000 159 -0.004000 160 -0.004000 161 -0.004000 162 -0.004000 163 -0.004000 164 -0.004000 165 -0.004000 166 -0.004000 167 -0.004000 168 -0.004000 173 -0.004000 175 -0.004000 176 -0.004000 177 -0.004000 178 -0.004000 179 -0.004000 181 -0.004000 191 -0.007000 192 -0.004000 193 -0.007000 194 -0.004000 196 -0.004000 198 -0.004000 202 -0.004000 204 -0.004000 206 -0.004000 208 -0.004000 210 -0.004000 226 -0.004000 228 -0.004000 269 -0.007000 272 -0.007000 274 -0.007000 0 ]
+.Substitutions41
+RW [ 0 ]
+.Contours41
+RW [ .Path67 .Path67_19 ]
+RW 0
+.Bounds42
+RW [ 0.055000 0.681000 -0.007000 0.677000 0.715000 ]
+.Kerning42
+RW [ 0 ]
+.Substitutions42
+RW [ 0 ]
+.Contours42
+RW [ .Path68 .Path68_37 ]
+RW 0
+.Bounds43
+RW [ 0.035000 0.726000 -0.006000 0.675000 0.724000 ]
+.Kerning43
+RW [ 0 ]
+.Substitutions43
+RW [ 0 ]
+.Contours43
+RW [ .Path69 .Path69_23 ]
+RW 0
+.Bounds44
+RW [ -0.010000 0.438000 0.000000 0.670000 0.392000 ]
+.Kerning44
+RW [ 0 ]
+.Substitutions44
+RW [ 0 ]
+.Contours44
+RW [ .Path70 .Path70_22 ]
+RW 0
+.Bounds45
+RW [ -0.005000 0.505000 -0.006000 0.670000 0.455000 ]
+.Kerning45
+RW [ 0 ]
+.Substitutions45
+RW [ 0 ]
+.Contours45
+RW [ .Path71 .Path71_23 ]
+RW 0
+.Bounds46
+RW [ 0.034000 0.606000 -0.007000 0.676000 0.558000 ]
+.Kerning46
+RW [ 38 -0.004000 42 -0.004000 50 -0.004000 52 -0.004000 132 -0.004000 143 -0.004000 144 -0.004000 145 -0.004000 146 -0.004000 147 -0.004000 149 -0.004000 195 -0.004000 197 -0.004000 199 -0.004000 209 -0.004000 225 -0.004000 227 -0.004000 0 ]
+.Substitutions46
+RW [ 0 ]
+.Contours46
+RW [ .Path72 .Path72_20 ]
+RW 0
+.Bounds47
+RW [ 0.035000 0.446000 -0.007000 0.676000 0.493000 ]
+.Kerning47
+RW [ 16 -0.080000 38 -0.031000 42 -0.031000 45 -0.030000 50 -0.031000 52 -0.031000 55 -0.090000 57 -0.050000 58 -0.040000 60 -0.080000 132 -0.031000 143 -0.031000 144 -0.031000 145 -0.031000 146 -0.031000 147 -0.031000 149 -0.031000 154 -0.080000 195 -0.031000 197 -0.031000 199 -0.031000 209 -0.031000 213 -0.030000 225 -0.031000 227 -0.031000 241 -0.090000 249 -0.080000 256 -0.090000 265 -0.080000 266 -0.080000 299 -0.080000 0 ]
+.Substitutions47
+RW [ 0 ]
+.Contours47
+RW [ .Path73 .Path73_14 ]
+RW 0
+.Bounds48
+RW [ -0.007000 0.750000 -0.006000 0.675000 0.842000 ]
+.Kerning48
+RW [ 55 -0.007000 241 -0.007000 256 -0.007000 0 ]
+.Substitutions48
+RW [ 0 ]
+.Contours48
+RW [ .Path74 .Path74_24 ]
+RW 0
+.Bounds49
+RW [ 0.036000 0.664000 -0.006000 0.676000 0.660000 ]
+.Kerning49
+RW [ 0 ]
+.Substitutions49
+RW [ 0 ]
+.Contours49
+RW [ .Path75 .Path75_18 ]
+RW 0
+.Bounds50
+RW [ 0.049000 0.624000 -0.007000 0.677000 0.635000 ]
+.Kerning50
+RW [ 15 -0.003000 17 -0.003000 29 -0.003000 30 -0.003000 55 -0.042000 241 -0.042000 256 -0.042000 269 -0.003000 272 -0.003000 274 -0.003000 0 ]
+.Substitutions50
+RW [ 0 ]
+.Contours50
+RW [ .Path76 .Path76_10 ]
+RW [ .Path77 .Path77_8 ]
+RW 0
+.Bounds51
+RW [ 0.033000 0.589000 -0.006000 0.676000 0.558000 ]
+.Kerning51
+RW [ 15 -0.021000 16 -0.060000 17 -0.009000 18 -0.080000 29 -0.009000 30 -0.021000 36 -0.040000 45 -0.070000 68 -0.002000 70 -0.002000 71 -0.002000 72 -0.002000 74 -0.002000 82 -0.002000 84 -0.002000 125 -0.040000 126 -0.040000 127 -0.040000 128 -0.040000 129 -0.040000 130 -0.040000 131 -0.110000 157 -0.002000 158 -0.002000 159 -0.002000 160 -0.002000 161 -0.002000 162 -0.002000 163 -0.002000 164 -0.002000 165 -0.002000 166 -0.002000 167 -0.002000 168 -0.002000 173 -0.002000 175 -0.002000 176 -0.002000 177 -0.002000 178 -0.002000 179 -0.002000 181 -0.002000 191 -0.040000 192 -0.002000 193 -0.040000 194 -0.002000 196 -0.002000 198 -0.002000 202 -0.002000 204 -0.002000 206 -0.002000 208 -0.002000 210 -0.002000 213 -0.070000 226 -0.002000 228 -0.002000 265 -0.060000 266 -0.060000 269 -0.021000 272 -0.021000 274 -0.009000 299 -0.060000 0 ]
+.Substitutions51
+RW [ 0 ]
+.Contours51
+RW [ .Path78 .Path78_12 ]
+RW [ .Path79 .Path79_5 ]
+RW 0
+.Bounds52
+RW [ 0.052000 0.691000 -0.030000 0.674000 0.712000 ]
+.Kerning52
+RW [ 15 -0.003000 17 -0.003000 29 -0.003000 30 -0.003000 55 -0.042000 241 -0.042000 256 -0.042000 269 -0.003000 272 -0.003000 274 -0.003000 0 ]
+.Substitutions52
+RW [ 0 ]
+.Contours52
+RW [ .Path80 .Path80_17 ]
+RW [ .Path81 .Path81_16 ]
+RW 0
+.Bounds53
+RW [ 0.033000 0.593000 -0.006000 0.682000 0.596000 ]
+.Kerning53
+RW [ 0 ]
+.Substitutions53
+RW [ 0 ]
+.Contours53
+RW [ .Path82 .Path82_19 ]
+RW [ .Path83 .Path83_5 ]
+RW 0
+.Bounds54
+RW [ 0.008000 0.566000 -0.006000 0.676000 0.549000 ]
+.Kerning54
+RW [ 0 ]
+.Substitutions54
+RW [ 0 ]
+.Contours54
+RW [ .Path84 .Path84_36 ]
+RW 0
+.Bounds55
+RW [ 0.091000 0.596000 -0.006000 0.675000 0.518000 ]
+.Kerning55
+RW [ 15 -0.099000 16 -0.070000 17 -0.100000 18 -0.090000 29 -0.100000 30 -0.099000 36 -0.050000 38 -0.042000 42 -0.042000 45 -0.060000 50 -0.042000 52 -0.042000 55 0.020000 68 -0.081000 70 -0.081000 71 -0.070000 72 -0.081000 74 -0.070000 82 -0.081000 84 -0.081000 125 -0.050000 126 -0.050000 127 -0.050000 128 -0.050000 129 -0.050000 130 -0.050000 131 -0.100000 132 -0.042000 143 -0.042000 144 -0.042000 145 -0.042000 146 -0.042000 147 -0.042000 149 -0.042000 157 -0.050000 158 -0.060000 159 -0.030000 160 -0.020000 161 -0.020000 162 -0.030000 163 -0.081000 164 -0.081000 165 -0.050000 166 -0.060000 167 -0.030000 168 -0.020000 173 -0.081000 175 -0.050000 176 -0.060000 177 -0.030000 178 -0.020000 179 -0.020000 181 -0.081000 191 -0.050000 192 -0.020000 193 -0.050000 194 -0.081000 195 -0.042000 196 -0.060000 197 -0.042000 198 -0.070000 199 -0.042000 200 -0.030000 202 -0.070000 204 -0.070000 206 -0.081000 208 -0.030000 209 -0.042000 210 -0.070000 213 -0.060000 225 -0.042000 226 -0.030000 227 -0.042000 228 -0.081000 241 0.020000 256 0.020000 265 -0.070000 266 -0.070000 269 -0.099000 272 -0.099000 274 -0.100000 299 -0.070000 0 ]
+.Substitutions55
+RW [ 0 ]
+.Contours55
+RW [ .Path85 .Path85_15 ]
+RW 0
+.Bounds56
+RW [ 0.082000 0.707000 -0.006000 0.675000 0.694000 ]
+.Kerning56
+RW [ 0 ]
+.Substitutions56
+RW [ 0 ]
+.Contours56
+RW [ .Path86 .Path86_22 ]
+RW 0
+.Bounds57
+RW [ 0.096000 0.613000 -0.006000 0.674000 0.535000 ]
+.Kerning57
+RW [ 15 -0.080000 16 -0.070000 17 -0.062000 18 -0.060000 29 -0.062000 30 -0.080000 36 -0.025000 45 -0.050000 68 -0.042000 70 -0.042000 71 -0.030000 72 -0.042000 74 -0.042000 82 -0.042000 84 -0.042000 88 -0.003000 125 -0.025000 126 -0.025000 127 -0.025000 128 -0.025000 129 -0.025000 130 -0.025000 131 -0.080000 157 -0.020000 158 -0.030000 159 -0.030000 160 -0.010000 161 -0.010000 162 -0.020000 163 -0.042000 164 -0.042000 165 -0.020000 166 -0.030000 167 -0.020000 168 -0.020000 173 -0.042000 175 -0.030000 176 -0.030000 177 -0.020000 178 -0.010000 179 -0.020000 181 -0.042000 182 -0.003000 183 -0.003000 184 -0.003000 185 -0.003000 191 -0.025000 192 -0.020000 193 -0.025000 194 -0.042000 196 -0.030000 198 -0.042000 200 -0.020000 202 -0.030000 204 -0.030000 206 -0.042000 208 -0.020000 210 -0.042000 213 -0.050000 226 -0.020000 228 -0.042000 244 -0.003000 246 -0.003000 248 -0.003000 265 -0.070000 266 -0.070000 269 -0.080000 272 -0.080000 274 -0.062000 299 -0.070000 0 ]
+.Substitutions57
+RW [ 0 ]
+.Contours57
+RW [ .Path87 .Path87_14 ]
+RW 0
+.Bounds58
+RW [ 0.097000 0.944000 -0.006000 0.676000 0.869000 ]
+.Kerning58
+RW [ 15 -0.080000 16 -0.050000 17 -0.081000 18 -0.070000 29 -0.081000 30 -0.080000 45 -0.040000 68 -0.040000 70 -0.040000 71 -0.040000 72 -0.040000 74 -0.040000 82 -0.040000 84 -0.040000 131 -0.060000 157 -0.030000 158 -0.030000 159 -0.020000 160 -0.010000 161 -0.020000 162 -0.030000 163 -0.040000 164 -0.040000 165 -0.030000 166 -0.030000 167 -0.020000 168 -0.030000 173 -0.040000 175 -0.030000 176 -0.030000 177 -0.020000 178 -0.020000 179 -0.030000 181 -0.040000 192 -0.020000 194 -0.040000 196 -0.030000 198 -0.040000 200 -0.020000 202 -0.030000 204 -0.030000 206 -0.040000 208 -0.020000 210 -0.040000 213 -0.040000 226 -0.020000 228 -0.040000 265 -0.050000 266 -0.050000 269 -0.080000 272 -0.080000 274 -0.081000 299 -0.050000 0 ]
+.Substitutions58
+RW [ 0 ]
+.Contours58
+RW [ .Path88 .Path88_24 ]
+RW 0
+.Bounds59
+RW [ -0.029000 0.687000 -0.006000 0.675000 0.622000 ]
+.Kerning59
+RW [ 0 ]
+.Substitutions59
+RW [ 0 ]
+.Contours59
+RW [ .Path89 .Path89_24 ]
+RW 0
+.Bounds60
+RW [ 0.102000 0.671000 -0.006000 0.675000 0.595000 ]
+.Kerning60
+RW [ 15 -0.125000 16 -0.083000 17 -0.124000 18 -0.070000 29 -0.124000 30 -0.125000 36 -0.037000 45 -0.040000 68 -0.060000 70 -0.060000 71 -0.050000 72 -0.060000 74 -0.060000 82 -0.060000 84 -0.060000 125 -0.037000 126 -0.037000 127 -0.037000 128 -0.037000 129 -0.037000 130 -0.037000 131 -0.090000 157 -0.040000 158 -0.040000 159 -0.030000 160 -0.020000 161 -0.030000 162 -0.040000 163 -0.060000 164 -0.060000 165 -0.040000 166 -0.040000 167 -0.020000 168 -0.030000 173 -0.060000 175 -0.050000 176 -0.030000 177 -0.020000 178 -0.020000 179 -0.040000 181 -0.060000 191 -0.037000 192 -0.030000 193 -0.037000 194 -0.060000 196 -0.050000 198 -0.060000 200 -0.030000 202 -0.050000 204 -0.050000 206 -0.060000 208 -0.030000 210 -0.060000 213 -0.040000 226 -0.020000 228 -0.060000 265 -0.083000 266 -0.083000 269 -0.125000 272 -0.125000 274 -0.124000 299 -0.083000 0 ]
+.Substitutions60
+RW [ 0 ]
+.Contours60
+RW [ .Path90 .Path90_16 ]
+RW 0
+.Bounds61
+RW [ -0.022000 0.641000 0.000000 0.670000 0.582000 ]
+.Kerning61
+RW [ 0 ]
+.Substitutions61
+RW [ 0 ]
+.Contours61
+RW [ .Path91 .Path91_18 ]
+RW 0
+.Bounds62
+RW [ -0.006000 0.377000 -0.128000 0.798000 0.314000 ]
+.Kerning62
+RW [ 0 ]
+.Substitutions62
+RW [ 0 ]
+.Contours62
+RW [ .Path92 .Path92_16 ]
+RW 0
+.Bounds63
+RW [ 0.126000 0.403000 -0.001000 0.690000 0.486000 ]
+.Kerning63
+RW [ 0 ]
+.Substitutions63
+RW [ 0 ]
+.Contours63
+RW [ .Path93 .Path93_10 ]
+RW 0
+.Bounds64
+RW [ -0.024000 0.359000 -0.128000 0.798000 0.315000 ]
+.Kerning64
+RW [ 0 ]
+.Substitutions64
+RW [ 0 ]
+.Contours64
+RW [ .Path94 .Path94_16 ]
+RW 0
+.Bounds65
+RW [ 0.081000 0.383000 0.391000 0.661000 0.389000 ]
+.Kerning65
+RW [ 0 ]
+.Substitutions65
+RW [ 0 ]
+.Contours65
+RW [ .Path95 .Path95_14 ]
+RW 0
+.Bounds66
+RW [ -0.026000 0.519000 -0.060000 0.000000 0.612000 ]
+.Kerning66
+RW [ 77 0.060000 214 0.060000 289 0.060000 0 ]
+.Substitutions66
+RW [ 0 ]
+.Contours66
+RW [ .Path96 .Path96_8 ]
+RW 0
+.Bounds67
+RW [ 0.102000 0.302000 0.555000 0.747000 0.231000 ]
+.Kerning67
+RW [ 0 ]
+.Substitutions67
+RW [ 0 ]
+.Contours67
+RW [ .Path97 .Path97_8 ]
+RW 0
+.Bounds68
+RW [ 0.034000 0.483000 -0.014000 0.493000 0.514000 ]
+.Kerning68
+RW [ 69 -0.001000 75 -0.001000 78 -0.001000 79 -0.001000 83 -0.001000 187 -0.001000 212 -0.001000 0 ]
+.Substitutions68
+RW [ 0 ]
+.Contours68
+RW [ .Path98 .Path98_12 ]
+RW [ .Path99 .Path99_7 ]
+RW 0
+.Bounds69
+RW [ 0.029000 0.501000 -0.006000 0.682000 0.536000 ]
+.Kerning69
+RW [ 91 -0.015000 0 ]
+.Substitutions69
+RW [ 0 ]
+.Contours69
+RW [ .Path100 .Path100_18 ]
+RW [ .Path101 .Path101_9 ]
+RW 0
+.Bounds70
+RW [ 0.035000 0.462000 -0.006000 0.493000 0.483000 ]
+.Kerning70
+RW [ 0 ]
+.Substitutions70
+RW [ 0 ]
+.Contours70
+RW [ .Path102 .Path102_24 ]
+RW 0
+.Bounds71
+RW [ 0.034000 0.553000 -0.006000 0.689000 0.531000 ]
+.Kerning71
+RW [ 0 ]
+.Substitutions71
+RW [ 0 ]
+.Contours71
+RW [ .Path103 .Path103_18 ]
+RW [ .Path104 .Path104_9 ]
+RW 0
+.Bounds72
+RW [ 0.039000 0.484000 -0.006000 0.493000 0.503000 ]
+.Kerning72
+RW [ 0 ]
+.Substitutions72
+RW [ 0 ]
+.Contours72
+RW [ .Path105 .Path105_20 ]
+RW [ .Path106 .Path106_4 ]
+RW 0
+.Bounds73
+RW [ 0.033000 0.418000 -0.006000 0.683000 0.294000 ]
+.Kerning73
+RW [ 15 -0.080000 16 -0.070000 17 -0.080000 18 -0.050000 29 -0.080000 30 -0.080000 68 -0.038000 70 -0.038000 71 -0.030000 72 -0.038000 74 -0.038000 82 -0.038000 84 -0.038000 157 -0.030000 158 -0.030000 159 -0.020000 160 -0.010000 161 -0.020000 162 -0.020000 163 -0.038000 164 -0.038000 165 -0.030000 166 -0.030000 167 -0.020000 168 -0.020000 173 -0.038000 175 -0.030000 176 -0.030000 177 -0.020000 178 -0.010000 179 -0.020000 181 -0.038000 192 -0.010000 194 -0.038000 196 -0.030000 198 -0.030000 200 -0.020000 202 -0.030000 204 -0.030000 206 -0.038000 208 -0.020000 210 -0.039000 226 -0.020000 228 -0.038000 265 -0.070000 266 -0.070000 269 -0.080000 272 -0.080000 274 -0.080000 299 -0.070000 0 ]
+.Substitutions73
+RW [ 0 ]
+.Contours73
+RW [ .Path107 .Path107_25 ]
+RW 0
+.Bounds74
+RW [ 0.004000 0.499000 -0.189000 0.505000 0.523000 ]
+.Kerning74
+RW [ 0 ]
+.Substitutions74
+RW [ 0 ]
+.Contours74
+RW [ .Path108 .Path108_23 ]
+RW [ .Path109 .Path109_9 ]
+RW 0
+.Bounds75
+RW [ 0.030000 0.478000 -0.007000 0.682000 0.538000 ]
+.Kerning75
+RW [ 87 -0.010000 242 -0.010000 291 -0.010000 0 ]
+.Substitutions75
+RW [ 0 ]
+.Contours75
+RW [ .Path110 .Path110_28 ]
+RW 0
+.Bounds76
+RW [ 0.030000 0.234000 -0.006000 0.674000 0.226000 ]
+.Kerning76
+RW [ 0 ]
+.Substitutions76
+RW [ 0 ]
+.Contours76
+RW [ .Path111 .Path111_8 ]
+RW [ .Path112 .Path112_9 ]
+RW 0
+.Bounds77
+RW [ -0.155000 0.272000 -0.185000 0.683000 0.259000 ]
+.Kerning77
+RW [ 0 ]
+.Substitutions77
+RW [ 0 ]
+.Contours77
+RW [ .Path113 .Path113_9 ]
+RW [ .Path114 .Path114_16 ]
+RW 0
+.Bounds78
+RW [ 0.032000 0.498000 -0.006000 0.682000 0.486000 ]
+.Kerning78
+RW [ 0 ]
+.Substitutions78
+RW [ 0 ]
+.Contours78
+RW [ .Path115 .Path115_28 ]
+RW 0
+.Bounds79
+RW [ 0.029000 0.229000 -0.006000 0.682000 0.219000 ]
+.Kerning79
+RW [ 0 ]
+.Substitutions79
+RW [ 0 ]
+.Contours79
+RW [ .Path116 .Path116_8 ]
+RW 0
+.Bounds80
+RW [ 0.030000 0.782000 -0.006000 0.493000 0.829000 ]
+.Kerning80
+RW [ 87 -0.010000 242 -0.010000 291 -0.010000 0 ]
+.Substitutions80
+RW [ 0 ]
+.Contours80
+RW [ .Path117 .Path117_42 ]
+RW 0
+.Bounds81
+RW [ 0.030000 0.501000 -0.006000 0.494000 0.555000 ]
+.Kerning81
+RW [ 87 -0.010000 242 -0.010000 291 -0.010000 0 ]
+.Substitutions81
+RW [ 0 ]
+.Contours81
+RW [ .Path118 .Path118_29 ]
+RW 0
+.Bounds82
+RW [ 0.038000 0.492000 -0.006000 0.494000 0.529000 ]
+.Kerning82
+RW [ 91 -0.015000 0 ]
+.Substitutions82
+RW [ 0 ]
+.Contours82
+RW [ .Path119 .Path119_8 ]
+RW [ .Path120 .Path120_8 ]
+RW 0
+.Bounds83
+RW [ -0.011000 0.500000 -0.199000 0.494000 0.534000 ]
+.Kerning83
+RW [ 91 -0.015000 0 ]
+.Substitutions83
+RW [ 0 ]
+.Contours83
+RW [ .Path121 .Path121_18 ]
+RW [ .Path122 .Path122_7 ]
+RW 0
+.Bounds84
+RW [ 0.033000 0.502000 -0.193000 0.512000 0.525000 ]
+.Kerning84
+RW [ 0 ]
+.Substitutions84
+RW [ 0 ]
+.Contours84
+RW [ .Path123 .Path123_17 ]
+RW [ .Path124 .Path124_7 ]
+RW 0
+.Bounds85
+RW [ 0.029000 0.430000 -0.006000 0.496000 0.397000 ]
+.Kerning85
+RW [ 15 -0.100000 16 -0.040000 17 -0.100000 18 -0.060000 29 -0.100000 30 -0.100000 68 -0.030000 70 -0.030000 71 -0.030000 72 -0.030000 74 -0.030000 82 -0.030000 84 -0.030000 157 -0.030000 158 -0.030000 159 -0.030000 160 -0.030000 161 -0.030000 162 -0.030000 163 -0.030000 164 -0.030000 165 -0.030000 166 -0.030000 167 -0.030000 168 -0.030000 173 -0.030000 175 -0.030000 176 -0.030000 177 -0.030000 178 -0.030000 179 -0.030000 181 -0.030000 192 -0.030000 194 -0.030000 196 -0.030000 198 -0.030000 200 -0.030000 202 -0.030000 204 -0.030000 206 -0.030000 208 -0.030000 210 -0.030000 226 -0.030000 228 -0.030000 265 -0.040000 266 -0.040000 269 -0.100000 272 -0.100000 274 -0.100000 299 -0.040000 0 ]
+.Substitutions85
+RW [ 0 ]
+.Contours85
+RW [ .Path125 .Path125_26 ]
+RW 0
+.Bounds86
+RW [ -0.004000 0.410000 -0.006000 0.493000 0.415000 ]
+.Kerning86
+RW [ 0 ]
+.Substitutions86
+RW [ 0 ]
+.Contours86
+RW [ .Path126 .Path126_34 ]
+RW 0
+.Bounds87
+RW [ 0.023000 0.373000 -0.007000 0.664000 0.316000 ]
+.Kerning87
+RW [ 68 -0.018000 70 -0.018000 71 -0.018000 72 -0.018000 74 -0.018000 82 -0.018000 84 -0.018000 157 -0.018000 158 -0.018000 159 -0.018000 160 -0.018000 161 -0.018000 162 -0.018000 163 -0.018000 164 -0.018000 165 -0.018000 166 -0.018000 167 -0.018000 168 -0.018000 173 -0.018000 175 -0.018000 176 -0.018000 177 -0.018000 178 -0.018000 179 -0.018000 181 -0.018000 192 -0.018000 194 -0.018000 196 -0.018000 198 -0.018000 202 -0.018000 204 -0.018000 206 -0.018000 208 -0.018000 210 -0.018000 226 -0.018000 228 -0.018000 0 ]
+.Substitutions87
+RW [ 0 ]
+.Contours87
+RW [ .Path127 .Path127_22 ]
+RW 0
+.Bounds88
+RW [ 0.047000 0.495000 -0.009000 0.494000 0.524000 ]
+.Kerning88
+RW [ 0 ]
+.Substitutions88
+RW [ 0 ]
+.Contours88
+RW [ .Path128 .Path128_28 ]
+RW 0
+.Bounds89
+RW [ 0.041000 0.460000 -0.007000 0.494000 0.418000 ]
+.Kerning89
+RW [ 0 ]
+.Substitutions89
+RW [ 0 ]
+.Contours89
+RW [ .Path129 .Path129_13 ]
+RW 0
+.Bounds90
+RW [ 0.055000 0.630000 -0.006000 0.494000 0.590000 ]
+.Kerning90
+RW [ 0 ]
+.Substitutions90
+RW [ 0 ]
+.Contours90
+RW [ .Path130 .Path130_25 ]
+RW 0
+.Bounds91
+RW [ -0.056000 0.526000 -0.006000 0.494000 0.476000 ]
+.Kerning91
+RW [ 68 -0.013000 70 -0.013000 71 -0.013000 72 -0.013000 74 -0.013000 82 -0.013000 84 -0.013000 157 -0.013000 158 -0.013000 159 -0.013000 160 -0.013000 161 -0.013000 162 -0.013000 163 -0.013000 164 -0.013000 165 -0.013000 166 -0.013000 167 -0.013000 168 -0.013000 173 -0.013000 175 -0.013000 176 -0.013000 177 -0.013000 178 -0.013000 179 -0.013000 181 -0.013000 192 -0.013000 194 -0.013000 196 -0.013000 198 -0.013000 202 -0.013000 204 -0.013000 206 -0.013000 208 -0.013000 210 -0.013000 226 -0.013000 228 -0.013000 0 ]
+.Substitutions91
+RW [ 0 ]
+.Contours91
+RW [ .Path131 .Path131_23 ]
+RW 0
+.Bounds92
+RW [ 0.004000 0.493000 -0.201000 0.495000 0.446000 ]
+.Kerning92
+RW [ 0 ]
+.Substitutions92
+RW [ 0 ]
+.Contours92
+RW [ .Path132 .Path132_18 ]
+RW 0
+.Bounds93
+RW [ -0.039000 0.444000 -0.002000 0.487000 0.417000 ]
+.Kerning93
+RW [ 68 -0.006000 70 -0.006000 71 -0.006000 72 -0.006000 74 -0.006000 82 -0.006000 84 -0.006000 157 -0.006000 158 -0.006000 159 -0.006000 160 -0.006000 161 -0.006000 162 -0.006000 163 -0.006000 164 -0.006000 165 -0.006000 166 -0.006000 167 -0.006000 168 -0.006000 173 -0.006000 175 -0.006000 176 -0.006000 177 -0.006000 178 -0.006000 179 -0.006000 181 -0.006000 192 -0.006000 194 -0.006000 196 -0.006000 198 -0.006000 202 -0.006000 204 -0.006000 206 -0.006000 208 -0.006000 210 -0.006000 226 -0.006000 228 -0.006000 0 ]
+.Substitutions93
+RW [ 0 ]
+.Contours93
+RW [ .Path133 .Path133_18 ]
+RW 0
+.Bounds94
+RW [ 0.075000 0.429000 -0.129000 0.799000 0.367000 ]
+.Kerning94
+RW [ 0 ]
+.Substitutions94
+RW [ 0 ]
+.Contours94
+RW [ .Path134 .Path134_37 ]
+RW 0
+.Bounds95
+RW [ -0.008000 0.257000 -0.172000 0.831000 0.216000 ]
+.Kerning95
+RW [ 0 ]
+.Substitutions95
+RW [ 0 ]
+.Contours95
+RW [ .Path135 .Path135_8 ]
+RW 0
+.Bounds96
+RW [ -0.026000 0.332000 -0.129000 0.799000 0.366000 ]
+.Kerning96
+RW [ 0 ]
+.Substitutions96
+RW [ 0 ]
+.Contours96
+RW [ .Path136 .Path136_32 ]
+RW 0
+.Bounds97
+RW [ 0.036000 0.565000 0.149000 0.353000 0.596000 ]
+.Kerning97
+RW [ 0 ]
+.Substitutions97
+RW [ 0 ]
+.Contours97
+RW [ .Path137 .Path137_21 ]
+RW 0
+.Bounds302
+RW [ 0.000000 0.000000 0.000000 0.000000 0.333000 ]
+.Kerning302
+RW [ 0 ]
+.Substitutions302
+RW [ 0 ]
+.Contours302
+RW 0
+.Path0
+RW [ 0.029500 0.006500 0 0.017000 0.019000 ]
+.Path0_0
+RW [ 0.017000 0.036000 1 ]
+.Path0_1
+RW [ 0.017000 0.633000 0 0.017000 0.650000 ]
+.Path0_2
+RW [ 0.029500 0.662500 0 0.042000 0.675000 ]
+.Path0_3
+RW [ 0.059000 0.675000 1 ]
+.Path0_4
+RW [ 0.438000 0.675000 0 0.455000 0.675000 ]
+.Path0_5
+RW [ 0.467500 0.662500 0 0.480000 0.650000 ]
+.Path0_6
+RW [ 0.480000 0.633000 1 ]
+.Path0_7
+RW [ 0.480000 0.036000 0 0.480000 0.018000 ]
+.Path0_8
+RW [ 0.467000 0.006000 0 0.454000 -0.006000 ]
+.Path0_9
+RW [ 0.438000 -0.006000 1 ]
+.Path0_10
+RW [ 0.059000 -0.006000 0 0.042000 -0.006000 ]
+.Path0_11
+RW [ 0.029500 0.006500]
+.Path1
+RW [ 0.414000 0.630000 1 ]
+.Path1_0
+RW [ 0.091000 0.630000 1 ]
+.Path1_1
+RW [ 0.248000 0.376000 1 ]
+.Path1_2
+RW [ 0.414000 0.630000]
+.Path2
+RW [ 0.221000 0.335000 1 ]
+.Path2_0
+RW [ 0.061000 0.594000 1 ]
+.Path2_1
+RW [ 0.061000 0.091000 1 ]
+.Path2_2
+RW [ 0.221000 0.335000]
+.Path3
+RW [ 0.436000 0.583000 1 ]
+.Path3_0
+RW [ 0.273000 0.334000 1 ]
+.Path3_1
+RW [ 0.436000 0.070000 1 ]
+.Path3_2
+RW [ 0.436000 0.583000]
+.Path4
+RW [ 0.403000 0.039000 1 ]
+.Path4_0
+RW [ 0.246000 0.293000 1 ]
+.Path4_1
+RW [ 0.080000 0.039000 1 ]
+.Path4_2
+RW [ 0.403000 0.039000]
+.Path5
+RW [ 0.084500 0.156500 0 0.077000 0.165000 ]
+.Path5_0
+RW [ 0.080000 0.179000 1 ]
+.Path5_1
+RW [ 0.180000 0.653000 0 0.183000 0.666000 ]
+.Path5_2
+RW [ 0.195000 0.675500 0 0.207000 0.685000 ]
+.Path5_3
+RW [ 0.219000 0.685000 0 0.233000 0.685000 ]
+.Path5_4
+RW [ 0.239000 0.674500 1 ]
+.Path5_5
+RW [ 0.242000 0.653000 1 ]
+.Path5_6
+RW [ 0.142000 0.179000 0 0.140000 0.166000 ]
+.Path5_7
+RW [ 0.128500 0.157000 0 0.117000 0.148000 ]
+.Path5_8
+RW [ 0.104000 0.148000 0 0.092000 0.148000 ]
+.Path5_9
+RW [ 0.084500 0.156500]
+.Path6
+RW [ 0.045500 0.002500 0 0.038000 0.011000 ]
+.Path6_0
+RW [ 0.038000 0.024000 0 0.038000 0.044000 ]
+.Path6_1
+RW [ 0.055500 0.062500 0 0.073000 0.081000 ]
+.Path6_2
+RW [ 0.092000 0.081000 0 0.104000 0.081000 ]
+.Path6_3
+RW [ 0.111000 0.072500 0 0.118000 0.064000 ]
+.Path6_4
+RW [ 0.118000 0.053000 0 0.118000 0.031000 ]
+.Path6_5
+RW [ 0.101000 0.012500 0 0.084000 -0.006000 ]
+.Path6_6
+RW [ 0.066000 -0.006000 0 0.053000 -0.006000 ]
+.Path6_7
+RW [ 0.045500 0.002500]
+.Path7
+RW [ 0.122000 0.498000 0 0.116000 0.507000 ]
+.Path7_0
+RW [ 0.118000 0.519000 1 ]
+.Path7_1
+RW [ 0.146000 0.652000 0 0.148000 0.664000 ]
+.Path7_2
+RW [ 0.159000 0.673000 0 0.170000 0.682000 ]
+.Path7_3
+RW [ 0.183000 0.682000 0 0.195000 0.682000 ]
+.Path7_4
+RW [ 0.201500 0.673000 0 0.208000 0.664000 ]
+.Path7_5
+RW [ 0.206000 0.652000 1 ]
+.Path7_6
+RW [ 0.178000 0.519000 0 0.176000 0.507000 ]
+.Path7_7
+RW [ 0.165000 0.498000 0 0.154000 0.489000 ]
+.Path7_8
+RW [ 0.142000 0.489000 0 0.128000 0.489000 ]
+.Path7_9
+RW [ 0.122000 0.498000]
+.Path8
+RW [ 0.244000 0.498000 0 0.238000 0.507000 ]
+.Path8_0
+RW [ 0.240000 0.519000 1 ]
+.Path8_1
+RW [ 0.268000 0.652000 0 0.270000 0.664000 ]
+.Path8_2
+RW [ 0.281000 0.673000 0 0.292000 0.682000 ]
+.Path8_3
+RW [ 0.305000 0.682000 0 0.318000 0.682000 ]
+.Path8_4
+RW [ 0.324000 0.673500 0 0.330000 0.665000 ]
+.Path8_5
+RW [ 0.328000 0.652000 1 ]
+.Path8_6
+RW [ 0.301000 0.519000 0 0.298000 0.507000 ]
+.Path8_7
+RW [ 0.287000 0.498000 0 0.276000 0.489000 ]
+.Path8_8
+RW [ 0.264000 0.489000 0 0.250000 0.489000 ]
+.Path8_9
+RW [ 0.244000 0.498000]
+.Path9
+RW [ 0.115500 0.000500 0 0.109000 0.007000 ]
+.Path9_0
+RW [ 0.109000 0.017000 0 0.109000 0.025000 ]
+.Path9_1
+RW [ 0.114000 0.035000 1 ]
+.Path9_2
+RW [ 0.198000 0.202000 1 ]
+.Path9_3
+RW [ 0.086000 0.202000 0 0.075000 0.202000 ]
+.Path9_4
+RW [ 0.068000 0.208500 0 0.061000 0.215000 ]
+.Path9_5
+RW [ 0.061000 0.226000 0 0.061000 0.240000 ]
+.Path9_6
+RW [ 0.072500 0.251000 0 0.084000 0.262000 ]
+.Path9_7
+RW [ 0.099000 0.262000 1 ]
+.Path9_8
+RW [ 0.228000 0.262000 1 ]
+.Path9_9
+RW [ 0.307000 0.419000 1 ]
+.Path9_10
+RW [ 0.177000 0.419000 0 0.166000 0.419000 ]
+.Path9_11
+RW [ 0.159000 0.425500 0 0.152000 0.432000 ]
+.Path9_12
+RW [ 0.152000 0.442000 0 0.152000 0.457000 ]
+.Path9_13
+RW [ 0.163000 0.468000 0 0.174000 0.479000 ]
+.Path9_14
+RW [ 0.190000 0.479000 1 ]
+.Path9_15
+RW [ 0.338000 0.479000 1 ]
+.Path9_16
+RW [ 0.429000 0.660000 0 0.433000 0.670000 ]
+.Path9_17
+RW [ 0.442000 0.675500 0 0.451000 0.681000 ]
+.Path9_18
+RW [ 0.462000 0.681000 0 0.474000 0.681000 ]
+.Path9_19
+RW [ 0.480500 0.674500 0 0.487000 0.668000 ]
+.Path9_20
+RW [ 0.487000 0.658000 0 0.487000 0.651000 ]
+.Path9_21
+RW [ 0.482000 0.641000 1 ]
+.Path9_22
+RW [ 0.401000 0.479000 1 ]
+.Path9_23
+RW [ 0.547000 0.479000 1 ]
+.Path9_24
+RW [ 0.638000 0.660000 0 0.642000 0.670000 ]
+.Path9_25
+RW [ 0.651000 0.675500 0 0.660000 0.681000 ]
+.Path9_26
+RW [ 0.671000 0.681000 0 0.683000 0.681000 ]
+.Path9_27
+RW [ 0.689500 0.675000 0 0.696000 0.669000 ]
+.Path9_28
+RW [ 0.696000 0.660000 0 0.696000 0.652000 ]
+.Path9_29
+RW [ 0.691000 0.642000 1 ]
+.Path9_30
+RW [ 0.610000 0.479000 1 ]
+.Path9_31
+RW [ 0.707000 0.479000 0 0.717000 0.479000 ]
+.Path9_32
+RW [ 0.723500 0.472000 0 0.730000 0.465000 ]
+.Path9_33
+RW [ 0.730000 0.454000 0 0.730000 0.440000 ]
+.Path9_34
+RW [ 0.718000 0.429500 0 0.706000 0.419000 ]
+.Path9_35
+RW [ 0.694000 0.419000 1 ]
+.Path9_36
+RW [ 0.580000 0.419000 1 ]
+.Path9_37
+RW [ 0.500000 0.262000 1 ]
+.Path9_38
+RW [ 0.616000 0.262000 0 0.626000 0.262000 ]
+.Path9_39
+RW [ 0.632500 0.255000 0 0.639000 0.248000 ]
+.Path9_40
+RW [ 0.639000 0.238000 0 0.639000 0.224000 ]
+.Path9_41
+RW [ 0.628000 0.213000 0 0.617000 0.202000 ]
+.Path9_42
+RW [ 0.603000 0.202000 1 ]
+.Path9_43
+RW [ 0.470000 0.202000 1 ]
+.Path9_44
+RW [ 0.378000 0.019000 0 0.373000 0.007000 ]
+.Path9_45
+RW [ 0.363000 0.000500 0 0.353000 -0.006000 ]
+.Path9_46
+RW [ 0.343000 -0.006000 0 0.332000 -0.006000 ]
+.Path9_47
+RW [ 0.324500 0.001000 0 0.317000 0.008000 ]
+.Path9_48
+RW [ 0.317000 0.018000 0 0.317000 0.022000 ]
+.Path9_49
+RW [ 0.321000 0.032000 1 ]
+.Path9_50
+RW [ 0.407000 0.202000 1 ]
+.Path9_51
+RW [ 0.261000 0.202000 1 ]
+.Path9_52
+RW [ 0.169000 0.019000 0 0.164000 0.008000 ]
+.Path9_53
+RW [ 0.154000 0.001000 0 0.144000 -0.006000 ]
+.Path9_54
+RW [ 0.133000 -0.006000 0 0.122000 -0.006000 ]
+.Path9_55
+RW [ 0.115500 0.000500]
+.Path10
+RW [ 0.438000 0.262000 1 ]
+.Path10_0
+RW [ 0.516000 0.419000 1 ]
+.Path10_1
+RW [ 0.370000 0.419000 1 ]
+.Path10_2
+RW [ 0.291000 0.262000 1 ]
+.Path10_3
+RW [ 0.438000 0.262000]
+.Path11
+RW [ 0.531000 0.647000 0 0.583000 0.621000 ]
+.Path11_0
+RW [ 0.583000 0.560000 0 0.583000 0.535000 ]
+.Path11_1
+RW [ 0.573500 0.521000 0 0.564000 0.507000 ]
+.Path11_2
+RW [ 0.546000 0.507000 0 0.535000 0.507000 ]
+.Path11_3
+RW [ 0.528500 0.512500 0 0.522000 0.518000 ]
+.Path11_4
+RW [ 0.522000 0.527000 1 ]
+.Path11_5
+RW [ 0.523000 0.537000 0 0.524000 0.542000 ]
+.Path11_6
+RW [ 0.524000 0.548000 0 0.524000 0.577000 ]
+.Path11_7
+RW [ 0.491000 0.598000 0 0.458000 0.619000 ]
+.Path11_8
+RW [ 0.399000 0.620000 1 ]
+.Path11_9
+RW [ 0.346000 0.375000 0 0.429000 0.348000 ]
+.Path11_10
+RW [ 0.470500 0.310500 0 0.512000 0.273000 ]
+.Path11_11
+RW [ 0.512000 0.220000 0 0.512000 0.162000 ]
+.Path11_12
+RW [ 0.477500 0.112500 0 0.443000 0.063000 ]
+.Path11_13
+RW [ 0.386000 0.032500 0 0.329000 0.002000 ]
+.Path11_14
+RW [ 0.266000 -0.005000 1 ]
+.Path11_15
+RW [ 0.257000 -0.049000 0 0.255000 -0.061000 ]
+.Path11_16
+RW [ 0.244000 -0.070000 0 0.233000 -0.079000 ]
+.Path11_17
+RW [ 0.222000 -0.079000 0 0.212000 -0.079000 ]
+.Path11_18
+RW [ 0.205500 -0.071500 0 0.199000 -0.064000 ]
+.Path11_19
+RW [ 0.202000 -0.051000 1 ]
+.Path11_20
+RW [ 0.212000 -0.005000 0 0.161000 0.000000 ]
+.Path11_21
+RW [ 0.119000 0.021500 0 0.077000 0.043000 ]
+.Path11_22
+RW [ 0.052000 0.075500 0 0.027000 0.108000 ]
+.Path11_23
+RW [ 0.027000 0.145000 0 0.027000 0.162000 ]
+.Path11_24
+RW [ 0.036500 0.173000 0 0.046000 0.184000 ]
+.Path11_25
+RW [ 0.062000 0.184000 0 0.087000 0.184000 ]
+.Path11_26
+RW [ 0.091000 0.151000 0 0.096000 0.110000 ]
+.Path11_27
+RW [ 0.133000 0.083500 0 0.170000 0.057000 ]
+.Path11_28
+RW [ 0.224000 0.052000 1 ]
+.Path11_29
+RW [ 0.284000 0.332000 0 0.216000 0.355000 ]
+.Path11_30
+RW [ 0.174500 0.391000 0 0.133000 0.427000 ]
+.Path11_31
+RW [ 0.133000 0.483000 0 0.133000 0.559000 ]
+.Path11_32
+RW [ 0.196000 0.609500 0 0.259000 0.660000 ]
+.Path11_33
+RW [ 0.354000 0.671000 1 ]
+.Path11_34
+RW [ 0.363000 0.713000 0 0.365000 0.725000 ]
+.Path11_35
+RW [ 0.375000 0.734000 0 0.385000 0.743000 ]
+.Path11_36
+RW [ 0.397000 0.743000 0 0.407000 0.743000 ]
+.Path11_37
+RW [ 0.414000 0.735000 0 0.421000 0.727000 ]
+.Path11_38
+RW [ 0.419000 0.715000 1 ]
+.Path11_39
+RW [ 0.410000 0.674000 0 0.479000 0.673000 ]
+.Path11_40
+RW [ 0.531000 0.647000]
+.Path12
+RW [ 0.218500 0.437000 0 0.243000 0.413000 ]
+.Path12_0
+RW [ 0.297000 0.392000 1 ]
+.Path12_1
+RW [ 0.343000 0.617000 0 0.278000 0.607000 ]
+.Path12_2
+RW [ 0.236000 0.573500 0 0.194000 0.540000 ]
+.Path12_3
+RW [ 0.194000 0.493000 0 0.194000 0.461000 ]
+.Path12_4
+RW [ 0.218500 0.437000]
+.Path13
+RW [ 0.333000 0.316000 1 ]
+.Path13_0
+RW [ 0.278000 0.053000 0 0.323000 0.059000 ]
+.Path13_1
+RW [ 0.362500 0.081000 0 0.402000 0.103000 ]
+.Path13_2
+RW [ 0.426000 0.136500 0 0.450000 0.170000 ]
+.Path13_3
+RW [ 0.450000 0.209000 0 0.450000 0.274000 ]
+.Path13_4
+RW [ 0.333000 0.316000]
+.Path14
+RW [ 0.147000 0.443000 0 0.116000 0.474000 ]
+.Path14_0
+RW [ 0.116000 0.521000 0 0.116000 0.564000 ]
+.Path14_1
+RW [ 0.140500 0.602000 0 0.165000 0.640000 ]
+.Path14_2
+RW [ 0.204500 0.663000 0 0.244000 0.686000 ]
+.Path14_3
+RW [ 0.285000 0.686000 0 0.334000 0.686000 ]
+.Path14_4
+RW [ 0.365000 0.655000 0 0.396000 0.624000 ]
+.Path14_5
+RW [ 0.396000 0.577000 0 0.396000 0.535000 ]
+.Path14_6
+RW [ 0.371000 0.496500 0 0.346000 0.458000 ]
+.Path14_7
+RW [ 0.307000 0.435000 0 0.268000 0.412000 ]
+.Path14_8
+RW [ 0.227000 0.412000 0 0.178000 0.412000 ]
+.Path14_9
+RW [ 0.147000 0.443000]
+.Path15
+RW [ 0.110000 -0.000500 0 0.103000 0.006000 ]
+.Path15_0
+RW [ 0.103000 0.015000 0 0.103000 0.026000 ]
+.Path15_1
+RW [ 0.115000 0.041000 1 ]
+.Path15_2
+RW [ 0.594000 0.668000 0 0.605000 0.682000 ]
+.Path15_3
+RW [ 0.622000 0.682000 0 0.633000 0.682000 ]
+.Path15_4
+RW [ 0.640500 0.675500 0 0.648000 0.669000 ]
+.Path15_5
+RW [ 0.648000 0.659000 0 0.648000 0.649000 ]
+.Path15_6
+RW [ 0.638000 0.637000 1 ]
+.Path15_7
+RW [ 0.156000 0.007000 0 0.145000 -0.007000 ]
+.Path15_8
+RW [ 0.129000 -0.007000 0 0.117000 -0.007000 ]
+.Path15_9
+RW [ 0.110000 -0.000500]
+.Path16
+RW [ 0.288000 0.484500 0 0.310000 0.499000 ]
+.Path16_0
+RW [ 0.323500 0.521500 1 ]
+.Path16_1
+RW [ 0.337000 0.566000 0 0.337000 0.592000 ]
+.Path16_2
+RW [ 0.319000 0.610000 0 0.301000 0.628000 ]
+.Path16_3
+RW [ 0.274000 0.628000 0 0.236000 0.628000 ]
+.Path16_4
+RW [ 0.206000 0.599000 0 0.176000 0.570000 ]
+.Path16_5
+RW [ 0.176000 0.533000 0 0.176000 0.505000 ]
+.Path16_6
+RW [ 0.194000 0.487500 0 0.212000 0.470000 ]
+.Path16_7
+RW [ 0.240000 0.470000 0 0.266000 0.470000 ]
+.Path16_8
+RW [ 0.288000 0.484500]
+.Path17
+RW [ 0.380000 0.017000 0 0.349000 0.048000 ]
+.Path17_0
+RW [ 0.349000 0.095000 0 0.349000 0.138000 ]
+.Path17_1
+RW [ 0.373500 0.176000 0 0.398000 0.214000 ]
+.Path17_2
+RW [ 0.437000 0.237000 0 0.476000 0.260000 ]
+.Path17_3
+RW [ 0.518000 0.260000 0 0.567000 0.260000 ]
+.Path17_4
+RW [ 0.598000 0.229000 0 0.629000 0.198000 ]
+.Path17_5
+RW [ 0.629000 0.151000 0 0.629000 0.109000 ]
+.Path17_6
+RW [ 0.604000 0.070500 0 0.579000 0.032000 ]
+.Path17_7
+RW [ 0.540000 0.009000 0 0.501000 -0.014000 ]
+.Path17_8
+RW [ 0.460000 -0.014000 0 0.411000 -0.014000 ]
+.Path17_9
+RW [ 0.380000 0.017000]
+.Path18
+RW [ 0.539000 0.073000 0 0.569000 0.102000 ]
+.Path18_0
+RW [ 0.569000 0.139000 0 0.569000 0.166000 ]
+.Path18_1
+RW [ 0.551000 0.184000 0 0.533000 0.202000 ]
+.Path18_2
+RW [ 0.506000 0.202000 0 0.468000 0.202000 ]
+.Path18_3
+RW [ 0.438000 0.173000 0 0.408000 0.144000 ]
+.Path18_4
+RW [ 0.408000 0.106000 0 0.408000 0.079000 ]
+.Path18_5
+RW [ 0.426000 0.061500 0 0.444000 0.044000 ]
+.Path18_6
+RW [ 0.472000 0.044000 0 0.509000 0.044000 ]
+.Path18_7
+RW [ 0.539000 0.073000]
+.Path19
+RW [ 0.127500 0.012000 0 0.089000 0.030000 ]
+.Path19_0
+RW [ 0.065500 0.064000 0 0.042000 0.098000 ]
+.Path19_1
+RW [ 0.042000 0.143000 0 0.042000 0.228000 ]
+.Path19_2
+RW [ 0.098000 0.284000 0 0.154000 0.340000 ]
+.Path19_3
+RW [ 0.250000 0.387000 0 0.206000 0.455000 ]
+.Path19_4
+RW [ 0.206000 0.514000 0 0.206000 0.557000 ]
+.Path19_5
+RW [ 0.231000 0.596500 0 0.256000 0.636000 ]
+.Path19_6
+RW [ 0.297500 0.661000 0 0.339000 0.686000 ]
+.Path19_7
+RW [ 0.387000 0.686000 0 0.438000 0.686000 ]
+.Path19_8
+RW [ 0.473000 0.651500 0 0.508000 0.617000 ]
+.Path19_9
+RW [ 0.508000 0.569000 0 0.508000 0.506000 ]
+.Path19_10
+RW [ 0.463000 0.458500 0 0.418000 0.411000 ]
+.Path19_11
+RW [ 0.339000 0.373000 1 ]
+.Path19_12
+RW [ 0.443000 0.207000 0 0.450000 0.217000 ]
+.Path19_13
+RW [ 0.469000 0.251000 1 ]
+.Path19_14
+RW [ 0.480000 0.271000 0 0.490000 0.290000 ]
+.Path19_15
+RW [ 0.497500 0.297000 0 0.505000 0.304000 ]
+.Path19_16
+RW [ 0.518000 0.304000 0 0.529000 0.304000 ]
+.Path19_17
+RW [ 0.535500 0.298000 0 0.542000 0.292000 ]
+.Path19_18
+RW [ 0.542000 0.283000 0 0.542000 0.276000 ]
+.Path19_19
+RW [ 0.538000 0.267500 0 0.534000 0.259000 ]
+.Path19_20
+RW [ 0.532000 0.255000 0 0.503000 0.198000 ]
+.Path19_21
+RW [ 0.473000 0.158000 1 ]
+.Path19_22
+RW [ 0.536000 0.057000 0 0.539000 0.052000 ]
+.Path19_23
+RW [ 0.543000 0.045000 1 ]
+.Path19_24
+RW [ 0.547000 0.031000 0 0.547000 0.018000 ]
+.Path19_25
+RW [ 0.535500 0.008000 0 0.524000 -0.002000 ]
+.Path19_26
+RW [ 0.511000 -0.002000 0 0.497000 -0.002000 ]
+.Path19_27
+RW [ 0.490000 0.011000 1 ]
+.Path19_28
+RW [ 0.430000 0.106000 0 0.369000 0.040000 ]
+.Path19_29
+RW [ 0.309000 0.017000 0 0.249000 -0.006000 ]
+.Path19_30
+RW [ 0.210000 -0.006000 0 0.166000 -0.006000 ]
+.Path19_31
+RW [ 0.127500 0.012000]
+.Path20
+RW [ 0.413500 0.480000 0 0.449000 0.513000 ]
+.Path20_0
+RW [ 0.449000 0.557000 0 0.449000 0.585000 ]
+.Path20_1
+RW [ 0.427500 0.606500 0 0.406000 0.628000 ]
+.Path20_2
+RW [ 0.376000 0.628000 0 0.346000 0.628000 ]
+.Path20_3
+RW [ 0.320500 0.613500 0 0.295000 0.599000 ]
+.Path20_4
+RW [ 0.280500 0.575000 0 0.266000 0.551000 ]
+.Path20_5
+RW [ 0.266000 0.525000 0 0.266000 0.497000 ]
+.Path20_6
+RW [ 0.279000 0.467000 0 0.292000 0.437000 ]
+.Path20_7
+RW [ 0.308000 0.415000 0 0.378000 0.447000 ]
+.Path20_8
+RW [ 0.413500 0.480000]
+.Path21
+RW [ 0.301500 0.072500 0 0.350000 0.093000 ]
+.Path21_0
+RW [ 0.401000 0.152000 1 ]
+.Path21_1
+RW [ 0.282000 0.345000 0 0.222000 0.316000 ]
+.Path21_2
+RW [ 0.185500 0.292000 0 0.149000 0.268000 ]
+.Path21_3
+RW [ 0.125000 0.234000 0 0.101000 0.200000 ]
+.Path21_4
+RW [ 0.101000 0.154000 0 0.101000 0.121000 ]
+.Path21_5
+RW [ 0.119500 0.098000 0 0.138000 0.075000 ]
+.Path21_6
+RW [ 0.166000 0.063500 0 0.194000 0.052000 ]
+.Path21_7
+RW [ 0.222000 0.052000 0 0.253000 0.052000 ]
+.Path21_8
+RW [ 0.301500 0.072500]
+.Path22
+RW [ 0.125500 0.497500 0 0.119000 0.506000 ]
+.Path22_0
+RW [ 0.122000 0.519000 1 ]
+.Path22_1
+RW [ 0.150000 0.652000 0 0.152000 0.664000 ]
+.Path22_2
+RW [ 0.163000 0.673000 0 0.174000 0.682000 ]
+.Path22_3
+RW [ 0.186000 0.682000 0 0.199000 0.682000 ]
+.Path22_4
+RW [ 0.205500 0.673500 0 0.212000 0.665000 ]
+.Path22_5
+RW [ 0.210000 0.652000 1 ]
+.Path22_6
+RW [ 0.182000 0.519000 0 0.180000 0.508000 ]
+.Path22_7
+RW [ 0.169000 0.498500 0 0.158000 0.489000 ]
+.Path22_8
+RW [ 0.145000 0.489000 0 0.132000 0.489000 ]
+.Path22_9
+RW [ 0.125500 0.497500]
+.Path23
+RW [ 0.165000 -0.096000 0 0.145000 -0.061000 ]
+.Path23_0
+RW [ 0.129500 -0.030000 0 0.114000 0.001000 ]
+.Path23_1
+RW [ 0.095500 0.067000 0 0.077000 0.133000 ]
+.Path23_2
+RW [ 0.077000 0.212000 0 0.077000 0.372000 ]
+.Path23_3
+RW [ 0.156000 0.521000 0 0.235000 0.670000 ]
+.Path23_4
+RW [ 0.365000 0.770000 0 0.385000 0.786000 ]
+.Path23_5
+RW [ 0.396000 0.786000 0 0.407000 0.786000 ]
+.Path23_6
+RW [ 0.414000 0.779000 0 0.421000 0.772000 ]
+.Path23_7
+RW [ 0.421000 0.762000 0 0.421000 0.753000 ]
+.Path23_8
+RW [ 0.415500 0.745500 0 0.410000 0.738000 ]
+.Path23_9
+RW [ 0.396000 0.727000 0 0.287000 0.634000 ]
+.Path23_10
+RW [ 0.212500 0.502500 0 0.138000 0.371000 ]
+.Path23_11
+RW [ 0.138000 0.225000 0 0.138000 0.122000 ]
+.Path23_12
+RW [ 0.164500 0.052000 0 0.191000 -0.018000 ]
+.Path23_13
+RW [ 0.216000 -0.053000 0 0.223000 -0.063000 ]
+.Path23_14
+RW [ 0.225000 -0.068500 0 0.227000 -0.074000 ]
+.Path23_15
+RW [ 0.227000 -0.081000 0 0.227000 -0.093000 ]
+.Path23_16
+RW [ 0.216000 -0.103000 0 0.205000 -0.113000 ]
+.Path23_17
+RW [ 0.193000 -0.113000 0 0.176000 -0.113000 ]
+.Path23_18
+RW [ 0.165000 -0.096000]
+.Path24
+RW [ -0.016000 -0.107000 0 -0.023000 -0.100000 ]
+.Path24_0
+RW [ -0.023000 -0.090000 0 -0.023000 -0.083000 ]
+.Path24_1
+RW [ -0.017000 -0.074000 0 -0.011000 -0.065000 ]
+.Path24_2
+RW [ 0.005000 -0.050000 0 0.113000 0.058000 ]
+.Path24_3
+RW [ 0.179500 0.183500 0 0.246000 0.309000 ]
+.Path24_4
+RW [ 0.246000 0.448000 0 0.246000 0.526000 ]
+.Path24_5
+RW [ 0.223500 0.598000 0 0.201000 0.670000 ]
+.Path24_6
+RW [ 0.154000 0.729000 0 0.144000 0.742000 ]
+.Path24_7
+RW [ 0.144000 0.752000 0 0.144000 0.766000 ]
+.Path24_8
+RW [ 0.154000 0.776000 0 0.164000 0.786000 ]
+.Path24_9
+RW [ 0.175000 0.786000 0 0.191000 0.786000 ]
+.Path24_10
+RW [ 0.202000 0.772000 0 0.308000 0.641000 ]
+.Path24_11
+RW [ 0.308000 0.464000 0 0.308000 0.300000 ]
+.Path24_12
+RW [ 0.236500 0.163500 0 0.165000 0.027000 ]
+.Path24_13
+RW [ 0.038000 -0.097000 0 0.028000 -0.106000 ]
+.Path24_14
+RW [ 0.020500 -0.110000 0 0.013000 -0.114000 ]
+.Path24_15
+RW [ 0.001000 -0.114000 0 -0.009000 -0.114000 ]
+.Path24_16
+RW [ -0.016000 -0.107000]
+.Path25
+RW [ 0.140000 0.455500 0 0.133000 0.462000 ]
+.Path25_0
+RW [ 0.133000 0.471000 0 0.133000 0.483000 ]
+.Path25_1
+RW [ 0.140500 0.494000 0 0.148000 0.505000 ]
+.Path25_2
+RW [ 0.164000 0.518000 0 0.191000 0.543000 ]
+.Path25_3
+RW [ 0.222000 0.558000 0 0.193000 0.562000 ]
+.Path25_4
+RW [ 0.162000 0.572000 0 0.131000 0.582000 ]
+.Path25_5
+RW [ 0.131000 0.602000 0 0.131000 0.617000 ]
+.Path25_6
+RW [ 0.142000 0.627500 0 0.153000 0.638000 ]
+.Path25_7
+RW [ 0.168000 0.638000 0 0.187000 0.638000 ]
+.Path25_8
+RW [ 0.206000 0.624000 0 0.224000 0.611000 ]
+.Path25_9
+RW [ 0.242000 0.593000 0 0.239000 0.623000 ]
+.Path25_10
+RW [ 0.239000 0.633000 0 0.239000 0.666000 ]
+.Path25_11
+RW [ 0.251000 0.684500 0 0.263000 0.703000 ]
+.Path25_12
+RW [ 0.284000 0.703000 0 0.296000 0.703000 ]
+.Path25_13
+RW [ 0.302500 0.696500 0 0.309000 0.690000 ]
+.Path25_14
+RW [ 0.309000 0.677000 0 0.309000 0.661000 ]
+.Path25_15
+RW [ 0.299000 0.634500 0 0.289000 0.608000 ]
+.Path25_16
+RW [ 0.280000 0.593000 0 0.345000 0.637000 ]
+.Path25_17
+RW [ 0.373000 0.637000 0 0.385000 0.637000 ]
+.Path25_18
+RW [ 0.391500 0.630000 0 0.398000 0.623000 ]
+.Path25_19
+RW [ 0.398000 0.613000 0 0.398000 0.597000 ]
+.Path25_20
+RW [ 0.386500 0.587000 0 0.375000 0.577000 ]
+.Path25_21
+RW [ 0.352000 0.571000 0 0.325000 0.562000 ]
+.Path25_22
+RW [ 0.286000 0.559000 0 0.304000 0.543000 ]
+.Path25_23
+RW [ 0.320000 0.525000 1 ]
+.Path25_24
+RW [ 0.338000 0.487000 0 0.338000 0.472000 ]
+.Path25_25
+RW [ 0.328000 0.460500 0 0.318000 0.449000 ]
+.Path25_26
+RW [ 0.303000 0.449000 0 0.290000 0.449000 ]
+.Path25_27
+RW [ 0.282000 0.456500 0 0.274000 0.464000 ]
+.Path25_28
+RW [ 0.264000 0.483000 1 ]
+.Path25_29
+RW [ 0.253000 0.516500 0 0.250000 0.533000 ]
+.Path25_30
+RW [ 0.249000 0.536000 0 0.231000 0.504000 ]
+.Path25_31
+RW [ 0.210000 0.483000 0 0.178000 0.449000 ]
+.Path25_32
+RW [ 0.157000 0.449000 0 0.147000 0.449000 ]
+.Path25_33
+RW [ 0.140000 0.455500]
+.Path26
+RW [ 0.169500 0.093000 0 0.163000 0.102000 ]
+.Path26_0
+RW [ 0.165000 0.113000 1 ]
+.Path26_1
+RW [ 0.188000 0.222000 1 ]
+.Path26_2
+RW [ 0.079000 0.222000 0 0.069000 0.222000 ]
+.Path26_3
+RW [ 0.062000 0.228000 0 0.055000 0.234000 ]
+.Path26_4
+RW [ 0.055000 0.244000 0 0.055000 0.258000 ]
+.Path26_5
+RW [ 0.066000 0.269000 0 0.077000 0.280000 ]
+.Path26_6
+RW [ 0.091000 0.280000 1 ]
+.Path26_7
+RW [ 0.201000 0.280000 1 ]
+.Path26_8
+RW [ 0.221000 0.379000 0 0.224000 0.391000 ]
+.Path26_9
+RW [ 0.234500 0.399500 0 0.245000 0.408000 ]
+.Path26_10
+RW [ 0.257000 0.408000 0 0.270000 0.408000 ]
+.Path26_11
+RW [ 0.276000 0.399000 0 0.282000 0.390000 ]
+.Path26_12
+RW [ 0.280000 0.379000 1 ]
+.Path26_13
+RW [ 0.259000 0.280000 1 ]
+.Path26_14
+RW [ 0.370000 0.280000 0 0.380000 0.280000 ]
+.Path26_15
+RW [ 0.386500 0.273500 0 0.393000 0.267000 ]
+.Path26_16
+RW [ 0.393000 0.257000 0 0.393000 0.244000 ]
+.Path26_17
+RW [ 0.382000 0.233000 0 0.371000 0.222000 ]
+.Path26_18
+RW [ 0.357000 0.222000 1 ]
+.Path26_19
+RW [ 0.246000 0.222000 1 ]
+.Path26_20
+RW [ 0.223000 0.113000 0 0.221000 0.101000 ]
+.Path26_21
+RW [ 0.210500 0.092500 0 0.200000 0.084000 ]
+.Path26_22
+RW [ 0.188000 0.084000 0 0.176000 0.084000 ]
+.Path26_23
+RW [ 0.169500 0.093000]
+.Path27
+RW [ -0.029000 -0.086500 0 -0.035000 -0.081000 ]
+.Path27_0
+RW [ -0.035000 -0.073000 0 -0.035000 -0.065000 ]
+.Path27_1
+RW [ -0.029000 -0.055000 1 ]
+.Path27_2
+RW [ 0.007000 0.004000 0 0.000000 0.013000 ]
+.Path27_3
+RW [ 0.000000 0.025000 0 0.000000 0.047000 ]
+.Path27_4
+RW [ 0.016000 0.064000 0 0.032000 0.081000 ]
+.Path27_5
+RW [ 0.052000 0.081000 0 0.065000 0.081000 ]
+.Path27_6
+RW [ 0.073000 0.073000 0 0.081000 0.065000 ]
+.Path27_7
+RW [ 0.081000 0.053000 0 0.081000 0.038000 ]
+.Path27_8
+RW [ 0.064000 0.010000 1 ]
+.Path27_9
+RW [ 0.021000 -0.062000 0 0.012000 -0.078000 ]
+.Path27_10
+RW [ 0.004000 -0.085000 0 -0.004000 -0.092000 ]
+.Path27_11
+RW [ -0.014000 -0.092000 0 -0.023000 -0.092000 ]
+.Path27_12
+RW [ -0.029000 -0.086500]
+.Path28
+RW [ 0.062000 0.228000 0 0.055000 0.235000 ]
+.Path28_0
+RW [ 0.055000 0.245000 0 0.055000 0.260000 ]
+.Path28_1
+RW [ 0.066500 0.269500 0 0.078000 0.279000 ]
+.Path28_2
+RW [ 0.091000 0.279000 1 ]
+.Path28_3
+RW [ 0.335000 0.279000 0 0.345000 0.279000 ]
+.Path28_4
+RW [ 0.352000 0.272500 0 0.359000 0.266000 ]
+.Path28_5
+RW [ 0.359000 0.256000 0 0.359000 0.243000 ]
+.Path28_6
+RW [ 0.348000 0.232000 0 0.337000 0.221000 ]
+.Path28_7
+RW [ 0.323000 0.221000 1 ]
+.Path28_8
+RW [ 0.079000 0.221000 0 0.069000 0.221000 ]
+.Path28_9
+RW [ 0.062000 0.228000]
+.Path29
+RW [ -0.002500 0.008500 0 -0.010000 0.017000 ]
+.Path29_0
+RW [ -0.010000 0.030000 0 -0.010000 0.051000 ]
+.Path29_1
+RW [ 0.007000 0.069000 0 0.024000 0.087000 ]
+.Path29_2
+RW [ 0.042000 0.087000 0 0.054000 0.087000 ]
+.Path29_3
+RW [ 0.061500 0.079000 0 0.069000 0.071000 ]
+.Path29_4
+RW [ 0.069000 0.058000 0 0.069000 0.037000 ]
+.Path29_5
+RW [ 0.053000 0.018500 0 0.037000 0.000000 ]
+.Path29_6
+RW [ 0.017000 0.000000 0 0.005000 0.000000 ]
+.Path29_7
+RW [ -0.002500 0.008500]
+.Path30
+RW [ -0.006500 0.006000 0 -0.013000 0.013000 ]
+.Path30_0
+RW [ -0.013000 0.023000 0 -0.013000 0.032000 ]
+.Path30_1
+RW [ -0.005000 0.044000 1 ]
+.Path30_2
+RW [ 0.478000 0.675000 0 0.490000 0.690000 ]
+.Path30_3
+RW [ 0.509000 0.690000 0 0.519000 0.690000 ]
+.Path30_4
+RW [ 0.526000 0.683500 0 0.533000 0.677000 ]
+.Path30_5
+RW [ 0.533000 0.668000 1 ]
+.Path30_6
+RW [ 0.526500 0.648000 0 0.520000 0.638000 ]
+.Path30_7
+RW [ 0.519000 0.636000 1 ]
+.Path30_8
+RW [ 0.041000 0.014000 0 0.030000 -0.001000 ]
+.Path30_9
+RW [ 0.012000 -0.001000 0 0.000000 -0.001000 ]
+.Path30_10
+RW [ -0.006500 0.006000]
+.Path31
+RW [ 0.152000 0.024000 0 0.114000 0.054000 ]
+.Path31_0
+RW [ 0.094000 0.106500 0 0.074000 0.159000 ]
+.Path31_1
+RW [ 0.074000 0.225000 0 0.074000 0.326000 ]
+.Path31_2
+RW [ 0.122000 0.433000 0 0.170000 0.540000 ]
+.Path31_3
+RW [ 0.248500 0.610500 0 0.327000 0.681000 ]
+.Path31_4
+RW [ 0.411000 0.681000 0 0.489000 0.681000 ]
+.Path31_5
+RW [ 0.534000 0.616500 0 0.579000 0.552000 ]
+.Path31_6
+RW [ 0.579000 0.452000 0 0.579000 0.351000 ]
+.Path31_7
+RW [ 0.531000 0.243500 0 0.483000 0.136000 ]
+.Path31_8
+RW [ 0.405000 0.065000 0 0.327000 -0.006000 ]
+.Path31_9
+RW [ 0.242000 -0.006000 0 0.190000 -0.006000 ]
+.Path31_10
+RW [ 0.152000 0.024000]
+.Path32
+RW [ 0.383500 0.114500 0 0.445000 0.176000 ]
+.Path32_0
+RW [ 0.482500 0.267000 0 0.520000 0.358000 ]
+.Path32_1
+RW [ 0.520000 0.439000 0 0.520000 0.519000 ]
+.Path32_2
+RW [ 0.487500 0.570500 0 0.455000 0.622000 ]
+.Path32_3
+RW [ 0.399000 0.622000 0 0.331000 0.622000 ]
+.Path32_4
+RW [ 0.269500 0.560500 0 0.208000 0.499000 ]
+.Path32_5
+RW [ 0.171000 0.408000 0 0.134000 0.317000 ]
+.Path32_6
+RW [ 0.134000 0.235000 0 0.134000 0.156000 ]
+.Path32_7
+RW [ 0.166000 0.104500 0 0.198000 0.053000 ]
+.Path32_8
+RW [ 0.255000 0.053000 0 0.322000 0.053000 ]
+.Path32_9
+RW [ 0.383500 0.114500]
+.Path33
+RW [ 0.026500 0.007000 0 0.020000 0.014000 ]
+.Path33_0
+RW [ 0.020000 0.025000 0 0.020000 0.038000 ]
+.Path33_1
+RW [ 0.031500 0.049000 0 0.043000 0.060000 ]
+.Path33_2
+RW [ 0.057000 0.060000 1 ]
+.Path33_3
+RW [ 0.143000 0.060000 1 ]
+.Path33_4
+RW [ 0.258000 0.564000 1 ]
+.Path33_5
+RW [ 0.166000 0.484000 0 0.154000 0.474000 ]
+.Path33_6
+RW [ 0.143000 0.474000 0 0.132000 0.474000 ]
+.Path33_7
+RW [ 0.125000 0.481000 0 0.118000 0.488000 ]
+.Path33_8
+RW [ 0.118000 0.498000 0 0.118000 0.514000 ]
+.Path33_9
+RW [ 0.131000 0.525000 1 ]
+.Path33_10
+RW [ 0.286000 0.662000 0 0.297000 0.672000 ]
+.Path33_11
+RW [ 0.311000 0.672000 0 0.324000 0.672000 ]
+.Path33_12
+RW [ 0.330500 0.664500 0 0.337000 0.657000 ]
+.Path33_13
+RW [ 0.335000 0.645000 1 ]
+.Path33_14
+RW [ 0.202000 0.060000 1 ]
+.Path33_15
+RW [ 0.271000 0.060000 0 0.283000 0.060000 ]
+.Path33_16
+RW [ 0.289500 0.053500 0 0.296000 0.047000 ]
+.Path33_17
+RW [ 0.296000 0.037000 0 0.296000 0.023000 ]
+.Path33_18
+RW [ 0.285500 0.011500 0 0.275000 0.000000 ]
+.Path33_19
+RW [ 0.261000 0.000000 1 ]
+.Path33_20
+RW [ 0.045000 0.000000 0 0.033000 0.000000 ]
+.Path33_21
+RW [ 0.026500 0.007000]
+.Path34
+RW [ 0.074500 0.165500 0 0.112000 0.222000 ]
+.Path34_0
+RW [ 0.159000 0.258500 0 0.206000 0.295000 ]
+.Path34_1
+RW [ 0.272000 0.333000 0 0.333000 0.368000 ]
+.Path34_2
+RW [ 0.368000 0.391500 0 0.403000 0.415000 ]
+.Path34_3
+RW [ 0.428500 0.449000 0 0.454000 0.483000 ]
+.Path34_4
+RW [ 0.454000 0.526000 0 0.454000 0.565000 ]
+.Path34_5
+RW [ 0.424000 0.589500 0 0.394000 0.614000 ]
+.Path34_6
+RW [ 0.347000 0.614000 0 0.295000 0.614000 ]
+.Path34_7
+RW [ 0.252500 0.589000 0 0.210000 0.564000 ]
+.Path34_8
+RW [ 0.185000 0.542000 0 0.183000 0.541000 ]
+.Path34_9
+RW [ 0.177000 0.535000 0 0.171000 0.529000 ]
+.Path34_10
+RW [ 0.164500 0.526000 0 0.158000 0.523000 ]
+.Path34_11
+RW [ 0.151000 0.523000 0 0.140000 0.523000 ]
+.Path34_12
+RW [ 0.133000 0.530500 0 0.126000 0.538000 ]
+.Path34_13
+RW [ 0.126000 0.548000 1 ]
+.Path34_14
+RW [ 0.135500 0.568500 0 0.145000 0.579000 ]
+.Path34_15
+RW [ 0.165000 0.595000 0 0.203000 0.627000 ]
+.Path34_16
+RW [ 0.253500 0.650500 0 0.304000 0.674000 ]
+.Path34_17
+RW [ 0.360000 0.674000 0 0.431000 0.674000 ]
+.Path34_18
+RW [ 0.473500 0.636000 0 0.516000 0.598000 ]
+.Path34_19
+RW [ 0.516000 0.539000 0 0.516000 0.479000 ]
+.Path34_20
+RW [ 0.486500 0.433500 0 0.457000 0.388000 ]
+.Path34_21
+RW [ 0.413000 0.356500 0 0.369000 0.325000 ]
+.Path34_22
+RW [ 0.299000 0.285000 0 0.242000 0.252000 ]
+.Path34_23
+RW [ 0.203500 0.224000 0 0.165000 0.196000 ]
+.Path34_24
+RW [ 0.134000 0.155500 0 0.103000 0.115000 ]
+.Path34_25
+RW [ 0.088000 0.059000 1 ]
+.Path34_26
+RW [ 0.396000 0.059000 0 0.407000 0.059000 ]
+.Path34_27
+RW [ 0.414000 0.052000 0 0.421000 0.045000 ]
+.Path34_28
+RW [ 0.421000 0.035000 0 0.421000 0.022000 ]
+.Path34_29
+RW [ 0.409000 0.011000 0 0.397000 0.000000 ]
+.Path34_30
+RW [ 0.384000 0.000000 1 ]
+.Path34_31
+RW [ 0.014000 0.000000 1 ]
+.Path34_32
+RW [ 0.020000 0.028000 0 0.037000 0.109000 ]
+.Path34_33
+RW [ 0.074500 0.165500]
+.Path35
+RW [ 0.093500 0.013000 0 0.054000 0.032000 ]
+.Path35_0
+RW [ 0.032500 0.061500 0 0.011000 0.091000 ]
+.Path35_1
+RW [ 0.011000 0.119000 0 0.011000 0.133000 ]
+.Path35_2
+RW [ 0.022000 0.142000 0 0.033000 0.151000 ]
+.Path35_3
+RW [ 0.046000 0.151000 0 0.064000 0.151000 ]
+.Path35_4
+RW [ 0.069000 0.135000 0 0.079000 0.106000 ]
+.Path35_5
+RW [ 0.108000 0.080000 0 0.137000 0.054000 ]
+.Path35_6
+RW [ 0.193000 0.054000 0 0.242000 0.054000 ]
+.Path35_7
+RW [ 0.284500 0.078500 0 0.327000 0.103000 ]
+.Path35_8
+RW [ 0.352500 0.144500 0 0.378000 0.186000 ]
+.Path35_9
+RW [ 0.378000 0.235000 0 0.378000 0.278000 ]
+.Path35_10
+RW [ 0.354000 0.303500 0 0.330000 0.329000 ]
+.Path35_11
+RW [ 0.298500 0.339500 0 0.267000 0.350000 ]
+.Path35_12
+RW [ 0.240000 0.350000 0 0.229000 0.350000 ]
+.Path35_13
+RW [ 0.222000 0.357000 0 0.215000 0.364000 ]
+.Path35_14
+RW [ 0.215000 0.374000 0 0.215000 0.389000 ]
+.Path35_15
+RW [ 0.226500 0.399500 0 0.238000 0.410000 ]
+.Path35_16
+RW [ 0.253000 0.410000 0 0.291000 0.410000 ]
+.Path35_17
+RW [ 0.332500 0.429500 0 0.374000 0.449000 ]
+.Path35_18
+RW [ 0.401500 0.479500 0 0.429000 0.510000 ]
+.Path35_19
+RW [ 0.429000 0.542000 0 0.429000 0.575000 ]
+.Path35_20
+RW [ 0.399000 0.598500 0 0.369000 0.622000 ]
+.Path35_21
+RW [ 0.315000 0.622000 0 0.270000 0.622000 ]
+.Path35_22
+RW [ 0.241000 0.610500 0 0.212000 0.599000 ]
+.Path35_23
+RW [ 0.188000 0.583000 0 0.186000 0.581000 ]
+.Path35_24
+RW [ 0.179000 0.577000 0 0.172000 0.573000 ]
+.Path35_25
+RW [ 0.166000 0.573000 0 0.153000 0.573000 ]
+.Path35_26
+RW [ 0.147000 0.580000 0 0.141000 0.587000 ]
+.Path35_27
+RW [ 0.141000 0.597000 0 0.141000 0.621000 ]
+.Path35_28
+RW [ 0.184000 0.644000 0 0.213000 0.660000 ]
+.Path35_29
+RW [ 0.250500 0.671000 0 0.288000 0.682000 ]
+.Path35_30
+RW [ 0.328000 0.682000 0 0.400000 0.682000 ]
+.Path35_31
+RW [ 0.445500 0.646500 0 0.491000 0.611000 ]
+.Path35_32
+RW [ 0.491000 0.556000 0 0.491000 0.504000 ]
+.Path35_33
+RW [ 0.453000 0.456500 0 0.415000 0.409000 ]
+.Path35_34
+RW [ 0.360000 0.382000 0 0.400000 0.363000 ]
+.Path35_35
+RW [ 0.419500 0.327500 0 0.439000 0.292000 ]
+.Path35_36
+RW [ 0.439000 0.248000 0 0.439000 0.175000 ]
+.Path35_37
+RW [ 0.403000 0.117000 0 0.367000 0.059000 ]
+.Path35_38
+RW [ 0.308000 0.026500 0 0.249000 -0.006000 ]
+.Path35_39
+RW [ 0.182000 -0.006000 0 0.133000 -0.006000 ]
+.Path35_40
+RW [ 0.093500 0.013000]
+.Path36
+RW [ 0.267000 0.002500 0 0.260000 0.011000 ]
+.Path36_0
+RW [ 0.263000 0.024000 1 ]
+.Path36_1
+RW [ 0.292000 0.159000 1 ]
+.Path36_2
+RW [ 0.047000 0.163000 0 0.037000 0.163000 ]
+.Path36_3
+RW [ 0.029500 0.169500 0 0.022000 0.176000 ]
+.Path36_4
+RW [ 0.022000 0.187000 0 0.022000 0.197000 ]
+.Path36_5
+RW [ 0.033000 0.211000 1 ]
+.Path36_6
+RW [ 0.403000 0.663000 0 0.415000 0.677000 ]
+.Path36_7
+RW [ 0.430000 0.677000 0 0.443000 0.677000 ]
+.Path36_8
+RW [ 0.450500 0.668500 0 0.458000 0.660000 ]
+.Path36_9
+RW [ 0.456000 0.647000 1 ]
+.Path36_10
+RW [ 0.364000 0.218000 1 ]
+.Path36_11
+RW [ 0.397000 0.218000 0 0.407000 0.218000 ]
+.Path36_12
+RW [ 0.413500 0.211000 0 0.420000 0.204000 ]
+.Path36_13
+RW [ 0.420000 0.194000 0 0.420000 0.178000 ]
+.Path36_14
+RW [ 0.408000 0.167500 0 0.396000 0.157000 ]
+.Path36_15
+RW [ 0.383000 0.157000 1 ]
+.Path36_16
+RW [ 0.352000 0.158000 1 ]
+.Path36_17
+RW [ 0.323000 0.024000 0 0.321000 0.012000 ]
+.Path36_18
+RW [ 0.309500 0.003000 0 0.298000 -0.006000 ]
+.Path36_19
+RW [ 0.286000 -0.006000 0 0.274000 -0.006000 ]
+.Path36_20
+RW [ 0.267000 0.002500]
+.Path37
+RW [ 0.373000 0.540000 1 ]
+.Path37_0
+RW [ 0.112000 0.223000 1 ]
+.Path37_1
+RW [ 0.305000 0.220000 1 ]
+.Path37_2
+RW [ 0.373000 0.540000]
+.Path38
+RW [ 0.082000 0.030000 0 0.058000 0.047000 ]
+.Path38_0
+RW [ 0.041500 0.070000 0 0.025000 0.093000 ]
+.Path38_1
+RW [ 0.025000 0.111000 0 0.025000 0.125000 ]
+.Path38_2
+RW [ 0.036500 0.136500 0 0.048000 0.148000 ]
+.Path38_3
+RW [ 0.062000 0.148000 0 0.072000 0.148000 ]
+.Path38_4
+RW [ 0.076500 0.144500 0 0.081000 0.141000 ]
+.Path38_5
+RW [ 0.085000 0.132000 0 0.107000 0.093000 ]
+.Path38_6
+RW [ 0.136500 0.073500 0 0.166000 0.054000 ]
+.Path38_7
+RW [ 0.212000 0.054000 0 0.265000 0.054000 ]
+.Path38_8
+RW [ 0.315000 0.090000 0 0.365000 0.126000 ]
+.Path38_9
+RW [ 0.396000 0.182500 0 0.427000 0.239000 ]
+.Path38_10
+RW [ 0.427000 0.297000 0 0.427000 0.351000 ]
+.Path38_11
+RW [ 0.398000 0.385500 0 0.369000 0.420000 ]
+.Path38_12
+RW [ 0.310000 0.420000 0 0.256000 0.420000 ]
+.Path38_13
+RW [ 0.214500 0.397000 0 0.173000 0.374000 ]
+.Path38_14
+RW [ 0.155000 0.356000 0 0.144000 0.346000 ]
+.Path38_15
+RW [ 0.130000 0.346000 0 0.119000 0.346000 ]
+.Path38_16
+RW [ 0.112000 0.352500 0 0.105000 0.359000 ]
+.Path38_17
+RW [ 0.105000 0.369000 0 0.105000 0.373000 ]
+.Path38_18
+RW [ 0.107000 0.381000 1 ]
+.Path38_19
+RW [ 0.189000 0.642000 0 0.192000 0.653000 ]
+.Path38_20
+RW [ 0.203000 0.660500 0 0.214000 0.668000 ]
+.Path38_21
+RW [ 0.225000 0.668000 1 ]
+.Path38_22
+RW [ 0.514000 0.668000 0 0.525000 0.668000 ]
+.Path38_23
+RW [ 0.531500 0.661500 0 0.538000 0.655000 ]
+.Path38_24
+RW [ 0.538000 0.644000 0 0.538000 0.629000 ]
+.Path38_25
+RW [ 0.527000 0.618500 0 0.516000 0.608000 ]
+.Path38_26
+RW [ 0.501000 0.608000 1 ]
+.Path38_27
+RW [ 0.239000 0.608000 1 ]
+.Path38_28
+RW [ 0.188000 0.444000 0 0.258000 0.480000 ]
+.Path38_29
+RW [ 0.323000 0.480000 0 0.398000 0.480000 ]
+.Path38_30
+RW [ 0.443500 0.434000 0 0.489000 0.388000 ]
+.Path38_31
+RW [ 0.489000 0.311000 0 0.489000 0.234000 ]
+.Path38_32
+RW [ 0.447000 0.160500 0 0.405000 0.087000 ]
+.Path38_33
+RW [ 0.338000 0.040500 0 0.271000 -0.006000 ]
+.Path38_34
+RW [ 0.200000 -0.006000 0 0.132000 -0.006000 ]
+.Path38_35
+RW [ 0.082000 0.030000]
+.Path39
+RW [ 0.096000 0.038000 0 0.050000 0.082000 ]
+.Path39_0
+RW [ 0.050000 0.165000 1 ]
+.Path39_1
+RW [ 0.103500 0.379500 0 0.157000 0.487000 ]
+.Path39_2
+RW [ 0.254000 0.570000 0 0.299000 0.608000 ]
+.Path39_3
+RW [ 0.358000 0.642000 0 0.417000 0.676000 ]
+.Path39_4
+RW [ 0.436000 0.676000 0 0.446000 0.676000 ]
+.Path39_5
+RW [ 0.452500 0.670000 0 0.459000 0.664000 ]
+.Path39_6
+RW [ 0.459000 0.655000 0 0.459000 0.633000 ]
+.Path39_7
+RW [ 0.436000 0.622000 0 0.354000 0.586000 ]
+.Path39_8
+RW [ 0.286000 0.529000 0 0.218000 0.472000 ]
+.Path39_9
+RW [ 0.177000 0.402000 0 0.255000 0.442000 ]
+.Path39_10
+RW [ 0.329000 0.442000 0 0.400000 0.442000 ]
+.Path39_11
+RW [ 0.442000 0.402000 0 0.484000 0.362000 ]
+.Path39_12
+RW [ 0.484000 0.294000 0 0.484000 0.218000 ]
+.Path39_13
+RW [ 0.448500 0.148500 0 0.413000 0.079000 ]
+.Path39_14
+RW [ 0.353500 0.036500 0 0.294000 -0.006000 ]
+.Path39_15
+RW [ 0.224000 -0.006000 0 0.142000 -0.006000 ]
+.Path39_16
+RW [ 0.096000 0.038000]
+.Path40
+RW [ 0.332000 0.086500 0 0.376000 0.122000 ]
+.Path40_0
+RW [ 0.401500 0.176000 0 0.427000 0.230000 ]
+.Path40_1
+RW [ 0.427000 0.283000 0 0.427000 0.332000 ]
+.Path40_2
+RW [ 0.398000 0.358000 0 0.369000 0.384000 ]
+.Path40_3
+RW [ 0.318000 0.384000 0 0.260000 0.384000 ]
+.Path40_4
+RW [ 0.213000 0.361500 0 0.166000 0.339000 ]
+.Path40_5
+RW [ 0.136000 0.315000 0 0.124000 0.286000 ]
+.Path40_6
+RW [ 0.116000 0.245500 0 0.108000 0.205000 ]
+.Path40_7
+RW [ 0.108000 0.175000 0 0.108000 0.111000 ]
+.Path40_8
+RW [ 0.141500 0.081000 0 0.175000 0.051000 ]
+.Path40_9
+RW [ 0.236000 0.051000 0 0.288000 0.051000 ]
+.Path40_10
+RW [ 0.332000 0.086500]
+.Path41
+RW [ 0.048500 0.001000 0 0.042000 0.008000 ]
+.Path41_0
+RW [ 0.042000 0.017000 0 0.042000 0.029000 ]
+.Path41_1
+RW [ 0.049000 0.037000 1 ]
+.Path41_2
+RW [ 0.455000 0.604000 1 ]
+.Path41_3
+RW [ 0.147000 0.604000 0 0.136000 0.604000 ]
+.Path41_4
+RW [ 0.129000 0.611000 0 0.122000 0.618000 ]
+.Path41_5
+RW [ 0.122000 0.628000 0 0.122000 0.641000 ]
+.Path41_6
+RW [ 0.134000 0.652500 0 0.146000 0.664000 ]
+.Path41_7
+RW [ 0.159000 0.664000 1 ]
+.Path41_8
+RW [ 0.516000 0.664000 0 0.526000 0.664000 ]
+.Path41_9
+RW [ 0.533500 0.657500 0 0.541000 0.651000 ]
+.Path41_10
+RW [ 0.541000 0.642000 1 ]
+.Path41_11
+RW [ 0.533000 0.620000 1 ]
+.Path41_12
+RW [ 0.097000 0.010000 0 0.091000 0.002000 ]
+.Path41_13
+RW [ 0.082500 -0.002000 0 0.074000 -0.006000 ]
+.Path41_14
+RW [ 0.066000 -0.006000 0 0.055000 -0.006000 ]
+.Path41_15
+RW [ 0.048500 0.001000]
+.Path42
+RW [ 0.079000 0.034000 0 0.032000 0.074000 ]
+.Path42_0
+RW [ 0.032000 0.138000 0 0.032000 0.212000 ]
+.Path42_1
+RW [ 0.082000 0.270000 0 0.132000 0.328000 ]
+.Path42_2
+RW [ 0.211000 0.364000 0 0.135000 0.403000 ]
+.Path42_3
+RW [ 0.135000 0.472000 0 0.135000 0.528000 ]
+.Path42_4
+RW [ 0.166500 0.576000 0 0.198000 0.624000 ]
+.Path42_5
+RW [ 0.250000 0.652500 0 0.302000 0.681000 ]
+.Path42_6
+RW [ 0.360000 0.681000 0 0.428000 0.681000 ]
+.Path42_7
+RW [ 0.468500 0.646500 0 0.509000 0.612000 ]
+.Path42_8
+RW [ 0.509000 0.556000 0 0.509000 0.438000 ]
+.Path42_9
+RW [ 0.367000 0.371000 0 0.410000 0.346000 ]
+.Path42_10
+RW [ 0.432500 0.308500 0 0.455000 0.271000 ]
+.Path42_11
+RW [ 0.455000 0.226000 0 0.455000 0.164000 ]
+.Path42_12
+RW [ 0.420000 0.110500 0 0.385000 0.057000 ]
+.Path42_13
+RW [ 0.327000 0.025500 0 0.269000 -0.006000 ]
+.Path42_14
+RW [ 0.204000 -0.006000 0 0.126000 -0.006000 ]
+.Path42_15
+RW [ 0.079000 0.034000]
+.Path43
+RW [ 0.409000 0.459500 0 0.450000 0.495000 ]
+.Path43_0
+RW [ 0.450000 0.545000 0 0.450000 0.580000 ]
+.Path43_1
+RW [ 0.421500 0.600500 0 0.393000 0.621000 ]
+.Path43_2
+RW [ 0.347000 0.621000 0 0.310000 0.621000 ]
+.Path43_3
+RW [ 0.275500 0.605500 0 0.241000 0.590000 ]
+.Path43_4
+RW [ 0.218500 0.559500 0 0.196000 0.529000 ]
+.Path43_5
+RW [ 0.196000 0.487000 0 0.196000 0.456000 ]
+.Path43_6
+RW [ 0.220000 0.435500 0 0.244000 0.415000 ]
+.Path43_7
+RW [ 0.296000 0.399000 0 0.368000 0.424000 ]
+.Path43_8
+RW [ 0.409000 0.459500]
+.Path44
+RW [ 0.305500 0.074500 0 0.347000 0.096000 ]
+.Path44_0
+RW [ 0.371500 0.132500 0 0.396000 0.169000 ]
+.Path44_1
+RW [ 0.396000 0.212000 0 0.396000 0.257000 ]
+.Path44_2
+RW [ 0.365000 0.289000 0 0.334000 0.321000 ]
+.Path44_3
+RW [ 0.286000 0.337000 0 0.200000 0.310000 ]
+.Path44_4
+RW [ 0.146000 0.262500 0 0.092000 0.215000 ]
+.Path44_5
+RW [ 0.092000 0.149000 0 0.092000 0.106000 ]
+.Path44_6
+RW [ 0.127000 0.079500 0 0.162000 0.053000 ]
+.Path44_7
+RW [ 0.217000 0.053000 0 0.264000 0.053000 ]
+.Path44_8
+RW [ 0.305500 0.074500]
+.Path45
+RW [ 0.113500 0.000000 0 0.107000 0.006000 ]
+.Path45_0
+RW [ 0.107000 0.016000 0 0.107000 0.028000 ]
+.Path45_1
+RW [ 0.113500 0.036500 0 0.120000 0.045000 ]
+.Path45_2
+RW [ 0.129000 0.048000 0 0.214000 0.082000 ]
+.Path45_3
+RW [ 0.280000 0.138500 0 0.346000 0.195000 ]
+.Path45_4
+RW [ 0.388000 0.268000 0 0.314000 0.229000 ]
+.Path45_5
+RW [ 0.236000 0.229000 0 0.167000 0.229000 ]
+.Path45_6
+RW [ 0.124500 0.267000 0 0.082000 0.305000 ]
+.Path45_7
+RW [ 0.082000 0.376000 0 0.082000 0.449000 ]
+.Path45_8
+RW [ 0.117500 0.518500 0 0.153000 0.588000 ]
+.Path45_9
+RW [ 0.213000 0.632000 0 0.273000 0.676000 ]
+.Path45_10
+RW [ 0.341000 0.676000 0 0.416000 0.676000 ]
+.Path45_11
+RW [ 0.466000 0.635000 0 0.516000 0.594000 ]
+.Path45_12
+RW [ 0.516000 0.505000 0 0.516000 0.401000 ]
+.Path45_13
+RW [ 0.461500 0.293000 0 0.407000 0.185000 ]
+.Path45_14
+RW [ 0.322000 0.108000 0 0.278000 0.069000 ]
+.Path45_15
+RW [ 0.215500 0.031500 0 0.153000 -0.006000 ]
+.Path45_16
+RW [ 0.130000 -0.006000 0 0.120000 -0.006000 ]
+.Path45_17
+RW [ 0.113500 0.000000]
+.Path46
+RW [ 0.353500 0.308000 0 0.400000 0.330000 ]
+.Path46_0
+RW [ 0.430000 0.355000 0 0.458000 0.434000 ]
+.Path46_1
+RW [ 0.458000 0.494000 0 0.458000 0.563000 ]
+.Path46_2
+RW [ 0.421500 0.591000 0 0.385000 0.619000 ]
+.Path46_3
+RW [ 0.329000 0.619000 0 0.278000 0.619000 ]
+.Path46_4
+RW [ 0.234000 0.584000 0 0.190000 0.549000 ]
+.Path46_5
+RW [ 0.164500 0.494500 1 ]
+.Path46_6
+RW [ 0.139000 0.386000 0 0.139000 0.328000 ]
+.Path46_7
+RW [ 0.174500 0.307000 0 0.210000 0.286000 ]
+.Path46_8
+RW [ 0.248000 0.286000 0 0.307000 0.286000 ]
+.Path46_9
+RW [ 0.353500 0.308000]
+.Path47
+RW [ 0.100000 0.357000 0 0.093000 0.365000 ]
+.Path47_0
+RW [ 0.093000 0.378000 0 0.093000 0.399000 ]
+.Path47_1
+RW [ 0.110000 0.417500 0 0.127000 0.436000 ]
+.Path47_2
+RW [ 0.145000 0.436000 0 0.157000 0.436000 ]
+.Path47_3
+RW [ 0.165000 0.427500 0 0.173000 0.419000 ]
+.Path47_4
+RW [ 0.173000 0.406000 0 0.173000 0.386000 ]
+.Path47_5
+RW [ 0.156000 0.367500 0 0.139000 0.349000 ]
+.Path47_6
+RW [ 0.120000 0.349000 0 0.107000 0.349000 ]
+.Path47_7
+RW [ 0.100000 0.357000]
+.Path48
+RW [ -0.004000 0.002500 0 -0.011000 0.011000 ]
+.Path48_0
+RW [ -0.011000 0.023000 0 -0.011000 0.045000 ]
+.Path48_1
+RW [ 0.006000 0.063000 0 0.023000 0.081000 ]
+.Path48_2
+RW [ 0.041000 0.081000 0 0.053000 0.081000 ]
+.Path48_3
+RW [ 0.060500 0.073000 0 0.068000 0.065000 ]
+.Path48_4
+RW [ 0.068000 0.052000 0 0.068000 0.031000 ]
+.Path48_5
+RW [ 0.051500 0.012500 0 0.035000 -0.006000 ]
+.Path48_6
+RW [ 0.015000 -0.006000 0 0.003000 -0.006000 ]
+.Path48_7
+RW [ -0.004000 0.002500]
+.Path49
+RW [ 0.119500 0.357000 0 0.112000 0.365000 ]
+.Path49_0
+RW [ 0.112000 0.378000 0 0.112000 0.399000 ]
+.Path49_1
+RW [ 0.129000 0.417500 0 0.146000 0.436000 ]
+.Path49_2
+RW [ 0.164000 0.436000 0 0.176000 0.436000 ]
+.Path49_3
+RW [ 0.184000 0.427000 0 0.192000 0.418000 ]
+.Path49_4
+RW [ 0.192000 0.406000 0 0.192000 0.386000 ]
+.Path49_5
+RW [ 0.175000 0.367500 0 0.158000 0.349000 ]
+.Path49_6
+RW [ 0.139000 0.349000 0 0.127000 0.349000 ]
+.Path49_7
+RW [ 0.119500 0.357000]
+.Path50
+RW [ -0.029000 -0.086500 0 -0.035000 -0.081000 ]
+.Path50_0
+RW [ -0.035000 -0.073000 0 -0.035000 -0.065000 ]
+.Path50_1
+RW [ -0.029000 -0.055000 1 ]
+.Path50_2
+RW [ 0.007000 0.004000 0 0.000000 0.013000 ]
+.Path50_3
+RW [ 0.000000 0.025000 0 0.000000 0.047000 ]
+.Path50_4
+RW [ 0.016000 0.064000 0 0.032000 0.081000 ]
+.Path50_5
+RW [ 0.052000 0.081000 0 0.065000 0.081000 ]
+.Path50_6
+RW [ 0.073000 0.073000 0 0.081000 0.065000 ]
+.Path50_7
+RW [ 0.081000 0.053000 0 0.081000 0.038000 ]
+.Path50_8
+RW [ 0.064000 0.010000 1 ]
+.Path50_9
+RW [ 0.021000 -0.062000 0 0.012000 -0.078000 ]
+.Path50_10
+RW [ 0.004000 -0.085000 0 -0.004000 -0.092000 ]
+.Path50_11
+RW [ -0.014000 -0.092000 0 -0.023000 -0.092000 ]
+.Path50_12
+RW [ -0.029000 -0.086500]
+.Path51
+RW [ 0.322000 0.017000 1 ]
+.Path51_0
+RW [ 0.058000 0.220000 0 0.045000 0.229000 ]
+.Path51_1
+RW [ 0.045000 0.244000 0 0.045000 0.262000 ]
+.Path51_2
+RW [ 0.065000 0.274000 1 ]
+.Path51_3
+RW [ 0.438000 0.485000 0 0.449000 0.493000 ]
+.Path51_4
+RW [ 0.463000 0.493000 0 0.474000 0.493000 ]
+.Path51_5
+RW [ 0.481000 0.486000 0 0.488000 0.479000 ]
+.Path51_6
+RW [ 0.488000 0.468000 0 0.488000 0.448000 ]
+.Path51_7
+RW [ 0.467000 0.437000 1 ]
+.Path51_8
+RW [ 0.128000 0.246000 1 ]
+.Path51_9
+RW [ 0.366000 0.061000 0 0.376000 0.054000 ]
+.Path51_10
+RW [ 0.376000 0.040000 0 0.376000 0.027000 ]
+.Path51_11
+RW [ 0.365000 0.018000 0 0.354000 0.009000 ]
+.Path51_12
+RW [ 0.341000 0.009000 0 0.333000 0.009000 ]
+.Path51_13
+RW [ 0.322000 0.017000]
+.Path52
+RW [ 0.083500 0.304500 0 0.077000 0.311000 ]
+.Path52_0
+RW [ 0.077000 0.321000 0 0.077000 0.335000 ]
+.Path52_1
+RW [ 0.088000 0.346000 0 0.099000 0.357000 ]
+.Path52_2
+RW [ 0.113000 0.357000 1 ]
+.Path52_3
+RW [ 0.397000 0.357000 0 0.407000 0.357000 ]
+.Path52_4
+RW [ 0.413500 0.350000 0 0.420000 0.343000 ]
+.Path52_5
+RW [ 0.420000 0.333000 0 0.420000 0.320000 ]
+.Path52_6
+RW [ 0.408500 0.309000 0 0.397000 0.298000 ]
+.Path52_7
+RW [ 0.384000 0.298000 1 ]
+.Path52_8
+RW [ 0.100000 0.298000 0 0.090000 0.298000 ]
+.Path52_9
+RW [ 0.083500 0.304500]
+.Path53
+RW [ 0.049500 0.148000 0 0.043000 0.154000 ]
+.Path53_0
+RW [ 0.043000 0.164000 0 0.043000 0.178000 ]
+.Path53_1
+RW [ 0.054500 0.189500 0 0.066000 0.201000 ]
+.Path53_2
+RW [ 0.080000 0.201000 1 ]
+.Path53_3
+RW [ 0.363000 0.201000 0 0.373000 0.201000 ]
+.Path53_4
+RW [ 0.380000 0.193500 0 0.387000 0.186000 ]
+.Path53_5
+RW [ 0.387000 0.176000 0 0.387000 0.163000 ]
+.Path53_6
+RW [ 0.375500 0.152500 0 0.364000 0.142000 ]
+.Path53_7
+RW [ 0.350000 0.142000 1 ]
+.Path53_8
+RW [ 0.067000 0.142000 0 0.056000 0.142000 ]
+.Path53_9
+RW [ 0.049500 0.148000]
+.Path54
+RW [ 0.016500 0.015500 0 0.009000 0.023000 ]
+.Path54_0
+RW [ 0.009000 0.033000 0 0.009000 0.051000 ]
+.Path54_1
+RW [ 0.030000 0.064000 1 ]
+.Path54_2
+RW [ 0.351000 0.250000 1 ]
+.Path54_3
+RW [ 0.096000 0.438000 0 0.085000 0.447000 ]
+.Path54_4
+RW [ 0.085000 0.459000 0 0.085000 0.472000 ]
+.Path54_5
+RW [ 0.095000 0.482000 0 0.105000 0.492000 ]
+.Path54_6
+RW [ 0.118000 0.492000 0 0.127000 0.492000 ]
+.Path54_7
+RW [ 0.135000 0.486000 1 ]
+.Path54_8
+RW [ 0.417000 0.276000 0 0.431000 0.266000 ]
+.Path54_9
+RW [ 0.431000 0.252000 0 0.431000 0.233000 ]
+.Path54_10
+RW [ 0.413000 0.222000 1 ]
+.Path54_11
+RW [ 0.060000 0.017000 0 0.058000 0.016000 ]
+.Path54_12
+RW [ 0.051000 0.012000 0 0.044000 0.008000 ]
+.Path54_13
+RW [ 0.034000 0.008000 0 0.024000 0.008000 ]
+.Path54_14
+RW [ 0.016500 0.015500]
+.Path55
+RW [ 0.129500 0.180000 0 0.123000 0.187000 ]
+.Path55_0
+RW [ 0.123000 0.197000 0 0.123000 0.206000 ]
+.Path55_1
+RW [ 0.128500 0.213000 0 0.134000 0.220000 ]
+.Path55_2
+RW [ 0.145000 0.229000 1 ]
+.Path55_3
+RW [ 0.290000 0.336000 0 0.342000 0.376000 ]
+.Path55_4
+RW [ 0.367500 0.399000 0 0.393000 0.422000 ]
+.Path55_5
+RW [ 0.413500 0.457000 0 0.434000 0.492000 ]
+.Path55_6
+RW [ 0.434000 0.537000 0 0.434000 0.587000 ]
+.Path55_7
+RW [ 0.402000 0.620000 0 0.370000 0.653000 ]
+.Path55_8
+RW [ 0.302000 0.653000 0 0.257000 0.653000 ]
+.Path55_9
+RW [ 0.224000 0.634500 0 0.191000 0.616000 ]
+.Path55_10
+RW [ 0.154000 0.585000 0 0.136000 0.570000 ]
+.Path55_11
+RW [ 0.125000 0.570000 0 0.114000 0.570000 ]
+.Path55_12
+RW [ 0.107000 0.576500 0 0.100000 0.583000 ]
+.Path55_13
+RW [ 0.100000 0.593000 0 0.100000 0.602000 ]
+.Path55_14
+RW [ 0.108000 0.612000 0 0.116000 0.622000 ]
+.Path55_15
+RW [ 0.130000 0.634000 0 0.167000 0.665000 ]
+.Path55_16
+RW [ 0.213000 0.687000 0 0.259000 0.709000 ]
+.Path55_17
+RW [ 0.310000 0.709000 0 0.395000 0.709000 ]
+.Path55_18
+RW [ 0.444000 0.666000 0 0.493000 0.623000 ]
+.Path55_19
+RW [ 0.493000 0.551000 0 0.493000 0.494000 ]
+.Path55_20
+RW [ 0.468000 0.447000 0 0.443000 0.400000 ]
+.Path55_21
+RW [ 0.409000 0.367500 0 0.375000 0.335000 ]
+.Path55_22
+RW [ 0.326000 0.297000 1 ]
+.Path55_23
+RW [ 0.180000 0.189000 0 0.158000 0.173000 ]
+.Path55_24
+RW [ 0.147000 0.173000 0 0.136000 0.173000 ]
+.Path55_25
+RW [ 0.129500 0.180000]
+.Path56
+RW [ 0.057500 0.008500 0 0.050000 0.017000 ]
+.Path56_0
+RW [ 0.050000 0.030000 0 0.050000 0.052000 ]
+.Path56_1
+RW [ 0.067500 0.069500 0 0.085000 0.087000 ]
+.Path56_2
+RW [ 0.103000 0.087000 0 0.115000 0.087000 ]
+.Path56_3
+RW [ 0.122500 0.079000 0 0.130000 0.071000 ]
+.Path56_4
+RW [ 0.130000 0.058000 0 0.130000 0.037000 ]
+.Path56_5
+RW [ 0.113500 0.018500 0 0.097000 0.000000 ]
+.Path56_6
+RW [ 0.077000 0.000000 0 0.065000 0.000000 ]
+.Path56_7
+RW [ 0.057500 0.008500]
+.Path57
+RW [ 0.194500 -0.067500 0 0.129000 -0.035000 ]
+.Path57_0
+RW [ 0.092000 0.026000 0 0.055000 0.087000 ]
+.Path57_1
+RW [ 0.055000 0.168000 0 0.055000 0.283000 ]
+.Path57_2
+RW [ 0.117500 0.385500 0 0.180000 0.488000 ]
+.Path57_3
+RW [ 0.283500 0.550000 0 0.387000 0.612000 ]
+.Path57_4
+RW [ 0.505000 0.612000 0 0.584000 0.612000 ]
+.Path57_5
+RW [ 0.645500 0.579000 0 0.707000 0.546000 ]
+.Path57_6
+RW [ 0.741000 0.487000 0 0.775000 0.428000 ]
+.Path57_7
+RW [ 0.775000 0.353000 0 0.775000 0.282000 ]
+.Path57_8
+RW [ 0.749500 0.221000 0 0.724000 0.160000 ]
+.Path57_9
+RW [ 0.676000 0.124000 0 0.628000 0.088000 ]
+.Path57_10
+RW [ 0.564000 0.088000 0 0.527000 0.088000 ]
+.Path57_11
+RW [ 0.491000 0.108500 0 0.455000 0.129000 ]
+.Path57_12
+RW [ 0.447000 0.172000 0 0.379000 0.102000 ]
+.Path57_13
+RW [ 0.316000 0.102000 0 0.271000 0.102000 ]
+.Path57_14
+RW [ 0.247000 0.127000 0 0.223000 0.152000 ]
+.Path57_15
+RW [ 0.223000 0.196000 0 0.223000 0.250000 ]
+.Path57_16
+RW [ 0.254000 0.303000 0 0.285000 0.356000 ]
+.Path57_17
+RW [ 0.335000 0.390000 0 0.385000 0.424000 ]
+.Path57_18
+RW [ 0.438000 0.424000 0 0.487000 0.424000 ]
+.Path57_19
+RW [ 0.524000 0.396000 0 0.535000 0.387000 ]
+.Path57_20
+RW [ 0.539000 0.380500 0 0.543000 0.374000 ]
+.Path57_21
+RW [ 0.542000 0.366000 0 0.539000 0.354000 ]
+.Path57_22
+RW [ 0.528500 0.345500 0 0.518000 0.337000 ]
+.Path57_23
+RW [ 0.505000 0.337000 0 0.495000 0.337000 ]
+.Path57_24
+RW [ 0.486000 0.345000 0 0.458000 0.367000 ]
+.Path57_25
+RW [ 0.427000 0.367000 0 0.390000 0.367000 ]
+.Path57_26
+RW [ 0.356500 0.342500 0 0.323000 0.318000 ]
+.Path57_27
+RW [ 0.302500 0.281000 0 0.282000 0.244000 ]
+.Path57_28
+RW [ 0.282000 0.208000 0 0.282000 0.184000 ]
+.Path57_29
+RW [ 0.294000 0.171500 0 0.306000 0.159000 ]
+.Path57_30
+RW [ 0.328000 0.159000 0 0.363000 0.159000 ]
+.Path57_31
+RW [ 0.404500 0.201500 0 0.446000 0.244000 ]
+.Path57_32
+RW [ 0.470000 0.283000 0 0.481000 0.302000 ]
+.Path57_33
+RW [ 0.501000 0.302000 0 0.512000 0.302000 ]
+.Path57_34
+RW [ 0.519000 0.293500 0 0.526000 0.285000 ]
+.Path57_35
+RW [ 0.524000 0.274000 1 ]
+.Path57_36
+RW [ 0.515000 0.252000 0 0.509000 0.239000 ]
+.Path57_37
+RW [ 0.506000 0.229000 0 0.503000 0.219000 ]
+.Path57_38
+RW [ 0.503000 0.206000 0 0.503000 0.177000 ]
+.Path57_39
+RW [ 0.525000 0.161500 0 0.547000 0.146000 ]
+.Path57_40
+RW [ 0.580000 0.146000 0 0.624000 0.146000 ]
+.Path57_41
+RW [ 0.654500 0.174500 0 0.685000 0.203000 ]
+.Path57_42
+RW [ 0.700500 0.248000 0 0.716000 0.293000 ]
+.Path57_43
+RW [ 0.716000 0.341000 0 0.716000 0.400000 ]
+.Path57_44
+RW [ 0.691000 0.448500 0 0.666000 0.497000 ]
+.Path57_45
+RW [ 0.615500 0.525500 0 0.565000 0.554000 ]
+.Path57_46
+RW [ 0.492000 0.554000 0 0.392000 0.554000 ]
+.Path57_47
+RW [ 0.305000 0.502000 0 0.218000 0.450000 ]
+.Path57_48
+RW [ 0.166000 0.363500 0 0.114000 0.277000 ]
+.Path57_49
+RW [ 0.114000 0.180000 0 0.114000 0.107000 ]
+.Path57_50
+RW [ 0.149000 0.056500 0 0.184000 0.006000 ]
+.Path57_51
+RW [ 0.239500 -0.019000 0 0.295000 -0.044000 ]
+.Path57_52
+RW [ 0.356000 -0.044000 0 0.411000 -0.044000 ]
+.Path57_53
+RW [ 0.457500 -0.028000 0 0.504000 -0.012000 ]
+.Path57_54
+RW [ 0.537000 0.008000 0 0.559000 0.021000 ]
+.Path57_55
+RW [ 0.570000 0.021000 0 0.580000 0.021000 ]
+.Path57_56
+RW [ 0.587000 0.014000 0 0.594000 0.007000 ]
+.Path57_57
+RW [ 0.594000 -0.003000 0 0.594000 -0.013000 ]
+.Path57_58
+RW [ 0.588000 -0.020500 0 0.582000 -0.028000 ]
+.Path57_59
+RW [ 0.566000 -0.038000 0 0.528000 -0.063000 ]
+.Path57_60
+RW [ 0.469500 -0.081500 0 0.411000 -0.100000 ]
+.Path57_61
+RW [ 0.344000 -0.100000 0 0.260000 -0.100000 ]
+.Path57_62
+RW [ 0.194500 -0.067500]
+.Path58
+RW [ 0.450500 0.000500 0 0.443000 0.007000 ]
+.Path58_0
+RW [ 0.442000 0.016000 1 ]
+.Path58_1
+RW [ 0.412000 0.254000 1 ]
+.Path58_2
+RW [ 0.150000 0.199000 1 ]
+.Path58_3
+RW [ 0.038000 0.013000 0 0.033000 0.005000 ]
+.Path58_4
+RW [ 0.024500 -0.000500 0 0.016000 -0.006000 ]
+.Path58_5
+RW [ 0.006000 -0.006000 0 -0.006000 -0.006000 ]
+.Path58_6
+RW [ -0.012500 0.001000 0 -0.019000 0.008000 ]
+.Path58_7
+RW [ -0.019000 0.018000 1 ]
+.Path58_8
+RW [ -0.013000 0.038000 1 ]
+.Path58_9
+RW [ 0.075000 0.184000 1 ]
+.Path58_10
+RW [ 0.059000 0.181000 1 ]
+.Path58_11
+RW [ 0.054169 0.180579 0 0.045526 0.180579 ]
+.Path58_12
+RW [ 0.040000 0.186500 0 0.033000 0.194000 ]
+.Path58_13
+RW [ 0.033000 0.204000 0 0.033000 0.217000 ]
+.Path58_14
+RW [ 0.041000 0.227500 0 0.049000 0.238000 ]
+.Path58_15
+RW [ 0.063000 0.241000 1 ]
+.Path58_16
+RW [ 0.116000 0.253000 1 ]
+.Path58_17
+RW [ 0.362000 0.659000 0 0.376000 0.683000 ]
+.Path58_18
+RW [ 0.398000 0.683000 0 0.408000 0.683000 ]
+.Path58_19
+RW [ 0.415000 0.677000 0 0.422000 0.671000 ]
+.Path58_20
+RW [ 0.423000 0.661000 1 ]
+.Path58_21
+RW [ 0.505000 0.039000 0 0.508000 0.021000 ]
+.Path58_22
+RW [ 0.496500 0.007500 0 0.485000 -0.006000 ]
+.Path58_23
+RW [ 0.469000 -0.006000 0 0.458000 -0.006000 ]
+.Path58_24
+RW [ 0.450500 0.000500]
+.Path59
+RW [ 0.404000 0.312000 1 ]
+.Path59_0
+RW [ 0.371000 0.563000 1 ]
+.Path59_1
+RW [ 0.192000 0.268000 1 ]
+.Path59_2
+RW [ 0.404000 0.312000]
+.Path60
+RW [ 0.038000 0.019000 0 0.038000 0.027000 ]
+.Path60_0
+RW [ 0.039000 0.032000 1 ]
+.Path60_1
+RW [ 0.168000 0.635000 0 0.171000 0.651000 ]
+.Path60_2
+RW [ 0.182500 0.660000 0 0.194000 0.669000 ]
+.Path60_3
+RW [ 0.209000 0.669000 1 ]
+.Path60_4
+RW [ 0.386000 0.669000 0 0.491000 0.669000 ]
+.Path60_5
+RW [ 0.532000 0.626500 0 0.573000 0.584000 ]
+.Path60_6
+RW [ 0.573000 0.531000 0 0.573000 0.482000 ]
+.Path60_7
+RW [ 0.543000 0.435500 0 0.513000 0.389000 ]
+.Path60_8
+RW [ 0.465000 0.364000 0 0.518000 0.346000 ]
+.Path60_9
+RW [ 0.543500 0.315000 0 0.569000 0.284000 ]
+.Path60_10
+RW [ 0.569000 0.239000 0 0.569000 0.107000 ]
+.Path60_11
+RW [ 0.427500 0.049500 0 0.286000 -0.008000 ]
+.Path60_12
+RW [ 0.066000 -0.008000 0 0.038000 -0.008000 ]
+.Path60_13
+RW [ 0.038000 0.019000]
+.Path61
+RW [ 0.436500 0.402500 0 0.470000 0.423000 ]
+.Path61_0
+RW [ 0.491000 0.455000 1 ]
+.Path61_1
+RW [ 0.512000 0.519000 0 0.512000 0.562000 ]
+.Path61_2
+RW [ 0.476500 0.586500 0 0.441000 0.611000 ]
+.Path61_3
+RW [ 0.373000 0.611000 1 ]
+.Path61_4
+RW [ 0.223000 0.611000 1 ]
+.Path61_5
+RW [ 0.176000 0.382000 1 ]
+.Path61_6
+RW [ 0.368000 0.382000 0 0.403000 0.382000 ]
+.Path61_7
+RW [ 0.436500 0.402500]
+.Path62
+RW [ 0.385500 0.091000 0 0.507000 0.131000 ]
+.Path62_0
+RW [ 0.507000 0.223000 0 0.507000 0.272000 ]
+.Path62_1
+RW [ 0.464500 0.298000 0 0.422000 0.324000 ]
+.Path62_2
+RW [ 0.365000 0.324000 1 ]
+.Path62_3
+RW [ 0.163000 0.324000 1 ]
+.Path62_4
+RW [ 0.105000 0.050000 0 0.264000 0.051000 ]
+.Path62_5
+RW [ 0.385500 0.091000]
+.Path63
+RW [ 0.161000 0.021500 0 0.108000 0.051000 ]
+.Path63_0
+RW [ 0.078500 0.104000 0 0.049000 0.157000 ]
+.Path63_1
+RW [ 0.049000 0.224000 0 0.049000 0.322000 ]
+.Path63_2
+RW [ 0.109500 0.428500 0 0.170000 0.535000 ]
+.Path63_3
+RW [ 0.262500 0.606500 0 0.355000 0.678000 ]
+.Path63_4
+RW [ 0.445000 0.678000 0 0.521000 0.678000 ]
+.Path63_5
+RW [ 0.571000 0.636000 0 0.584000 0.653000 ]
+.Path63_6
+RW [ 0.601000 0.653000 0 0.614000 0.653000 ]
+.Path63_7
+RW [ 0.621500 0.644000 0 0.629000 0.635000 ]
+.Path63_8
+RW [ 0.626000 0.622000 1 ]
+.Path63_9
+RW [ 0.611000 0.559000 0 0.608000 0.547000 ]
+.Path63_10
+RW [ 0.597500 0.537500 0 0.587000 0.528000 ]
+.Path63_11
+RW [ 0.573000 0.528000 0 0.561000 0.528000 ]
+.Path63_12
+RW [ 0.553500 0.537000 0 0.546000 0.546000 ]
+.Path63_13
+RW [ 0.549000 0.558000 1 ]
+.Path63_14
+RW [ 0.551000 0.566000 0 0.529000 0.591000 ]
+.Path63_15
+RW [ 0.503500 0.605000 0 0.478000 0.619000 ]
+.Path63_16
+RW [ 0.430000 0.619000 0 0.360000 0.619000 ]
+.Path63_17
+RW [ 0.285000 0.557000 0 0.210000 0.495000 ]
+.Path63_18
+RW [ 0.160500 0.404000 0 0.111000 0.313000 ]
+.Path63_19
+RW [ 0.111000 0.234000 0 0.111000 0.176000 ]
+.Path63_20
+RW [ 0.136500 0.134500 0 0.162000 0.093000 ]
+.Path63_21
+RW [ 0.204500 0.071500 0 0.247000 0.050000 ]
+.Path63_22
+RW [ 0.295000 0.050000 0 0.409000 0.050000 ]
+.Path63_23
+RW [ 0.503000 0.147000 0 0.515000 0.159000 ]
+.Path63_24
+RW [ 0.530000 0.159000 0 0.541000 0.159000 ]
+.Path63_25
+RW [ 0.548500 0.152000 0 0.556000 0.145000 ]
+.Path63_26
+RW [ 0.556000 0.134000 0 0.556000 0.122000 ]
+.Path63_27
+RW [ 0.545000 0.109000 0 0.492000 0.054000 ]
+.Path63_28
+RW [ 0.423000 0.023000 0 0.354000 -0.008000 ]
+.Path63_29
+RW [ 0.282000 -0.008000 0 0.214000 -0.008000 ]
+.Path63_30
+RW [ 0.161000 0.021500]
+.Path64
+RW [ 0.054000 0.001000 0 0.044000 0.003000 ]
+.Path64_0
+RW [ 0.039000 0.011500 0 0.034000 0.020000 ]
+.Path64_1
+RW [ 0.036000 0.030000 1 ]
+.Path64_2
+RW [ 0.168000 0.653000 0 0.171000 0.667000 ]
+.Path64_3
+RW [ 0.181000 0.676000 0 0.191000 0.685000 ]
+.Path64_4
+RW [ 0.206000 0.685000 0 0.388000 0.685000 ]
+.Path64_5
+RW [ 0.494000 0.610000 0 0.600000 0.535000 ]
+.Path64_6
+RW [ 0.600000 0.391000 0 0.600000 0.272000 ]
+.Path64_7
+RW [ 0.545500 0.179500 0 0.491000 0.087000 ]
+.Path64_8
+RW [ 0.394000 0.035500 0 0.297000 -0.016000 ]
+.Path64_9
+RW [ 0.172000 -0.016000 0 0.114000 -0.016000 ]
+.Path64_10
+RW [ 0.054000 0.001000]
+.Path65
+RW [ 0.371500 0.085000 0 0.451000 0.127000 ]
+.Path65_0
+RW [ 0.494500 0.204000 0 0.538000 0.281000 ]
+.Path65_1
+RW [ 0.538000 0.383000 0 0.538000 0.497000 ]
+.Path65_2
+RW [ 0.460000 0.556000 0 0.382000 0.615000 ]
+.Path65_3
+RW [ 0.223000 0.626000 1 ]
+.Path65_4
+RW [ 0.102000 0.054000 0 0.148000 0.043000 ]
+.Path65_5
+RW [ 0.188000 0.043000 0 0.292000 0.043000 ]
+.Path65_6
+RW [ 0.371500 0.085000]
+.Path66
+RW [ 0.041500 0.009000 0 0.035000 0.018000 ]
+.Path66_0
+RW [ 0.037000 0.031000 1 ]
+.Path66_1
+RW [ 0.168000 0.640000 0 0.170000 0.653000 ]
+.Path66_2
+RW [ 0.181000 0.661500 0 0.192000 0.670000 ]
+.Path66_3
+RW [ 0.204000 0.670000 1 ]
+.Path66_4
+RW [ 0.632000 0.670000 0 0.643000 0.670000 ]
+.Path66_5
+RW [ 0.649500 0.663500 0 0.656000 0.657000 ]
+.Path66_6
+RW [ 0.656000 0.646000 0 0.656000 0.632000 ]
+.Path66_7
+RW [ 0.645000 0.621500 0 0.634000 0.611000 ]
+.Path66_8
+RW [ 0.620000 0.611000 1 ]
+.Path66_9
+RW [ 0.222000 0.611000 1 ]
+.Path66_10
+RW [ 0.173000 0.376000 1 ]
+.Path66_11
+RW [ 0.521000 0.376000 0 0.532000 0.376000 ]
+.Path66_12
+RW [ 0.538500 0.370000 0 0.545000 0.364000 ]
+.Path66_13
+RW [ 0.545000 0.354000 0 0.545000 0.339000 ]
+.Path66_14
+RW [ 0.534000 0.328000 0 0.523000 0.317000 ]
+.Path66_15
+RW [ 0.509000 0.317000 1 ]
+.Path66_16
+RW [ 0.161000 0.317000 1 ]
+.Path66_17
+RW [ 0.104000 0.059000 1 ]
+.Path66_18
+RW [ 0.496000 0.059000 0 0.507000 0.059000 ]
+.Path66_19
+RW [ 0.513500 0.052500 0 0.520000 0.046000 ]
+.Path66_20
+RW [ 0.520000 0.035000 0 0.520000 0.021000 ]
+.Path66_21
+RW [ 0.509000 0.010500 0 0.498000 0.000000 ]
+.Path66_22
+RW [ 0.484000 0.000000 1 ]
+.Path66_23
+RW [ 0.061000 0.000000 0 0.048000 0.000000 ]
+.Path66_24
+RW [ 0.041500 0.009000]
+.Path67
+RW [ 0.041500 0.003500 0 0.034000 0.013000 ]
+.Path67_0
+RW [ 0.037000 0.026000 1 ]
+.Path67_1
+RW [ 0.168000 0.635000 0 0.171000 0.651000 ]
+.Path67_2
+RW [ 0.181000 0.660500 0 0.191000 0.670000 ]
+.Path67_3
+RW [ 0.204000 0.670000 1 ]
+.Path67_4
+RW [ 0.631000 0.670000 0 0.642000 0.670000 ]
+.Path67_5
+RW [ 0.648500 0.663500 0 0.655000 0.657000 ]
+.Path67_6
+RW [ 0.655000 0.647000 0 0.655000 0.633000 ]
+.Path67_7
+RW [ 0.644000 0.622000 0 0.633000 0.611000 ]
+.Path67_8
+RW [ 0.619000 0.611000 1 ]
+.Path67_9
+RW [ 0.221000 0.611000 1 ]
+.Path67_10
+RW [ 0.171000 0.375000 1 ]
+.Path67_11
+RW [ 0.480000 0.375000 0 0.491000 0.375000 ]
+.Path67_12
+RW [ 0.497500 0.368500 0 0.504000 0.362000 ]
+.Path67_13
+RW [ 0.504000 0.352000 0 0.504000 0.338000 ]
+.Path67_14
+RW [ 0.493000 0.327500 0 0.482000 0.317000 ]
+.Path67_15
+RW [ 0.468000 0.317000 1 ]
+.Path67_16
+RW [ 0.159000 0.317000 1 ]
+.Path67_17
+RW [ 0.096000 0.025000 0 0.093000 0.011000 ]
+.Path67_18
+RW [ 0.083500 0.002500 0 0.074000 -0.006000 ]
+.Path67_19
+RW [ 0.060000 -0.006000 0 0.049000 -0.006000 ]
+.Path67_20
+RW [ 0.041500 0.003500]
+.Path68
+RW [ 0.169000 0.024000 0 0.115000 0.055000 ]
+.Path68_0
+RW [ 0.085000 0.112500 0 0.055000 0.170000 ]
+.Path68_1
+RW [ 0.055000 0.247000 0 0.055000 0.351000 ]
+.Path68_2
+RW [ 0.112000 0.451000 0 0.169000 0.551000 ]
+.Path68_3
+RW [ 0.261500 0.614000 0 0.354000 0.677000 ]
+.Path68_4
+RW [ 0.455000 0.677000 0 0.535000 0.677000 ]
+.Path68_5
+RW [ 0.586000 0.646000 0 0.637000 0.615000 ]
+.Path68_6
+RW [ 0.659000 0.573000 0 0.681000 0.531000 ]
+.Path68_7
+RW [ 0.681000 0.499000 0 0.680000 0.480000 ]
+.Path68_8
+RW [ 0.669500 0.470500 0 0.659000 0.461000 ]
+.Path68_9
+RW [ 0.644000 0.461000 0 0.635000 0.461000 ]
+.Path68_10
+RW [ 0.627500 0.466000 0 0.620000 0.471000 ]
+.Path68_11
+RW [ 0.618000 0.481000 0 0.608000 0.540000 ]
+.Path68_12
+RW [ 0.567000 0.579000 0 0.526000 0.618000 ]
+.Path68_13
+RW [ 0.442000 0.618000 0 0.361000 0.618000 ]
+.Path68_14
+RW [ 0.285500 0.564500 0 0.210000 0.511000 ]
+.Path68_15
+RW [ 0.164000 0.428000 0 0.118000 0.345000 ]
+.Path68_16
+RW [ 0.118000 0.261000 0 0.118000 0.161000 ]
+.Path68_17
+RW [ 0.170500 0.106500 0 0.223000 0.052000 ]
+.Path68_18
+RW [ 0.307000 0.052000 0 0.391000 0.052000 ]
+.Path68_19
+RW [ 0.461000 0.100000 0 0.531000 0.148000 ]
+.Path68_20
+RW [ 0.569000 0.230000 0 0.559000 0.231000 ]
+.Path68_21
+RW [ 0.538000 0.231000 0 0.488000 0.230000 ]
+.Path68_22
+RW [ 0.433000 0.217000 0 0.413000 0.213000 ]
+.Path68_23
+RW [ 0.411000 0.213000 0 0.401000 0.213000 ]
+.Path68_24
+RW [ 0.394000 0.219500 0 0.387000 0.226000 ]
+.Path68_25
+RW [ 0.387000 0.237000 0 0.387000 0.250000 ]
+.Path68_26
+RW [ 0.395000 0.260000 0 0.403000 0.270000 ]
+.Path68_27
+RW [ 0.415000 0.274000 0 0.485000 0.293000 ]
+.Path68_28
+RW [ 0.557000 0.293000 0 0.596000 0.293000 ]
+.Path68_29
+RW [ 0.622000 0.287500 1 ]
+.Path68_30
+RW [ 0.660000 0.277000 0 0.678000 0.271000 ]
+.Path68_31
+RW [ 0.678000 0.255000 0 0.678000 0.240000 ]
+.Path68_32
+RW [ 0.667000 0.229000 0 0.656000 0.218000 ]
+.Path68_33
+RW [ 0.642000 0.217000 1 ]
+.Path68_34
+RW [ 0.639000 0.217000 0 0.634000 0.217000 ]
+.Path68_35
+RW [ 0.628000 0.220000 0 0.582000 0.120000 ]
+.Path68_36
+RW [ 0.493500 0.056500 0 0.405000 -0.007000 ]
+.Path68_37
+RW [ 0.293000 -0.007000 0 0.223000 -0.007000 ]
+.Path68_38
+RW [ 0.169000 0.024000]
+.Path69
+RW [ 0.041500 0.003000 0 0.035000 0.012000 ]
+.Path69_0
+RW [ 0.037000 0.024000 1 ]
+.Path69_1
+RW [ 0.170000 0.644000 0 0.173000 0.658000 ]
+.Path69_2
+RW [ 0.183000 0.666500 0 0.193000 0.675000 ]
+.Path69_3
+RW [ 0.206000 0.675000 0 0.220000 0.675000 ]
+.Path69_4
+RW [ 0.226500 0.665500 0 0.233000 0.656000 ]
+.Path69_5
+RW [ 0.231000 0.643000 1 ]
+.Path69_6
+RW [ 0.167000 0.343000 1 ]
+.Path69_7
+RW [ 0.613000 0.403000 1 ]
+.Path69_8
+RW [ 0.664000 0.645000 0 0.666000 0.658000 ]
+.Path69_9
+RW [ 0.677500 0.666500 0 0.689000 0.675000 ]
+.Path69_10
+RW [ 0.702000 0.675000 0 0.712000 0.675000 ]
+.Path69_11
+RW [ 0.719000 0.669000 0 0.726000 0.663000 ]
+.Path69_12
+RW [ 0.726000 0.652000 0 0.726000 0.647000 ]
+.Path69_13
+RW [ 0.725000 0.644000 1 ]
+.Path69_14
+RW [ 0.593000 0.024000 0 0.591000 0.012000 ]
+.Path69_15
+RW [ 0.580000 0.003000 0 0.569000 -0.006000 ]
+.Path69_16
+RW [ 0.558000 -0.006000 0 0.545000 -0.006000 ]
+.Path69_17
+RW [ 0.537500 0.003000 0 0.530000 0.012000 ]
+.Path69_18
+RW [ 0.532000 0.024000 1 ]
+.Path69_19
+RW [ 0.600000 0.340000 1 ]
+.Path69_20
+RW [ 0.154000 0.280000 1 ]
+.Path69_21
+RW [ 0.099000 0.024000 0 0.096000 0.012000 ]
+.Path69_22
+RW [ 0.085500 0.003000 0 0.075000 -0.006000 ]
+.Path69_23
+RW [ 0.062000 -0.006000 0 0.048000 -0.006000 ]
+.Path69_24
+RW [ 0.041500 0.003000]
+.Path70
+RW [ -0.002500 0.007000 0 -0.010000 0.014000 ]
+.Path70_0
+RW [ -0.010000 0.025000 0 -0.010000 0.039000 ]
+.Path70_1
+RW [ 0.002000 0.050000 0 0.014000 0.061000 ]
+.Path70_2
+RW [ 0.029000 0.061000 1 ]
+.Path70_3
+RW [ 0.126000 0.061000 1 ]
+.Path70_4
+RW [ 0.243000 0.609000 1 ]
+.Path70_5
+RW [ 0.146000 0.609000 0 0.135000 0.609000 ]
+.Path70_6
+RW [ 0.127500 0.616000 0 0.120000 0.623000 ]
+.Path70_7
+RW [ 0.120000 0.633000 0 0.120000 0.648000 ]
+.Path70_8
+RW [ 0.132000 0.659000 0 0.144000 0.670000 ]
+.Path70_9
+RW [ 0.159000 0.670000 1 ]
+.Path70_10
+RW [ 0.413000 0.670000 0 0.424000 0.670000 ]
+.Path70_11
+RW [ 0.431000 0.663500 0 0.438000 0.657000 ]
+.Path70_12
+RW [ 0.438000 0.647000 0 0.438000 0.633000 ]
+.Path70_13
+RW [ 0.426000 0.621000 0 0.414000 0.609000 ]
+.Path70_14
+RW [ 0.400000 0.609000 1 ]
+.Path70_15
+RW [ 0.304000 0.609000 1 ]
+.Path70_16
+RW [ 0.187000 0.061000 1 ]
+.Path70_17
+RW [ 0.283000 0.061000 0 0.294000 0.061000 ]
+.Path70_18
+RW [ 0.301000 0.055000 0 0.308000 0.049000 ]
+.Path70_19
+RW [ 0.308000 0.039000 0 0.308000 0.024000 ]
+.Path70_20
+RW [ 0.296500 0.012000 0 0.285000 0.000000 ]
+.Path70_21
+RW [ 0.270000 0.000000 1 ]
+.Path70_22
+RW [ 0.016000 0.000000 0 0.005000 0.000000 ]
+.Path70_23
+RW [ -0.002500 0.007000]
+.Path71
+RW [ 0.034500 0.031000 0 -0.005000 0.068000 ]
+.Path71_0
+RW [ -0.005000 0.128000 0 -0.005000 0.197000 ]
+.Path71_1
+RW [ 0.037000 0.197000 0 0.048000 0.197000 ]
+.Path71_2
+RW [ 0.055000 0.190500 0 0.062000 0.184000 ]
+.Path71_3
+RW [ 0.062000 0.173000 0 0.062000 0.168000 ]
+.Path71_4
+RW [ 0.060000 0.156000 0 0.058000 0.144000 ]
+.Path71_5
+RW [ 0.058000 0.138000 0 0.058000 0.097000 ]
+.Path71_6
+RW [ 0.083000 0.076000 0 0.108000 0.055000 ]
+.Path71_7
+RW [ 0.155000 0.055000 0 0.265000 0.055000 ]
+.Path71_8
+RW [ 0.288000 0.161000 1 ]
+.Path71_9
+RW [ 0.383000 0.609000 1 ]
+.Path71_10
+RW [ 0.264000 0.609000 0 0.253000 0.609000 ]
+.Path71_11
+RW [ 0.245500 0.616000 0 0.238000 0.623000 ]
+.Path71_12
+RW [ 0.238000 0.633000 0 0.238000 0.647000 ]
+.Path71_13
+RW [ 0.250500 0.658500 0 0.263000 0.670000 ]
+.Path71_14
+RW [ 0.277000 0.670000 1 ]
+.Path71_15
+RW [ 0.480000 0.670000 0 0.490000 0.670000 ]
+.Path71_16
+RW [ 0.497500 0.663000 0 0.505000 0.656000 ]
+.Path71_17
+RW [ 0.505000 0.646000 0 0.505000 0.632000 ]
+.Path71_18
+RW [ 0.493500 0.620500 0 0.482000 0.609000 ]
+.Path71_19
+RW [ 0.468000 0.609000 1 ]
+.Path71_20
+RW [ 0.445000 0.609000 1 ]
+.Path71_21
+RW [ 0.348000 0.154000 0 0.332000 0.081000 ]
+.Path71_22
+RW [ 0.276000 0.037500 0 0.220000 -0.006000 ]
+.Path71_23
+RW [ 0.143000 -0.006000 0 0.074000 -0.006000 ]
+.Path71_24
+RW [ 0.034500 0.031000]
+.Path72
+RW [ 0.437000 0.003000 1 ]
+.Path72_0
+RW [ 0.149000 0.272000 1 ]
+.Path72_1
+RW [ 0.095000 0.020000 0 0.090000 -0.006000 ]
+.Path72_2
+RW [ 0.062000 -0.006000 0 0.049000 -0.006000 ]
+.Path72_3
+RW [ 0.041500 0.004500 0 0.034000 0.015000 ]
+.Path72_4
+RW [ 0.037000 0.028000 1 ]
+.Path72_5
+RW [ 0.169000 0.646000 0 0.173000 0.660000 ]
+.Path72_6
+RW [ 0.181500 0.667500 0 0.190000 0.675000 ]
+.Path72_7
+RW [ 0.202000 0.675000 0 0.215000 0.675000 ]
+.Path72_8
+RW [ 0.223000 0.665000 0 0.231000 0.655000 ]
+.Path72_9
+RW [ 0.228000 0.641000 1 ]
+.Path72_10
+RW [ 0.173000 0.388000 1 ]
+.Path72_11
+RW [ 0.560000 0.668000 0 0.572000 0.676000 ]
+.Path72_12
+RW [ 0.581000 0.676000 0 0.591000 0.676000 ]
+.Path72_13
+RW [ 0.598500 0.667500 1 ]
+.Path72_14
+RW [ 0.606000 0.650000 0 0.606000 0.635000 ]
+.Path72_15
+RW [ 0.590000 0.623000 1 ]
+.Path72_16
+RW [ 0.183000 0.329000 1 ]
+.Path72_17
+RW [ 0.480000 0.049000 0 0.492000 0.039000 ]
+.Path72_18
+RW [ 0.492000 0.023000 0 0.492000 0.012000 ]
+.Path72_19
+RW [ 0.483500 0.002500 0 0.475000 -0.007000 ]
+.Path72_20
+RW [ 0.461000 -0.007000 0 0.448000 -0.007000 ]
+.Path72_21
+RW [ 0.437000 0.003000]
+.Path73
+RW [ 0.042500 0.002500 0 0.035000 0.012000 ]
+.Path73_0
+RW [ 0.037000 0.024000 1 ]
+.Path73_1
+RW [ 0.169000 0.646000 0 0.172000 0.658000 ]
+.Path73_2
+RW [ 0.183000 0.667000 0 0.194000 0.676000 ]
+.Path73_3
+RW [ 0.206000 0.676000 0 0.219000 0.676000 ]
+.Path73_4
+RW [ 0.225500 0.667000 0 0.232000 0.658000 ]
+.Path73_5
+RW [ 0.230000 0.646000 1 ]
+.Path73_6
+RW [ 0.104000 0.055000 1 ]
+.Path73_7
+RW [ 0.421000 0.076000 1 ]
+.Path73_8
+RW [ 0.424102 0.076133 0 0.433867 0.076133 ]
+.Path73_9
+RW [ 0.439500 0.070500 0 0.446000 0.064000 ]
+.Path73_10
+RW [ 0.446000 0.055000 0 0.446000 0.040000 ]
+.Path73_11
+RW [ 0.436000 0.029500 0 0.426000 0.019000 ]
+.Path73_12
+RW [ 0.412000 0.018000 1 ]
+.Path73_13
+RW [ 0.063000 -0.006000 1 ]
+.Path73_14
+RW [ 0.060574 -0.006095 0 0.049286 -0.006095 ]
+.Path73_15
+RW [ 0.042500 0.002500]
+.Path74
+RW [ -0.001000 0.000000 0 -0.007000 0.006000 ]
+.Path74_0
+RW [ -0.007000 0.016000 0 -0.007000 0.026000 ]
+.Path74_1
+RW [ -0.003000 0.034000 1 ]
+.Path74_2
+RW [ 0.264000 0.651000 0 0.268000 0.662000 ]
+.Path74_3
+RW [ 0.277500 0.668500 0 0.287000 0.675000 ]
+.Path74_4
+RW [ 0.298000 0.675000 0 0.308000 0.675000 ]
+.Path74_5
+RW [ 0.314500 0.669000 0 0.321000 0.663000 ]
+.Path74_6
+RW [ 0.322000 0.653000 1 ]
+.Path74_7
+RW [ 0.378000 0.118000 1 ]
+.Path74_8
+RW [ 0.685000 0.654000 0 0.697000 0.675000 ]
+.Path74_9
+RW [ 0.721000 0.675000 0 0.731000 0.675000 ]
+.Path74_10
+RW [ 0.737000 0.668000 0 0.743000 0.661000 ]
+.Path74_11
+RW [ 0.743000 0.649000 1 ]
+.Path74_12
+RW [ 0.750000 0.029000 0 0.750000 0.013000 ]
+.Path74_13
+RW [ 0.742000 0.003500 0 0.734000 -0.006000 ]
+.Path74_14
+RW [ 0.717000 -0.006000 0 0.705000 -0.006000 ]
+.Path74_15
+RW [ 0.696500 0.003000 0 0.688000 0.012000 ]
+.Path74_16
+RW [ 0.688000 0.025000 1 ]
+.Path74_17
+RW [ 0.683000 0.537000 1 ]
+.Path74_18
+RW [ 0.384000 0.016000 0 0.372000 -0.006000 ]
+.Path74_19
+RW [ 0.351000 -0.006000 0 0.328000 -0.006000 ]
+.Path74_20
+RW [ 0.325000 0.020000 1 ]
+.Path74_21
+RW [ 0.271000 0.528000 1 ]
+.Path74_22
+RW [ 0.051000 0.018000 0 0.047000 0.007000 ]
+.Path74_23
+RW [ 0.037000 0.000500 0 0.027000 -0.006000 ]
+.Path74_24
+RW [ 0.017000 -0.006000 0 0.005000 -0.006000 ]
+.Path74_25
+RW [ -0.001000 0.000000]
+.Path75
+RW [ 0.043000 0.004000 0 0.036000 0.014000 ]
+.Path75_0
+RW [ 0.038000 0.027000 1 ]
+.Path75_1
+RW [ 0.170000 0.645000 0 0.174000 0.659000 ]
+.Path75_2
+RW [ 0.183500 0.667000 0 0.193000 0.675000 ]
+.Path75_3
+RW [ 0.206000 0.675000 0 0.214000 0.675000 ]
+.Path75_4
+RW [ 0.222000 0.669500 0 0.230000 0.664000 ]
+.Path75_5
+RW [ 0.234000 0.654000 1 ]
+.Path75_6
+RW [ 0.488000 0.120000 1 ]
+.Path75_7
+RW [ 0.600000 0.646000 0 0.603000 0.660000 ]
+.Path75_8
+RW [ 0.612000 0.668000 0 0.621000 0.676000 ]
+.Path75_9
+RW [ 0.634000 0.676000 0 0.647000 0.676000 ]
+.Path75_10
+RW [ 0.655500 0.665500 0 0.664000 0.655000 ]
+.Path75_11
+RW [ 0.661000 0.642000 1 ]
+.Path75_12
+RW [ 0.529000 0.024000 0 0.521000 -0.006000 ]
+.Path75_13
+RW [ 0.494000 -0.006000 0 0.475000 -0.006000 ]
+.Path75_14
+RW [ 0.464000 0.016000 1 ]
+.Path75_15
+RW [ 0.210000 0.548000 1 ]
+.Path75_16
+RW [ 0.099000 0.024000 0 0.096000 0.011000 ]
+.Path75_17
+RW [ 0.086500 0.002500 0 0.077000 -0.006000 ]
+.Path75_18
+RW [ 0.064000 -0.006000 0 0.050000 -0.006000 ]
+.Path75_19
+RW [ 0.043000 0.004000]
+.Path76
+RW [ 0.145000 0.020500 0 0.101000 0.048000 ]
+.Path76_0
+RW [ 0.075000 0.100000 0 0.049000 0.152000 ]
+.Path76_1
+RW [ 0.049000 0.224000 0 0.049000 0.329000 ]
+.Path76_2
+RW [ 0.102000 0.435000 0 0.155000 0.541000 ]
+.Path76_3
+RW [ 0.242500 0.609000 0 0.330000 0.677000 ]
+.Path76_4
+RW [ 0.429000 0.677000 0 0.484000 0.677000 ]
+.Path76_5
+RW [ 0.528000 0.649500 0 0.572000 0.622000 ]
+.Path76_6
+RW [ 0.598000 0.570000 0 0.624000 0.518000 ]
+.Path76_7
+RW [ 0.624000 0.446000 0 0.624000 0.341000 ]
+.Path76_8
+RW [ 0.571000 0.235000 0 0.518000 0.129000 ]
+.Path76_9
+RW [ 0.430500 0.061000 0 0.343000 -0.007000 ]
+.Path76_10
+RW [ 0.244000 -0.007000 0 0.189000 -0.007000 ]
+.Path76_11
+RW [ 0.145000 0.020500]
+.Path77
+RW [ 0.404500 0.110500 0 0.474000 0.170000 ]
+.Path77_0
+RW [ 0.518000 0.260000 0 0.562000 0.350000 ]
+.Path77_1
+RW [ 0.562000 0.436000 0 0.562000 0.520000 ]
+.Path77_2
+RW [ 0.521000 0.569500 0 0.480000 0.619000 ]
+.Path77_3
+RW [ 0.411000 0.619000 0 0.339000 0.619000 ]
+.Path77_4
+RW [ 0.269000 0.559500 0 0.199000 0.500000 ]
+.Path77_5
+RW [ 0.155000 0.409500 0 0.111000 0.319000 ]
+.Path77_6
+RW [ 0.111000 0.233000 0 0.111000 0.150000 ]
+.Path77_7
+RW [ 0.152500 0.100500 0 0.194000 0.051000 ]
+.Path77_8
+RW [ 0.262000 0.051000 0 0.335000 0.051000 ]
+.Path77_9
+RW [ 0.404500 0.110500]
+.Path78
+RW [ 0.040000 0.004000 0 0.033000 0.014000 ]
+.Path78_0
+RW [ 0.036000 0.027000 1 ]
+.Path78_1
+RW [ 0.166000 0.633000 0 0.169000 0.651000 ]
+.Path78_2
+RW [ 0.175000 0.659500 0 0.181000 0.668000 ]
+.Path78_3
+RW [ 0.199000 0.672000 0 0.217000 0.676000 ]
+.Path78_4
+RW [ 0.255000 0.676000 0 0.423000 0.676000 ]
+.Path78_5
+RW [ 0.506000 0.633500 0 0.589000 0.591000 ]
+.Path78_6
+RW [ 0.589000 0.509000 0 0.589000 0.417000 ]
+.Path78_7
+RW [ 0.518500 0.354500 0 0.448000 0.292000 ]
+.Path78_8
+RW [ 0.344500 0.262000 0 0.241000 0.232000 ]
+.Path78_9
+RW [ 0.140000 0.231000 1 ]
+.Path78_10
+RW [ 0.096000 0.024000 0 0.094000 0.011000 ]
+.Path78_11
+RW [ 0.083500 0.002500 0 0.073000 -0.006000 ]
+.Path78_12
+RW [ 0.060000 -0.006000 0 0.047000 -0.006000 ]
+.Path78_13
+RW [ 0.040000 0.004000]
+.Path79
+RW [ 0.316500 0.312500 0 0.403000 0.333000 ]
+.Path79_0
+RW [ 0.465000 0.378000 0 0.527000 0.423000 ]
+.Path79_1
+RW [ 0.527000 0.493000 0 0.527000 0.553000 ]
+.Path79_2
+RW [ 0.458500 0.584500 0 0.390000 0.616000 ]
+.Path79_3
+RW [ 0.262000 0.616000 0 0.232000 0.616000 ]
+.Path79_4
+RW [ 0.222000 0.615000 1 ]
+.Path79_5
+RW [ 0.153000 0.292000 0 0.230000 0.292000 ]
+.Path79_6
+RW [ 0.316500 0.312500]
+.Path80
+RW [ 0.607000 0.001000 0 0.606000 -0.012000 ]
+.Path80_0
+RW [ 0.594500 -0.021000 0 0.583000 -0.030000 ]
+.Path80_1
+RW [ 0.571000 -0.030000 0 0.566000 -0.030000 ]
+.Path80_2
+RW [ 0.562000 -0.029000 0 0.558000 -0.028000 ]
+.Path80_3
+RW [ 0.555000 -0.025000 1 ]
+.Path80_4
+RW [ 0.460000 0.049000 0 0.368000 -0.008000 ]
+.Path80_5
+RW [ 0.275000 -0.008000 0 0.207000 -0.008000 ]
+.Path80_6
+RW [ 0.156500 0.023000 0 0.106000 0.054000 ]
+.Path80_7
+RW [ 0.079000 0.108500 0 0.052000 0.163000 ]
+.Path80_8
+RW [ 0.052000 0.231000 0 0.052000 0.337000 ]
+.Path80_9
+RW [ 0.112500 0.440500 0 0.173000 0.544000 ]
+.Path80_10
+RW [ 0.269500 0.609000 0 0.366000 0.674000 ]
+.Path80_11
+RW [ 0.467000 0.674000 0 0.535000 0.674000 ]
+.Path80_12
+RW [ 0.585500 0.642500 0 0.636000 0.611000 ]
+.Path80_13
+RW [ 0.663500 0.556500 0 0.691000 0.502000 ]
+.Path80_14
+RW [ 0.691000 0.434000 1 ]
+.Path80_15
+RW [ 0.643000 0.248500 0 0.595000 0.156000 ]
+.Path80_16
+RW [ 0.516000 0.090000 1 ]
+.Path80_17
+RW [ 0.600000 0.025000 0 0.611000 0.017000 ]
+.Path80_18
+RW [ 0.607000 0.001000]
+.Path81
+RW [ 0.414000 0.085000 1 ]
+.Path81_0
+RW [ 0.348000 0.136000 0 0.343000 0.140000 ]
+.Path81_1
+RW [ 0.340500 0.146500 1 ]
+.Path81_2
+RW [ 0.339000 0.159000 0 0.342000 0.172000 ]
+.Path81_3
+RW [ 0.352500 0.181500 0 0.363000 0.191000 ]
+.Path81_4
+RW [ 0.375000 0.191000 0 0.386000 0.191000 ]
+.Path81_5
+RW [ 0.392000 0.186000 1 ]
+.Path81_6
+RW [ 0.472000 0.124000 0 0.539000 0.179000 ]
+.Path81_7
+RW [ 0.581000 0.258500 0 0.623000 0.338000 ]
+.Path81_8
+RW [ 0.623000 0.415000 0 0.623000 0.470000 ]
+.Path81_9
+RW [ 0.602000 0.516000 0 0.581000 0.562000 ]
+.Path81_10
+RW [ 0.541000 0.589000 0 0.501000 0.616000 ]
+.Path81_11
+RW [ 0.447000 0.616000 0 0.366000 0.616000 ]
+.Path81_12
+RW [ 0.289500 0.560000 0 0.213000 0.504000 ]
+.Path81_13
+RW [ 0.165500 0.416500 1 ]
+.Path81_14
+RW [ 0.118000 0.242000 0 0.118000 0.157000 ]
+.Path81_15
+RW [ 0.164000 0.103500 0 0.210000 0.050000 ]
+.Path81_16
+RW [ 0.288000 0.050000 0 0.350000 0.050000 ]
+.Path81_17
+RW [ 0.414000 0.085000]
+.Path82
+RW [ 0.527500 0.361500 0 0.462000 0.303000 ]
+.Path82_0
+RW [ 0.352000 0.271000 0 0.392000 0.248000 ]
+.Path82_1
+RW [ 0.428500 0.205500 0 0.465000 0.163000 ]
+.Path82_2
+RW [ 0.492000 0.107000 0 0.520000 0.048000 ]
+.Path82_3
+RW [ 0.520000 0.029000 0 0.520000 0.015000 ]
+.Path82_4
+RW [ 0.508000 0.004500 0 0.496000 -0.006000 ]
+.Path82_5
+RW [ 0.483000 -0.006000 0 0.467000 -0.006000 ]
+.Path82_6
+RW [ 0.459000 0.011000 0 0.375000 0.242000 ]
+.Path82_7
+RW [ 0.237000 0.242000 0 0.210000 0.242000 ]
+.Path82_8
+RW [ 0.142000 0.234000 1 ]
+.Path82_9
+RW [ 0.097000 0.024000 0 0.094000 0.011000 ]
+.Path82_10
+RW [ 0.083000 0.002500 0 0.072000 -0.006000 ]
+.Path82_11
+RW [ 0.061000 -0.006000 0 0.047000 -0.006000 ]
+.Path82_12
+RW [ 0.040000 0.003000 0 0.033000 0.012000 ]
+.Path82_13
+RW [ 0.036000 0.027000 1 ]
+.Path82_14
+RW [ 0.167000 0.640000 0 0.172000 0.663000 ]
+.Path82_15
+RW [ 0.185500 0.672500 0 0.199000 0.682000 ]
+.Path82_16
+RW [ 0.227000 0.682000 1 ]
+.Path82_17
+RW [ 0.272000 0.682000 0 0.432000 0.682000 ]
+.Path82_18
+RW [ 0.512500 0.638500 0 0.593000 0.595000 ]
+.Path82_19
+RW [ 0.593000 0.510000 0 0.593000 0.420000 ]
+.Path82_20
+RW [ 0.527500 0.361500]
+.Path83
+RW [ 0.328000 0.316500 0 0.415000 0.339000 ]
+.Path83_0
+RW [ 0.473500 0.384500 0 0.532000 0.430000 ]
+.Path83_1
+RW [ 0.532000 0.497000 0 0.532000 0.560000 ]
+.Path83_2
+RW [ 0.463500 0.592500 0 0.395000 0.625000 ]
+.Path83_3
+RW [ 0.268000 0.625000 0 0.252000 0.625000 ]
+.Path83_4
+RW [ 0.224000 0.623000 1 ]
+.Path83_5
+RW [ 0.155000 0.294000 0 0.241000 0.294000 ]
+.Path83_6
+RW [ 0.328000 0.316500]
+.Path84
+RW [ 0.115000 0.014500 0 0.066000 0.035000 ]
+.Path84_0
+RW [ 0.037000 0.070000 0 0.008000 0.105000 ]
+.Path84_1
+RW [ 0.008000 0.146000 0 0.008000 0.163000 ]
+.Path84_2
+RW [ 0.018000 0.173500 0 0.028000 0.184000 ]
+.Path84_3
+RW [ 0.044000 0.184000 0 0.057000 0.184000 ]
+.Path84_4
+RW [ 0.063500 0.176500 0 0.070000 0.169000 ]
+.Path84_5
+RW [ 0.072000 0.152000 0 0.079000 0.106000 ]
+.Path84_6
+RW [ 0.123500 0.078500 0 0.168000 0.051000 ]
+.Path84_7
+RW [ 0.230000 0.051000 0 0.280000 0.051000 ]
+.Path84_8
+RW [ 0.327000 0.072500 0 0.374000 0.094000 ]
+.Path84_9
+RW [ 0.403500 0.130500 0 0.433000 0.167000 ]
+.Path84_10
+RW [ 0.433000 0.210000 0 0.433000 0.282000 ]
+.Path84_11
+RW [ 0.288000 0.326000 0 0.210000 0.350000 ]
+.Path84_12
+RW [ 0.162000 0.386500 0 0.114000 0.423000 ]
+.Path84_13
+RW [ 0.114000 0.484000 0 0.114000 0.542000 ]
+.Path84_14
+RW [ 0.151500 0.586000 0 0.189000 0.630000 ]
+.Path84_15
+RW [ 0.251000 0.653000 0 0.313000 0.676000 ]
+.Path84_16
+RW [ 0.385000 0.676000 0 0.456000 0.676000 ]
+.Path84_17
+RW [ 0.511000 0.650000 0 0.566000 0.624000 ]
+.Path84_18
+RW [ 0.566000 0.562000 0 0.566000 0.536000 ]
+.Path84_19
+RW [ 0.556500 0.522000 0 0.547000 0.508000 ]
+.Path84_20
+RW [ 0.529000 0.508000 0 0.518000 0.508000 ]
+.Path84_21
+RW [ 0.511000 0.514000 0 0.504000 0.520000 ]
+.Path84_22
+RW [ 0.504000 0.529000 1 ]
+.Path84_23
+RW [ 0.505000 0.539000 1 ]
+.Path84_24
+RW [ 0.506000 0.549000 0 0.506000 0.579000 ]
+.Path84_25
+RW [ 0.470500 0.600500 0 0.435000 0.622000 ]
+.Path84_26
+RW [ 0.371000 0.622000 0 0.318000 0.622000 ]
+.Path84_27
+RW [ 0.273500 0.606000 0 0.229000 0.590000 ]
+.Path84_28
+RW [ 0.202500 0.561000 0 0.176000 0.532000 ]
+.Path84_29
+RW [ 0.176000 0.494000 0 0.176000 0.456000 ]
+.Path84_30
+RW [ 0.210500 0.430000 1 ]
+.Path84_31
+RW [ 0.322000 0.378000 0 0.408000 0.351000 ]
+.Path84_32
+RW [ 0.451000 0.312500 0 0.494000 0.274000 ]
+.Path84_33
+RW [ 0.494000 0.220000 0 0.494000 0.157000 ]
+.Path84_34
+RW [ 0.454000 0.105500 0 0.414000 0.054000 ]
+.Path84_35
+RW [ 0.350500 0.024000 0 0.287000 -0.006000 ]
+.Path84_36
+RW [ 0.220000 -0.006000 0 0.164000 -0.006000 ]
+.Path84_37
+RW [ 0.115000 0.014500]
+.Path85
+RW [ 0.193000 0.003000 0 0.186000 0.012000 ]
+.Path85_0
+RW [ 0.188000 0.024000 1 ]
+.Path85_1
+RW [ 0.313000 0.617000 1 ]
+.Path85_2
+RW [ 0.116000 0.617000 0 0.106000 0.617000 ]
+.Path85_3
+RW [ 0.098500 0.624500 0 0.091000 0.632000 ]
+.Path85_4
+RW [ 0.091000 0.642000 0 0.091000 0.654000 ]
+.Path85_5
+RW [ 0.103000 0.664500 0 0.115000 0.675000 ]
+.Path85_6
+RW [ 0.129000 0.675000 1 ]
+.Path85_7
+RW [ 0.571000 0.675000 0 0.582000 0.675000 ]
+.Path85_8
+RW [ 0.589000 0.669000 0 0.596000 0.663000 ]
+.Path85_9
+RW [ 0.596000 0.653000 0 0.596000 0.639000 ]
+.Path85_10
+RW [ 0.584500 0.628000 0 0.573000 0.617000 ]
+.Path85_11
+RW [ 0.558000 0.617000 1 ]
+.Path85_12
+RW [ 0.374000 0.617000 1 ]
+.Path85_13
+RW [ 0.248000 0.024000 0 0.246000 0.012000 ]
+.Path85_14
+RW [ 0.235500 0.003000 0 0.225000 -0.006000 ]
+.Path85_15
+RW [ 0.213000 -0.006000 0 0.200000 -0.006000 ]
+.Path85_16
+RW [ 0.193000 0.003000]
+.Path86
+RW [ 0.132500 0.053500 0 0.082000 0.113000 ]
+.Path86_0
+RW [ 0.082000 0.230000 0 0.082000 0.301000 ]
+.Path86_1
+RW [ 0.102000 0.403500 0 0.122000 0.506000 ]
+.Path86_2
+RW [ 0.155000 0.645000 0 0.159000 0.658000 ]
+.Path86_3
+RW [ 0.169000 0.666500 0 0.179000 0.675000 ]
+.Path86_4
+RW [ 0.192000 0.675000 0 0.206000 0.675000 ]
+.Path86_5
+RW [ 0.212000 0.665000 1 ]
+.Path86_6
+RW [ 0.215000 0.645000 0 0.180000 0.493000 ]
+.Path86_7
+RW [ 0.162000 0.397500 0 0.144000 0.302000 ]
+.Path86_8
+RW [ 0.144000 0.241000 0 0.144000 0.047000 ]
+.Path86_9
+RW [ 0.296000 0.047000 0 0.391000 0.047000 ]
+.Path86_10
+RW [ 0.456500 0.105500 0 0.522000 0.164000 ]
+.Path86_11
+RW [ 0.557000 0.271000 0 0.577000 0.332000 ]
+.Path86_12
+RW [ 0.590500 0.390500 0 0.604000 0.449000 ]
+.Path86_13
+RW [ 0.624000 0.548000 1 ]
+.Path86_14
+RW [ 0.623842 0.547550 0 0.623413 0.547550 ]
+.Path86_15
+RW [ 0.644000 0.643000 0 0.647000 0.657000 ]
+.Path86_16
+RW [ 0.657000 0.666000 0 0.667000 0.675000 ]
+.Path86_17
+RW [ 0.681000 0.675000 0 0.694000 0.675000 ]
+.Path86_18
+RW [ 0.700500 0.666000 0 0.707000 0.657000 ]
+.Path86_19
+RW [ 0.705000 0.645000 0 0.688000 0.537000 ]
+.Path86_20
+RW [ 0.667500 0.446500 0 0.647000 0.356000 ]
+.Path86_21
+RW [ 0.616000 0.264000 0 0.523000 -0.006000 ]
+.Path86_22
+RW [ 0.284000 -0.006000 0 0.183000 -0.006000 ]
+.Path86_23
+RW [ 0.132500 0.053500]
+.Path87
+RW [ 0.183500 -0.000500 0 0.176000 0.005000 ]
+.Path87_0
+RW [ 0.175000 0.014000 1 ]
+.Path87_1
+RW [ 0.098000 0.632000 0 0.096000 0.650000 ]
+.Path87_2
+RW [ 0.107500 0.662000 0 0.119000 0.674000 ]
+.Path87_3
+RW [ 0.135000 0.674000 0 0.144000 0.674000 ]
+.Path87_4
+RW [ 0.151000 0.669000 0 0.158000 0.664000 ]
+.Path87_5
+RW [ 0.159000 0.653000 1 ]
+.Path87_6
+RW [ 0.227000 0.113000 1 ]
+.Path87_7
+RW [ 0.556000 0.656000 0 0.568000 0.674000 ]
+.Path87_8
+RW [ 0.589000 0.674000 0 0.599000 0.674000 ]
+.Path87_9
+RW [ 0.606000 0.667500 0 0.613000 0.661000 ]
+.Path87_10
+RW [ 0.613000 0.653000 0 0.613000 0.641000 ]
+.Path87_11
+RW [ 0.608000 0.633000 1 ]
+.Path87_12
+RW [ 0.231000 0.013000 0 0.226000 0.004000 ]
+.Path87_13
+RW [ 0.217500 -0.001000 0 0.209000 -0.006000 ]
+.Path87_14
+RW [ 0.200000 -0.006000 0 0.191000 -0.006000 ]
+.Path87_15
+RW [ 0.183500 -0.000500]
+.Path88
+RW [ 0.161500 0.001000 0 0.155000 0.008000 ]
+.Path88_0
+RW [ 0.153000 0.020000 1 ]
+.Path88_1
+RW [ 0.100000 0.624000 0 0.097000 0.649000 ]
+.Path88_2
+RW [ 0.106500 0.662000 0 0.116000 0.675000 ]
+.Path88_3
+RW [ 0.134000 0.675000 0 0.144000 0.675000 ]
+.Path88_4
+RW [ 0.151000 0.669000 0 0.158000 0.663000 ]
+.Path88_5
+RW [ 0.159000 0.653000 1 ]
+.Path88_6
+RW [ 0.207000 0.125000 1 ]
+.Path88_7
+RW [ 0.490000 0.651000 0 0.503000 0.675000 ]
+.Path88_8
+RW [ 0.525000 0.675000 0 0.535000 0.675000 ]
+.Path88_9
+RW [ 0.541000 0.669000 0 0.547000 0.663000 ]
+.Path88_10
+RW [ 0.548000 0.651000 1 ]
+.Path88_11
+RW [ 0.582000 0.124000 1 ]
+.Path88_12
+RW [ 0.887000 0.656000 0 0.892000 0.665000 ]
+.Path88_13
+RW [ 0.901500 0.670500 0 0.911000 0.676000 ]
+.Path88_14
+RW [ 0.920000 0.676000 0 0.931000 0.676000 ]
+.Path88_15
+RW [ 0.937500 0.669000 0 0.944000 0.662000 ]
+.Path88_16
+RW [ 0.944000 0.652000 0 0.944000 0.646000 ]
+.Path88_17
+RW [ 0.937000 0.632000 1 ]
+.Path88_18
+RW [ 0.583000 0.013000 0 0.578000 0.005000 ]
+.Path88_19
+RW [ 0.569000 -0.000500 0 0.560000 -0.006000 ]
+.Path88_20
+RW [ 0.551000 -0.006000 0 0.527000 -0.006000 ]
+.Path88_21
+RW [ 0.526000 0.021000 1 ]
+.Path88_22
+RW [ 0.493000 0.540000 1 ]
+.Path88_23
+RW [ 0.212000 0.015000 0 0.202000 -0.006000 ]
+.Path88_24
+RW [ 0.179000 -0.006000 0 0.168000 -0.006000 ]
+.Path88_25
+RW [ 0.161500 0.001000]
+.Path89
+RW [ -0.021500 0.001500 0 -0.029000 0.009000 ]
+.Path89_0
+RW [ -0.029000 0.018000 0 -0.029000 0.029000 ]
+.Path89_1
+RW [ -0.018000 0.042000 1 ]
+.Path89_2
+RW [ 0.296000 0.340000 1 ]
+.Path89_3
+RW [ 0.129000 0.626000 0 0.125000 0.636000 ]
+.Path89_4
+RW [ 0.125000 0.639000 0 0.125000 0.654000 ]
+.Path89_5
+RW [ 0.136500 0.664500 0 0.148000 0.675000 ]
+.Path89_6
+RW [ 0.163000 0.675000 0 0.169000 0.675000 ]
+.Path89_7
+RW [ 0.175000 0.672500 0 0.181000 0.670000 ]
+.Path89_8
+RW [ 0.184000 0.664000 1 ]
+.Path89_9
+RW [ 0.345000 0.387000 1 ]
+.Path89_10
+RW [ 0.636000 0.664000 0 0.648000 0.675000 ]
+.Path89_11
+RW [ 0.662000 0.675000 0 0.673000 0.675000 ]
+.Path89_12
+RW [ 0.680000 0.667000 0 0.687000 0.659000 ]
+.Path89_13
+RW [ 0.687000 0.649000 0 0.687000 0.640000 ]
+.Path89_14
+RW [ 0.681000 0.633000 0 0.675000 0.626000 ]
+.Path89_15
+RW [ 0.674000 0.625000 1 ]
+.Path89_16
+RW [ 0.374000 0.339000 1 ]
+.Path89_17
+RW [ 0.542000 0.051000 0 0.549000 0.039000 ]
+.Path89_18
+RW [ 0.549000 0.031000 0 0.549000 0.017000 ]
+.Path89_19
+RW [ 0.537500 0.005500 0 0.526000 -0.006000 ]
+.Path89_20
+RW [ 0.513000 -0.006000 0 0.498000 -0.006000 ]
+.Path89_21
+RW [ 0.491000 0.005000 1 ]
+.Path89_22
+RW [ 0.323000 0.291000 1 ]
+.Path89_23
+RW [ 0.022000 0.005000 0 0.012000 -0.006000 ]
+.Path89_24
+RW [ -0.002000 -0.006000 0 -0.014000 -0.006000 ]
+.Path89_25
+RW [ -0.021500 0.001500]
+.Path90
+RW [ 0.115500 0.001000 0 0.108000 0.008000 ]
+.Path90_0
+RW [ 0.108000 0.017000 0 0.108000 0.029000 ]
+.Path90_1
+RW [ 0.120000 0.043000 1 ]
+.Path90_2
+RW [ 0.258000 0.213000 1 ]
+.Path90_3
+RW [ 0.106000 0.625000 0 0.102000 0.636000 ]
+.Path90_4
+RW [ 0.102000 0.644000 0 0.102000 0.658000 ]
+.Path90_5
+RW [ 0.112000 0.666500 0 0.122000 0.675000 ]
+.Path90_6
+RW [ 0.135000 0.675000 0 0.151000 0.675000 ]
+.Path90_7
+RW [ 0.157000 0.660000 1 ]
+.Path90_8
+RW [ 0.302000 0.268000 1 ]
+.Path90_9
+RW [ 0.617000 0.660000 0 0.623000 0.667000 ]
+.Path90_10
+RW [ 0.631000 0.671000 0 0.639000 0.675000 ]
+.Path90_11
+RW [ 0.646000 0.675000 0 0.656000 0.675000 ]
+.Path90_12
+RW [ 0.663500 0.668000 0 0.671000 0.661000 ]
+.Path90_13
+RW [ 0.671000 0.651000 0 0.671000 0.640000 ]
+.Path90_14
+RW [ 0.658000 0.623000 1 ]
+.Path90_15
+RW [ 0.162000 0.009000 0 0.150000 -0.006000 ]
+.Path90_16
+RW [ 0.134000 -0.006000 0 0.123000 -0.006000 ]
+.Path90_17
+RW [ 0.115500 0.001000]
+.Path91
+RW [ -0.014000 0.007500 0 -0.022000 0.015000 ]
+.Path91_0
+RW [ -0.022000 0.028000 0 -0.022000 0.045000 ]
+.Path91_1
+RW [ -0.008000 0.059000 1 ]
+.Path91_2
+RW [ 0.549000 0.605000 1 ]
+.Path91_3
+RW [ 0.143000 0.605000 0 0.132000 0.605000 ]
+.Path91_4
+RW [ 0.125000 0.612000 0 0.118000 0.619000 ]
+.Path91_5
+RW [ 0.118000 0.630000 0 0.118000 0.646000 ]
+.Path91_6
+RW [ 0.130000 0.658000 0 0.142000 0.670000 ]
+.Path91_7
+RW [ 0.157000 0.670000 1 ]
+.Path91_8
+RW [ 0.612000 0.670000 0 0.625000 0.670000 ]
+.Path91_9
+RW [ 0.633000 0.662000 0 0.641000 0.654000 ]
+.Path91_10
+RW [ 0.641000 0.643000 1 ]
+.Path91_11
+RW [ 0.624000 0.609000 1 ]
+.Path91_12
+RW [ 0.069000 0.064000 1 ]
+.Path91_13
+RW [ 0.473000 0.064000 0 0.484000 0.064000 ]
+.Path91_14
+RW [ 0.491500 0.057000 0 0.499000 0.050000 ]
+.Path91_15
+RW [ 0.499000 0.039000 0 0.499000 0.025000 ]
+.Path91_16
+RW [ 0.487000 0.012500 0 0.475000 0.000000 ]
+.Path91_17
+RW [ 0.460000 0.000000 1 ]
+.Path91_18
+RW [ 0.007000 0.000000 0 -0.006000 0.000000 ]
+.Path91_19
+RW [ -0.014000 0.007500]
+.Path92
+RW [ 0.000500 -0.120000 0 -0.006000 -0.112000 ]
+.Path92_0
+RW [ -0.003000 -0.098000 1 ]
+.Path92_1
+RW [ 0.181000 0.768000 0 0.183000 0.780000 ]
+.Path92_2
+RW [ 0.194000 0.789000 0 0.205000 0.798000 ]
+.Path92_3
+RW [ 0.218000 0.798000 1 ]
+.Path92_4
+RW [ 0.353000 0.798000 0 0.363000 0.798000 ]
+.Path92_5
+RW [ 0.370000 0.790500 0 0.377000 0.783000 ]
+.Path92_6
+RW [ 0.377000 0.773000 0 0.377000 0.758000 ]
+.Path92_7
+RW [ 0.365000 0.748000 0 0.353000 0.738000 ]
+.Path92_8
+RW [ 0.340000 0.738000 1 ]
+.Path92_9
+RW [ 0.235000 0.738000 1 ]
+.Path92_10
+RW [ 0.063000 -0.068000 1 ]
+.Path92_11
+RW [ 0.153000 -0.068000 0 0.163000 -0.068000 ]
+.Path92_12
+RW [ 0.170000 -0.075500 0 0.177000 -0.083000 ]
+.Path92_13
+RW [ 0.177000 -0.093000 0 0.177000 -0.106000 ]
+.Path92_14
+RW [ 0.165500 -0.117000 0 0.154000 -0.128000 ]
+.Path92_15
+RW [ 0.140000 -0.128000 1 ]
+.Path92_16
+RW [ 0.020000 -0.128000 0 0.007000 -0.128000 ]
+.Path92_17
+RW [ 0.000500 -0.120000]
+.Path93
+RW [ 0.351500 0.003000 0 0.345000 0.007000 ]
+.Path93_0
+RW [ 0.343000 0.014000 1 ]
+.Path93_1
+RW [ 0.131000 0.636000 0 0.126000 0.651000 ]
+.Path93_2
+RW [ 0.126000 0.656000 0 0.126000 0.668000 ]
+.Path93_3
+RW [ 0.138000 0.679000 0 0.150000 0.690000 ]
+.Path93_4
+RW [ 0.164000 0.690000 0 0.172000 0.690000 ]
+.Path93_5
+RW [ 0.178500 0.685500 0 0.185000 0.681000 ]
+.Path93_6
+RW [ 0.188000 0.672000 1 ]
+.Path93_7
+RW [ 0.400000 0.049000 0 0.403000 0.040000 ]
+.Path93_8
+RW [ 0.403000 0.037000 0 0.403000 0.023000 ]
+.Path93_9
+RW [ 0.392000 0.011000 0 0.381000 -0.001000 ]
+.Path93_10
+RW [ 0.366000 -0.001000 0 0.358000 -0.001000 ]
+.Path93_11
+RW [ 0.351500 0.003000]
+.Path94
+RW [ -0.017000 -0.121000 0 -0.024000 -0.114000 ]
+.Path94_0
+RW [ -0.024000 -0.104000 0 -0.024000 -0.090000 ]
+.Path94_1
+RW [ -0.012000 -0.079000 0 0.000000 -0.068000 ]
+.Path94_2
+RW [ 0.014000 -0.068000 1 ]
+.Path94_3
+RW [ 0.119000 -0.068000 1 ]
+.Path94_4
+RW [ 0.291000 0.738000 1 ]
+.Path94_5
+RW [ 0.201000 0.738000 0 0.190000 0.738000 ]
+.Path94_6
+RW [ 0.183000 0.745000 0 0.176000 0.752000 ]
+.Path94_7
+RW [ 0.176000 0.762000 0 0.176000 0.776000 ]
+.Path94_8
+RW [ 0.188000 0.787000 0 0.200000 0.798000 ]
+.Path94_9
+RW [ 0.214000 0.798000 1 ]
+.Path94_10
+RW [ 0.334000 0.798000 0 0.346000 0.798000 ]
+.Path94_11
+RW [ 0.352500 0.789000 0 0.359000 0.780000 ]
+.Path94_12
+RW [ 0.357000 0.768000 1 ]
+.Path94_13
+RW [ 0.173000 -0.098000 0 0.171000 -0.110000 ]
+.Path94_14
+RW [ 0.160000 -0.119000 0 0.149000 -0.128000 ]
+.Path94_15
+RW [ 0.136000 -0.128000 1 ]
+.Path94_16
+RW [ 0.001000 -0.128000 0 -0.010000 -0.128000 ]
+.Path94_17
+RW [ -0.017000 -0.121000]
+.Path95
+RW [ 0.087500 0.397500 0 0.081000 0.404000 ]
+.Path95_0
+RW [ 0.081000 0.414000 0 0.081000 0.427000 ]
+.Path95_1
+RW [ 0.088000 0.435000 1 ]
+.Path95_2
+RW [ 0.256000 0.641000 0 0.271000 0.661000 ]
+.Path95_3
+RW [ 0.293000 0.661000 0 0.315000 0.661000 ]
+.Path95_4
+RW [ 0.322000 0.638000 1 ]
+.Path95_5
+RW [ 0.380000 0.442000 0 0.383000 0.432000 ]
+.Path95_6
+RW [ 0.383000 0.427000 0 0.383000 0.413000 ]
+.Path95_7
+RW [ 0.371000 0.402000 0 0.359000 0.391000 ]
+.Path95_8
+RW [ 0.347000 0.391000 0 0.338000 0.391000 ]
+.Path95_9
+RW [ 0.332500 0.395500 0 0.327000 0.400000 ]
+.Path95_10
+RW [ 0.325000 0.407000 1 ]
+.Path95_11
+RW [ 0.275000 0.578000 1 ]
+.Path95_12
+RW [ 0.140000 0.413000 0 0.130000 0.401000 ]
+.Path95_13
+RW [ 0.123000 0.396000 0 0.116000 0.391000 ]
+.Path95_14
+RW [ 0.104000 0.391000 0 0.094000 0.391000 ]
+.Path95_15
+RW [ 0.087500 0.397500]
+.Path96
+RW [ -0.019500 -0.053500 0 -0.026000 -0.047000 ]
+.Path96_0
+RW [ -0.026000 -0.037000 0 -0.026000 -0.023000 ]
+.Path96_1
+RW [ -0.015000 -0.011500 0 -0.004000 0.000000 ]
+.Path96_2
+RW [ 0.010000 0.000000 1 ]
+.Path96_3
+RW [ 0.496000 0.000000 0 0.506000 0.000000 ]
+.Path96_4
+RW [ 0.512500 -0.007000 0 0.519000 -0.014000 ]
+.Path96_5
+RW [ 0.519000 -0.025000 0 0.519000 -0.040000 ]
+.Path96_6
+RW [ 0.507500 -0.050000 0 0.496000 -0.060000 ]
+.Path96_7
+RW [ 0.483000 -0.060000 1 ]
+.Path96_8
+RW [ -0.002000 -0.060000 0 -0.013000 -0.060000 ]
+.Path96_9
+RW [ -0.019500 -0.053500]
+.Path97
+RW [ 0.257000 0.565000 1 ]
+.Path97_0
+RW [ 0.119000 0.685000 0 0.102000 0.700000 ]
+.Path97_1
+RW [ 0.102000 0.716000 0 0.102000 0.729000 ]
+.Path97_2
+RW [ 0.110000 0.738000 0 0.118000 0.747000 ]
+.Path97_3
+RW [ 0.130000 0.747000 0 0.149000 0.747000 ]
+.Path97_4
+RW [ 0.163000 0.731000 1 ]
+.Path97_5
+RW [ 0.290000 0.602000 0 0.302000 0.590000 ]
+.Path97_6
+RW [ 0.302000 0.580000 0 0.302000 0.570000 ]
+.Path97_7
+RW [ 0.295500 0.562500 0 0.289000 0.555000 ]
+.Path97_8
+RW [ 0.278000 0.555000 0 0.267000 0.555000 ]
+.Path97_9
+RW [ 0.257000 0.565000]
+.Path98
+RW [ 0.075500 0.036500 0 0.034000 0.079000 ]
+.Path98_0
+RW [ 0.034000 0.151000 0 0.034000 0.228000 ]
+.Path98_1
+RW [ 0.076000 0.308000 0 0.118000 0.388000 ]
+.Path98_2
+RW [ 0.188500 0.440500 0 0.259000 0.493000 ]
+.Path98_3
+RW [ 0.340000 0.493000 0 0.411000 0.493000 ]
+.Path98_4
+RW [ 0.483000 0.452000 1 ]
+.Path98_5
+RW [ 0.391000 0.018000 0 0.387000 0.003000 ]
+.Path98_6
+RW [ 0.376500 -0.005500 0 0.366000 -0.014000 ]
+.Path98_7
+RW [ 0.354000 -0.014000 0 0.341000 -0.014000 ]
+.Path98_8
+RW [ 0.334500 -0.005500 0 0.328000 0.003000 ]
+.Path98_9
+RW [ 0.331000 0.017000 1 ]
+.Path98_10
+RW [ 0.338000 0.048000 0 0.304000 0.024000 ]
+.Path98_11
+RW [ 0.264500 0.009000 0 0.225000 -0.006000 ]
+.Path98_12
+RW [ 0.186000 -0.006000 0 0.117000 -0.006000 ]
+.Path98_13
+RW [ 0.075500 0.036500]
+.Path99
+RW [ 0.279000 0.069000 0 0.321000 0.088000 ]
+.Path99_0
+RW [ 0.348000 0.109000 1 ]
+.Path99_1
+RW [ 0.417000 0.416000 1 ]
+.Path99_2
+RW [ 0.377000 0.429500 0 0.353000 0.436000 ]
+.Path99_3
+RW [ 0.331000 0.436000 0 0.274000 0.436000 ]
+.Path99_4
+RW [ 0.219500 0.395500 0 0.165000 0.355000 ]
+.Path99_5
+RW [ 0.130500 0.291000 0 0.096000 0.227000 ]
+.Path99_6
+RW [ 0.096000 0.162000 0 0.096000 0.050000 ]
+.Path99_7
+RW [ 0.197000 0.050000 0 0.237000 0.050000 ]
+.Path99_8
+RW [ 0.279000 0.069000]
+.Path100
+RW [ 0.037000 0.002500 0 0.029000 0.011000 ]
+.Path100_0
+RW [ 0.031000 0.022000 1 ]
+.Path100_1
+RW [ 0.166000 0.655000 0 0.169000 0.667000 ]
+.Path100_2
+RW [ 0.179500 0.674500 0 0.190000 0.682000 ]
+.Path100_3
+RW [ 0.202000 0.682000 0 0.214000 0.682000 ]
+.Path100_4
+RW [ 0.221000 0.674500 0 0.228000 0.667000 ]
+.Path100_5
+RW [ 0.225000 0.655000 1 ]
+.Path100_6
+RW [ 0.173000 0.404000 0 0.210000 0.441000 ]
+.Path100_7
+RW [ 0.262000 0.463000 0 0.314000 0.485000 ]
+.Path100_8
+RW [ 0.365000 0.485000 0 0.435000 0.485000 ]
+.Path100_9
+RW [ 0.468000 0.442500 0 0.501000 0.400000 ]
+.Path100_10
+RW [ 0.501000 0.333000 0 0.501000 0.274000 ]
+.Path100_11
+RW [ 0.477500 0.207500 0 0.454000 0.141000 ]
+.Path100_12
+RW [ 0.416000 0.095000 0 0.340000 0.001000 ]
+.Path100_13
+RW [ 0.221000 0.001000 0 0.185000 0.001000 ]
+.Path100_14
+RW [ 0.150000 0.009500 0 0.115000 0.018000 ]
+.Path100_15
+RW [ 0.092000 0.029000 1 ]
+.Path100_16
+RW [ 0.090000 0.020000 0 0.087000 0.010000 ]
+.Path100_17
+RW [ 0.077500 0.002000 0 0.068000 -0.006000 ]
+.Path100_18
+RW [ 0.056000 -0.006000 0 0.045000 -0.006000 ]
+.Path100_19
+RW [ 0.037000 0.002500]
+.Path101
+RW [ 0.384000 0.137000 0 0.409000 0.170000 ]
+.Path101_0
+RW [ 0.425500 0.223500 0 0.442000 0.277000 ]
+.Path101_1
+RW [ 0.442000 0.320000 0 0.442000 0.366000 ]
+.Path101_2
+RW [ 0.421500 0.396000 0 0.401000 0.426000 ]
+.Path101_3
+RW [ 0.355000 0.426000 0 0.305000 0.426000 ]
+.Path101_4
+RW [ 0.260500 0.407500 0 0.216000 0.389000 ]
+.Path101_5
+RW [ 0.185500 0.357500 0 0.155000 0.326000 ]
+.Path101_6
+RW [ 0.147000 0.288000 1 ]
+.Path101_7
+RW [ 0.104000 0.084000 0 0.120000 0.076000 ]
+.Path101_8
+RW [ 0.154000 0.067000 0 0.188000 0.058000 ]
+.Path101_9
+RW [ 0.224000 0.058000 0 0.328000 0.058000 ]
+.Path101_10
+RW [ 0.384000 0.137000]
+.Path102
+RW [ 0.124000 0.015500 0 0.083000 0.037000 ]
+.Path102_0
+RW [ 0.059000 0.075500 0 0.035000 0.114000 ]
+.Path102_1
+RW [ 0.035000 0.164000 0 0.035000 0.236000 ]
+.Path102_2
+RW [ 0.079000 0.313500 0 0.123000 0.391000 ]
+.Path102_3
+RW [ 0.190500 0.442000 0 0.258000 0.493000 ]
+.Path102_4
+RW [ 0.323000 0.493000 0 0.374000 0.493000 ]
+.Path102_5
+RW [ 0.404000 0.476000 0 0.434000 0.459000 ]
+.Path102_6
+RW [ 0.457000 0.425000 1 ]
+.Path102_7
+RW [ 0.462000 0.409000 0 0.462000 0.395000 ]
+.Path102_8
+RW [ 0.450500 0.384500 0 0.439000 0.374000 ]
+.Path102_9
+RW [ 0.425000 0.374000 0 0.413000 0.374000 ]
+.Path102_10
+RW [ 0.406000 0.383000 0 0.389000 0.410000 ]
+.Path102_11
+RW [ 0.368500 0.423500 0 0.348000 0.437000 ]
+.Path102_12
+RW [ 0.312000 0.437000 0 0.263000 0.437000 ]
+.Path102_13
+RW [ 0.212000 0.395000 0 0.161000 0.353000 ]
+.Path102_14
+RW [ 0.127500 0.291000 0 0.094000 0.229000 ]
+.Path102_15
+RW [ 0.094000 0.176000 0 0.094000 0.115000 ]
+.Path102_16
+RW [ 0.133000 0.082000 0 0.172000 0.049000 ]
+.Path102_17
+RW [ 0.226000 0.049000 0 0.308000 0.049000 ]
+.Path102_18
+RW [ 0.374000 0.119000 0 0.389000 0.136000 ]
+.Path102_19
+RW [ 0.405000 0.136000 0 0.416000 0.136000 ]
+.Path102_20
+RW [ 0.422500 0.130000 0 0.429000 0.124000 ]
+.Path102_21
+RW [ 0.429000 0.114000 0 0.429000 0.102000 ]
+.Path102_22
+RW [ 0.414000 0.085000 0 0.380000 0.048000 ]
+.Path102_23
+RW [ 0.326000 0.021000 0 0.272000 -0.006000 ]
+.Path102_24
+RW [ 0.216000 -0.006000 0 0.165000 -0.006000 ]
+.Path102_25
+RW [ 0.124000 0.015500]
+.Path103
+RW [ 0.072500 0.034500 0 0.034000 0.075000 ]
+.Path103_0
+RW [ 0.034000 0.148000 0 0.034000 0.238000 ]
+.Path103_1
+RW [ 0.070500 0.317500 0 0.107000 0.397000 ]
+.Path103_2
+RW [ 0.171000 0.444500 0 0.235000 0.492000 ]
+.Path103_3
+RW [ 0.314000 0.492000 0 0.383000 0.492000 ]
+.Path103_4
+RW [ 0.441000 0.455000 1 ]
+.Path103_5
+RW [ 0.489000 0.658000 0 0.492000 0.671000 ]
+.Path103_6
+RW [ 0.503000 0.680000 0 0.514000 0.689000 ]
+.Path103_7
+RW [ 0.527000 0.689000 0 0.539000 0.689000 ]
+.Path103_8
+RW [ 0.546000 0.679500 0 0.553000 0.670000 ]
+.Path103_9
+RW [ 0.550000 0.657000 1 ]
+.Path103_10
+RW [ 0.401000 0.023000 0 0.397000 0.010000 ]
+.Path103_11
+RW [ 0.386500 0.002000 0 0.376000 -0.006000 ]
+.Path103_12
+RW [ 0.363000 -0.006000 0 0.351000 -0.006000 ]
+.Path103_13
+RW [ 0.345000 0.002000 0 0.339000 0.010000 ]
+.Path103_14
+RW [ 0.339000 0.021000 0 0.339000 0.027000 ]
+.Path103_15
+RW [ 0.340000 0.029000 1 ]
+.Path103_16
+RW [ 0.352000 0.072000 0 0.317000 0.041000 ]
+.Path103_17
+RW [ 0.269500 0.017500 0 0.222000 -0.006000 ]
+.Path103_18
+RW [ 0.176000 -0.006000 0 0.111000 -0.006000 ]
+.Path103_19
+RW [ 0.072500 0.034500]
+.Path104
+RW [ 0.271000 0.071000 0 0.313000 0.091000 ]
+.Path104_0
+RW [ 0.341000 0.119500 0 0.369000 0.148000 ]
+.Path104_1
+RW [ 0.375000 0.173000 1 ]
+.Path104_2
+RW [ 0.427000 0.397000 0 0.407000 0.410000 ]
+.Path104_3
+RW [ 0.374000 0.422000 0 0.341000 0.434000 ]
+.Path104_4
+RW [ 0.304000 0.434000 0 0.243000 0.434000 ]
+.Path104_5
+RW [ 0.195000 0.395000 0 0.147000 0.356000 ]
+.Path104_6
+RW [ 0.120500 0.292500 0 0.094000 0.229000 ]
+.Path104_7
+RW [ 0.094000 0.157000 0 0.094000 0.105000 ]
+.Path104_8
+RW [ 0.117500 0.078000 0 0.141000 0.051000 ]
+.Path104_9
+RW [ 0.183000 0.051000 0 0.229000 0.051000 ]
+.Path104_10
+RW [ 0.271000 0.071000]
+.Path105
+RW [ 0.133000 0.018500 0 0.087000 0.043000 ]
+.Path105_0
+RW [ 0.063000 0.085500 0 0.039000 0.128000 ]
+.Path105_1
+RW [ 0.039000 0.181000 0 0.039000 0.256000 ]
+.Path105_2
+RW [ 0.079000 0.328500 0 0.119000 0.401000 ]
+.Path105_3
+RW [ 0.185000 0.447000 0 0.251000 0.493000 ]
+.Path105_4
+RW [ 0.324000 0.493000 0 0.378000 0.493000 ]
+.Path105_5
+RW [ 0.414000 0.473500 0 0.450000 0.454000 ]
+.Path105_6
+RW [ 0.467000 0.426000 0 0.484000 0.398000 ]
+.Path105_7
+RW [ 0.484000 0.372000 0 0.484000 0.355000 ]
+.Path105_8
+RW [ 0.477500 0.345500 0 0.471000 0.336000 ]
+.Path105_9
+RW [ 0.454000 0.328000 1 ]
+.Path105_10
+RW [ 0.103000 0.149000 0 0.112000 0.101000 ]
+.Path105_11
+RW [ 0.151500 0.075500 0 0.191000 0.050000 ]
+.Path105_12
+RW [ 0.248000 0.050000 0 0.284000 0.050000 ]
+.Path105_13
+RW [ 0.324500 0.065500 0 0.365000 0.081000 ]
+.Path105_14
+RW [ 0.391000 0.105000 0 0.399000 0.113000 ]
+.Path105_15
+RW [ 0.412000 0.113000 0 0.423000 0.113000 ]
+.Path105_16
+RW [ 0.429000 0.107500 0 0.435000 0.102000 ]
+.Path105_17
+RW [ 0.435000 0.092000 0 0.435000 0.077000 ]
+.Path105_18
+RW [ 0.422000 0.066000 0 0.389000 0.035000 ]
+.Path105_19
+RW [ 0.338500 0.014500 0 0.288000 -0.006000 ]
+.Path105_20
+RW [ 0.243000 -0.006000 0 0.179000 -0.006000 ]
+.Path105_21
+RW [ 0.133000 0.018500]
+.Path106
+RW [ 0.318000 0.437000 0 0.270000 0.437000 ]
+.Path106_0
+RW [ 0.228500 0.414000 0 0.187000 0.391000 ]
+.Path106_1
+RW [ 0.155000 0.350000 0 0.130000 0.318000 ]
+.Path106_2
+RW [ 0.113000 0.276000 0 0.096000 0.234000 ]
+.Path106_3
+RW [ 0.096000 0.203000 1 ]
+.Path106_4
+RW [ 0.426000 0.366000 0 0.417000 0.437000 ]
+.Path106_5
+RW [ 0.318000 0.437000]
+.Path107
+RW [ 0.044500 0.002500 0 0.037000 0.011000 ]
+.Path107_0
+RW [ 0.040000 0.022000 1 ]
+.Path107_1
+RW [ 0.128000 0.439000 1 ]
+.Path107_2
+RW [ 0.056000 0.439000 0 0.046000 0.439000 ]
+.Path107_3
+RW [ 0.039500 0.445500 0 0.033000 0.452000 ]
+.Path107_4
+RW [ 0.033000 0.461000 0 0.033000 0.474000 ]
+.Path107_5
+RW [ 0.043000 0.484500 0 0.053000 0.495000 ]
+.Path107_6
+RW [ 0.066000 0.495000 1 ]
+.Path107_7
+RW [ 0.140000 0.495000 0 0.155000 0.566000 ]
+.Path107_8
+RW [ 0.185000 0.607000 0 0.215000 0.648000 ]
+.Path107_9
+RW [ 0.262000 0.665500 0 0.309000 0.683000 ]
+.Path107_10
+RW [ 0.381000 0.683000 0 0.418000 0.683000 ]
+.Path107_11
+RW [ 0.418000 0.662000 0 0.418000 0.647000 ]
+.Path107_12
+RW [ 0.406500 0.636500 0 0.395000 0.626000 ]
+.Path107_13
+RW [ 0.381000 0.626000 0 0.318000 0.626000 ]
+.Path107_14
+RW [ 0.285000 0.617000 0 0.252000 0.608000 ]
+.Path107_15
+RW [ 0.232500 0.580500 0 0.213000 0.553000 ]
+.Path107_16
+RW [ 0.200000 0.495000 1 ]
+.Path107_17
+RW [ 0.335000 0.494000 0 0.343000 0.494000 ]
+.Path107_18
+RW [ 0.349500 0.487500 1 ]
+.Path107_19
+RW [ 0.356000 0.474000 0 0.356000 0.459000 ]
+.Path107_20
+RW [ 0.345000 0.449000 0 0.334000 0.439000 ]
+.Path107_21
+RW [ 0.323000 0.439000 1 ]
+.Path107_22
+RW [ 0.188000 0.439000 1 ]
+.Path107_23
+RW [ 0.100000 0.022000 0 0.098000 0.011000 ]
+.Path107_24
+RW [ 0.087000 0.002500 0 0.076000 -0.006000 ]
+.Path107_25
+RW [ 0.064000 -0.006000 0 0.052000 -0.006000 ]
+.Path107_26
+RW [ 0.044500 0.002500]
+.Path108
+RW [ 0.026000 -0.175000 0 0.016000 -0.173000 ]
+.Path108_0
+RW [ 0.010000 -0.166500 0 0.004000 -0.160000 ]
+.Path108_1
+RW [ 0.004000 -0.152000 0 0.004000 -0.139000 ]
+.Path108_2
+RW [ 0.015000 -0.127000 0 0.026000 -0.115000 ]
+.Path108_3
+RW [ 0.041000 -0.115000 0 0.047000 -0.115000 ]
+.Path108_4
+RW [ 0.063000 -0.119000 0 0.106000 -0.129000 ]
+.Path108_5
+RW [ 0.153000 -0.129000 0 0.232000 -0.129000 ]
+.Path108_6
+RW [ 0.272000 -0.090000 0 0.312000 -0.051000 ]
+.Path108_7
+RW [ 0.330000 0.018000 1 ]
+.Path108_8
+RW [ 0.343000 0.070000 0 0.310000 0.034000 ]
+.Path108_9
+RW [ 0.269000 0.014500 0 0.228000 -0.005000 ]
+.Path108_10
+RW [ 0.189000 -0.006000 0 0.121000 -0.006000 ]
+.Path108_11
+RW [ 0.078000 0.042000 0 0.035000 0.090000 ]
+.Path108_12
+RW [ 0.036000 0.173000 0 0.036000 0.253000 ]
+.Path108_13
+RW [ 0.079000 0.327500 0 0.122000 0.402000 ]
+.Path108_14
+RW [ 0.190500 0.448000 0 0.259000 0.494000 ]
+.Path108_15
+RW [ 0.334000 0.494000 0 0.388000 0.494000 ]
+.Path108_16
+RW [ 0.436000 0.463000 0 0.445000 0.505000 ]
+.Path108_17
+RW [ 0.474000 0.505000 0 0.486000 0.505000 ]
+.Path108_18
+RW [ 0.492500 0.498000 0 0.499000 0.491000 ]
+.Path108_19
+RW [ 0.499000 0.480000 0 0.499000 0.474000 ]
+.Path108_20
+RW [ 0.498000 0.471000 1 ]
+.Path108_21
+RW [ 0.391000 0.015000 0 0.367000 -0.087000 ]
+.Path108_22
+RW [ 0.300000 -0.138000 0 0.233000 -0.189000 ]
+.Path108_23
+RW [ 0.141000 -0.189000 0 0.080000 -0.189000 ]
+.Path108_24
+RW [ 0.026000 -0.175000]
+.Path109
+RW [ 0.269500 0.071500 0 0.308000 0.092000 ]
+.Path109_0
+RW [ 0.340000 0.139000 0 0.372000 0.186000 ]
+.Path109_1
+RW [ 0.388000 0.261000 1 ]
+.Path109_2
+RW [ 0.419000 0.403000 0 0.405000 0.417000 ]
+.Path109_3
+RW [ 0.379000 0.426000 0 0.353000 0.435000 ]
+.Path109_4
+RW [ 0.325000 0.435000 0 0.265000 0.435000 ]
+.Path109_5
+RW [ 0.210500 0.399000 0 0.156000 0.363000 ]
+.Path109_6
+RW [ 0.123500 0.304500 0 0.091000 0.246000 ]
+.Path109_7
+RW [ 0.091000 0.183000 0 0.091000 0.120000 ]
+.Path109_8
+RW [ 0.119000 0.085500 0 0.147000 0.051000 ]
+.Path109_9
+RW [ 0.194000 0.051000 0 0.231000 0.051000 ]
+.Path109_10
+RW [ 0.269500 0.071500]
+.Path110
+RW [ 0.037000 0.002000 0 0.030000 0.011000 ]
+.Path110_0
+RW [ 0.032000 0.023000 1 ]
+.Path110_1
+RW [ 0.166000 0.651000 0 0.168000 0.663000 ]
+.Path110_2
+RW [ 0.179000 0.672500 0 0.190000 0.682000 ]
+.Path110_3
+RW [ 0.203000 0.682000 0 0.216000 0.682000 ]
+.Path110_4
+RW [ 0.222000 0.672500 0 0.228000 0.663000 ]
+.Path110_5
+RW [ 0.226000 0.651000 1 ]
+.Path110_6
+RW [ 0.159000 0.336000 0 0.199000 0.394000 ]
+.Path110_7
+RW [ 0.265000 0.445000 0 0.331000 0.496000 ]
+.Path110_8
+RW [ 0.389000 0.496000 0 0.435000 0.496000 ]
+.Path110_9
+RW [ 0.456500 0.463500 0 0.478000 0.431000 ]
+.Path110_10
+RW [ 0.478000 0.364000 0 0.478000 0.304000 ]
+.Path110_11
+RW [ 0.458000 0.195000 0 0.438000 0.086000 ]
+.Path110_12
+RW [ 0.418000 0.023000 0 0.414000 0.011000 ]
+.Path110_13
+RW [ 0.405000 0.002500 0 0.396000 -0.006000 ]
+.Path110_14
+RW [ 0.384000 -0.006000 0 0.373000 -0.006000 ]
+.Path110_15
+RW [ 0.365500 0.001500 0 0.358000 0.009000 ]
+.Path110_16
+RW [ 0.360000 0.021000 1 ]
+.Path110_17
+RW [ 0.372000 0.074000 0 0.394000 0.170000 ]
+.Path110_18
+RW [ 0.405500 0.232500 0 0.417000 0.295000 ]
+.Path110_19
+RW [ 0.417000 0.350000 0 0.417000 0.395000 ]
+.Path110_20
+RW [ 0.405500 0.416000 0 0.394000 0.437000 ]
+.Path110_21
+RW [ 0.371000 0.437000 0 0.326000 0.437000 ]
+.Path110_22
+RW [ 0.268500 0.389000 0 0.211000 0.341000 ]
+.Path110_23
+RW [ 0.165000 0.279000 0 0.150000 0.260000 ]
+.Path110_24
+RW [ 0.142000 0.238000 0 0.134000 0.216000 ]
+.Path110_25
+RW [ 0.128000 0.188000 1 ]
+.Path110_26
+RW [ 0.093000 0.025000 0 0.090000 0.011000 ]
+.Path110_27
+RW [ 0.079000 0.002000 0 0.068000 -0.007000 ]
+.Path110_28
+RW [ 0.056000 -0.007000 0 0.044000 -0.007000 ]
+.Path110_29
+RW [ 0.037000 0.002000]
+.Path111
+RW [ 0.167500 0.583000 0 0.160000 0.592000 ]
+.Path111_0
+RW [ 0.163000 0.605000 1 ]
+.Path111_1
+RW [ 0.173000 0.645000 0 0.176000 0.657000 ]
+.Path111_2
+RW [ 0.186500 0.665500 0 0.197000 0.674000 ]
+.Path111_3
+RW [ 0.209000 0.674000 0 0.221000 0.674000 ]
+.Path111_4
+RW [ 0.227500 0.665000 0 0.234000 0.656000 ]
+.Path111_5
+RW [ 0.231000 0.644000 1 ]
+.Path111_6
+RW [ 0.222000 0.604000 0 0.219000 0.591000 ]
+.Path111_7
+RW [ 0.208500 0.582500 0 0.198000 0.574000 ]
+.Path111_8
+RW [ 0.186000 0.574000 0 0.175000 0.574000 ]
+.Path111_9
+RW [ 0.167500 0.583000]
+.Path112
+RW [ 0.037000 0.004000 0 0.030000 0.014000 ]
+.Path112_0
+RW [ 0.032000 0.025000 1 ]
+.Path112_1
+RW [ 0.130000 0.459000 0 0.134000 0.472000 ]
+.Path112_2
+RW [ 0.144500 0.481000 0 0.155000 0.490000 ]
+.Path112_3
+RW [ 0.168000 0.490000 0 0.179000 0.490000 ]
+.Path112_4
+RW [ 0.186000 0.483500 0 0.193000 0.477000 ]
+.Path112_5
+RW [ 0.193000 0.466000 0 0.193000 0.461000 ]
+.Path112_6
+RW [ 0.192000 0.458000 1 ]
+.Path112_7
+RW [ 0.094000 0.025000 0 0.091000 0.012000 ]
+.Path112_8
+RW [ 0.080500 0.003000 0 0.070000 -0.006000 ]
+.Path112_9
+RW [ 0.057000 -0.006000 0 0.044000 -0.006000 ]
+.Path112_10
+RW [ 0.037000 0.004000]
+.Path113
+RW [ 0.202000 0.591000 0 0.195000 0.600000 ]
+.Path113_0
+RW [ 0.199000 0.612000 1 ]
+.Path113_1
+RW [ 0.212000 0.658000 0 0.216000 0.669000 ]
+.Path113_2
+RW [ 0.225500 0.676000 0 0.235000 0.683000 ]
+.Path113_3
+RW [ 0.247000 0.683000 0 0.257000 0.683000 ]
+.Path113_4
+RW [ 0.264500 0.676000 0 0.272000 0.669000 ]
+.Path113_5
+RW [ 0.272000 0.659000 0 0.272000 0.657000 ]
+.Path113_6
+RW [ 0.270000 0.651000 1 ]
+.Path113_7
+RW [ 0.256000 0.606000 0 0.252000 0.596000 ]
+.Path113_8
+RW [ 0.242000 0.589000 0 0.232000 0.582000 ]
+.Path113_9
+RW [ 0.220000 0.582000 0 0.209000 0.582000 ]
+.Path113_10
+RW [ 0.202000 0.591000]
+.Path114
+RW [ -0.111500 -0.146500 0 -0.145000 -0.108000 ]
+.Path114_0
+RW [ -0.153000 -0.041000 0 -0.155000 -0.027000 ]
+.Path114_1
+RW [ -0.144000 -0.014500 0 -0.133000 -0.002000 ]
+.Path114_2
+RW [ -0.117000 -0.002000 0 -0.107000 -0.002000 ]
+.Path114_3
+RW [ -0.100500 -0.008000 0 -0.094000 -0.014000 ]
+.Path114_4
+RW [ -0.092000 -0.024000 0 -0.084000 -0.078000 ]
+.Path114_5
+RW [ -0.066000 -0.104000 0 -0.048000 -0.130000 ]
+.Path114_6
+RW [ -0.020000 -0.130000 0 0.010000 -0.130000 ]
+.Path114_7
+RW [ 0.033500 -0.097000 0 0.057000 -0.064000 ]
+.Path114_8
+RW [ 0.067000 -0.011000 1 ]
+.Path114_9
+RW [ 0.162000 0.465000 0 0.164000 0.478000 ]
+.Path114_10
+RW [ 0.174500 0.487000 0 0.185000 0.496000 ]
+.Path114_11
+RW [ 0.198000 0.496000 0 0.210000 0.496000 ]
+.Path114_12
+RW [ 0.217000 0.487000 0 0.224000 0.478000 ]
+.Path114_13
+RW [ 0.222000 0.466000 1 ]
+.Path114_14
+RW [ 0.127000 -0.006000 0 0.109000 -0.092000 ]
+.Path114_15
+RW [ 0.068000 -0.138500 0 0.027000 -0.185000 ]
+.Path114_16
+RW [ -0.031000 -0.185000 0 -0.078000 -0.185000 ]
+.Path114_17
+RW [ -0.111500 -0.146500]
+.Path115
+RW [ 0.039500 0.003000 0 0.032000 0.012000 ]
+.Path115_0
+RW [ 0.034000 0.024000 1 ]
+.Path115_1
+RW [ 0.166000 0.653000 0 0.168000 0.665000 ]
+.Path115_2
+RW [ 0.179500 0.673500 0 0.191000 0.682000 ]
+.Path115_3
+RW [ 0.203000 0.682000 0 0.217000 0.682000 ]
+.Path115_4
+RW [ 0.223000 0.672000 0 0.229000 0.662000 ]
+.Path115_5
+RW [ 0.226000 0.651000 1 ]
+.Path115_6
+RW [ 0.142000 0.253000 0 0.196000 0.284000 ]
+.Path115_7
+RW [ 0.288000 0.357500 0 0.380000 0.431000 ]
+.Path115_8
+RW [ 0.446000 0.499000 0 0.459000 0.512000 ]
+.Path115_9
+RW [ 0.474000 0.512000 0 0.484000 0.512000 ]
+.Path115_10
+RW [ 0.491000 0.505500 0 0.498000 0.499000 ]
+.Path115_11
+RW [ 0.498000 0.490000 0 0.498000 0.476000 ]
+.Path115_12
+RW [ 0.485000 0.465000 0 0.449000 0.427000 ]
+.Path115_13
+RW [ 0.389500 0.375500 0 0.330000 0.324000 ]
+.Path115_14
+RW [ 0.286000 0.291000 1 ]
+.Path115_15
+RW [ 0.337000 0.205000 0 0.356000 0.173000 ]
+.Path115_16
+RW [ 0.379000 0.133000 0 0.402000 0.093000 ]
+.Path115_17
+RW [ 0.423000 0.056000 0 0.433000 0.040000 ]
+.Path115_18
+RW [ 0.433000 0.030000 0 0.433000 0.017000 ]
+.Path115_19
+RW [ 0.422500 0.007000 0 0.412000 -0.003000 ]
+.Path115_20
+RW [ 0.399000 -0.003000 0 0.389000 -0.003000 ]
+.Path115_21
+RW [ 0.382000 0.001500 0 0.375000 0.006000 ]
+.Path115_22
+RW [ 0.370000 0.017000 0 0.344000 0.066000 ]
+.Path115_23
+RW [ 0.302000 0.139500 0 0.260000 0.213000 ]
+.Path115_24
+RW [ 0.233000 0.257000 1 ]
+.Path115_25
+RW [ 0.131000 0.195000 1 ]
+.Path115_26
+RW [ 0.095000 0.024000 0 0.092000 0.012000 ]
+.Path115_27
+RW [ 0.081500 0.003000 0 0.071000 -0.006000 ]
+.Path115_28
+RW [ 0.059000 -0.006000 0 0.047000 -0.006000 ]
+.Path115_29
+RW [ 0.039500 0.003000]
+.Path116
+RW [ 0.037000 0.002500 0 0.029000 0.011000 ]
+.Path116_0
+RW [ 0.032000 0.023000 1 ]
+.Path116_1
+RW [ 0.166000 0.653000 0 0.169000 0.665000 ]
+.Path116_2
+RW [ 0.179500 0.673500 0 0.190000 0.682000 ]
+.Path116_3
+RW [ 0.203000 0.682000 0 0.215000 0.682000 ]
+.Path116_4
+RW [ 0.222000 0.673500 0 0.229000 0.665000 ]
+.Path116_5
+RW [ 0.226000 0.653000 1 ]
+.Path116_6
+RW [ 0.093000 0.021000 0 0.090000 0.010000 ]
+.Path116_7
+RW [ 0.079000 0.002000 0 0.068000 -0.006000 ]
+.Path116_8
+RW [ 0.057000 -0.006000 0 0.045000 -0.006000 ]
+.Path116_9
+RW [ 0.037000 0.002500]
+.Path117
+RW [ 0.037000 0.002500 0 0.030000 0.011000 ]
+.Path117_0
+RW [ 0.032000 0.023000 1 ]
+.Path117_1
+RW [ 0.126000 0.463000 0 0.128000 0.475000 ]
+.Path117_2
+RW [ 0.139000 0.484000 0 0.150000 0.493000 ]
+.Path117_3
+RW [ 0.162000 0.493000 0 0.175000 0.493000 ]
+.Path117_4
+RW [ 0.181500 0.484000 0 0.188000 0.475000 ]
+.Path117_5
+RW [ 0.186000 0.463000 1 ]
+.Path117_6
+RW [ 0.161000 0.344000 0 0.207000 0.410000 ]
+.Path117_7
+RW [ 0.269500 0.451500 0 0.332000 0.493000 ]
+.Path117_8
+RW [ 0.383000 0.493000 0 0.426000 0.493000 ]
+.Path117_9
+RW [ 0.455000 0.467000 0 0.484000 0.441000 ]
+.Path117_10
+RW [ 0.484000 0.379000 0 0.533000 0.438000 ]
+.Path117_11
+RW [ 0.584000 0.465500 0 0.635000 0.493000 ]
+.Path117_12
+RW [ 0.679000 0.493000 0 0.728000 0.493000 ]
+.Path117_13
+RW [ 0.755000 0.465500 0 0.782000 0.438000 ]
+.Path117_14
+RW [ 0.782000 0.379000 0 0.782000 0.344000 ]
+.Path117_15
+RW [ 0.774000 0.308000 1 ]
+.Path117_16
+RW [ 0.714000 0.023000 0 0.711000 0.011000 ]
+.Path117_17
+RW [ 0.700000 0.002500 0 0.689000 -0.006000 ]
+.Path117_18
+RW [ 0.677000 -0.006000 0 0.665000 -0.006000 ]
+.Path117_19
+RW [ 0.658000 0.002500 0 0.651000 0.011000 ]
+.Path117_20
+RW [ 0.654000 0.023000 1 ]
+.Path117_21
+RW [ 0.715000 0.315000 0 0.722000 0.344000 ]
+.Path117_22
+RW [ 0.722000 0.370000 0 0.722000 0.437000 ]
+.Path117_23
+RW [ 0.660000 0.437000 0 0.631000 0.437000 ]
+.Path117_24
+RW [ 0.588500 0.413500 0 0.546000 0.390000 ]
+.Path117_25
+RW [ 0.510500 0.347500 0 0.475000 0.305000 ]
+.Path117_26
+RW [ 0.463000 0.252000 1 ]
+.Path117_27
+RW [ 0.415000 0.023000 0 0.413000 0.011000 ]
+.Path117_28
+RW [ 0.402500 0.002500 0 0.392000 -0.006000 ]
+.Path117_29
+RW [ 0.379000 -0.006000 0 0.367000 -0.006000 ]
+.Path117_30
+RW [ 0.360000 0.002500 0 0.353000 0.011000 ]
+.Path117_31
+RW [ 0.355000 0.023000 1 ]
+.Path117_32
+RW [ 0.417000 0.315000 0 0.424000 0.346000 ]
+.Path117_33
+RW [ 0.424000 0.372000 0 0.424000 0.406000 ]
+.Path117_34
+RW [ 0.409500 0.421500 0 0.395000 0.437000 ]
+.Path117_35
+RW [ 0.363000 0.437000 0 0.330000 0.437000 ]
+.Path117_36
+RW [ 0.287000 0.408000 0 0.244000 0.379000 ]
+.Path117_37
+RW [ 0.205000 0.337000 0 0.169000 0.299000 ]
+.Path117_38
+RW [ 0.153000 0.266000 0 0.137000 0.233000 ]
+.Path117_39
+RW [ 0.123000 0.172000 1 ]
+.Path117_40
+RW [ 0.092000 0.023000 0 0.090000 0.011000 ]
+.Path117_41
+RW [ 0.079000 0.002500 0 0.068000 -0.006000 ]
+.Path117_42
+RW [ 0.056000 -0.006000 0 0.044000 -0.006000 ]
+.Path117_43
+RW [ 0.037000 0.002500]
+.Path118
+RW [ 0.037500 0.002500 0 0.030000 0.011000 ]
+.Path118_0
+RW [ 0.032000 0.022000 1 ]
+.Path118_1
+RW [ 0.126000 0.465000 0 0.130000 0.477000 ]
+.Path118_2
+RW [ 0.140500 0.485500 0 0.151000 0.494000 ]
+.Path118_3
+RW [ 0.163000 0.494000 0 0.175000 0.494000 ]
+.Path118_4
+RW [ 0.182500 0.485500 0 0.190000 0.477000 ]
+.Path118_5
+RW [ 0.187000 0.465000 1 ]
+.Path118_6
+RW [ 0.152000 0.301000 0 0.200000 0.392000 ]
+.Path118_7
+RW [ 0.263500 0.442500 0 0.327000 0.493000 ]
+.Path118_8
+RW [ 0.390000 0.493000 0 0.446000 0.493000 ]
+.Path118_9
+RW [ 0.473500 0.461500 0 0.501000 0.430000 ]
+.Path118_10
+RW [ 0.501000 0.364000 0 0.501000 0.319000 ]
+.Path118_11
+RW [ 0.485000 0.241000 0 0.485875 0.245083 ]
+.Path118_12
+RW [ 0.485857 0.245083 0 0.485750 0.245083 ]
+.Path118_13
+RW [ 0.455000 0.105000 1 ]
+.Path118_14
+RW [ 0.438000 0.025000 0 0.436000 0.012000 ]
+.Path118_15
+RW [ 0.426500 0.003000 0 0.417000 -0.006000 ]
+.Path118_16
+RW [ 0.404000 -0.006000 0 0.392000 -0.006000 ]
+.Path118_17
+RW [ 0.385500 0.003000 0 0.379000 0.012000 ]
+.Path118_18
+RW [ 0.381000 0.024000 0 0.401000 0.122000 ]
+.Path118_19
+RW [ 0.422000 0.221000 0 0.441000 0.309000 ]
+.Path118_20
+RW [ 0.441000 0.357000 0 0.441000 0.403000 ]
+.Path118_21
+RW [ 0.424500 0.420000 0 0.408000 0.437000 ]
+.Path118_22
+RW [ 0.373000 0.437000 0 0.340000 0.437000 ]
+.Path118_23
+RW [ 0.302000 0.410500 0 0.264000 0.384000 ]
+.Path118_24
+RW [ 0.226000 0.337000 0 0.179000 0.278000 ]
+.Path118_25
+RW [ 0.151500 0.224500 0 0.124000 0.171000 ]
+.Path118_26
+RW [ 0.112000 0.115000 1 ]
+.Path118_27
+RW [ 0.092000 0.026000 0 0.090000 0.012000 ]
+.Path118_28
+RW [ 0.080000 0.003000 0 0.070000 -0.006000 ]
+.Path118_29
+RW [ 0.057000 -0.006000 0 0.045000 -0.006000 ]
+.Path118_30
+RW [ 0.037500 0.002500]
+.Path119
+RW [ 0.081500 0.043500 0 0.038000 0.093000 ]
+.Path119_0
+RW [ 0.038000 0.170000 0 0.038000 0.247000 ]
+.Path119_1
+RW [ 0.079500 0.322500 0 0.121000 0.398000 ]
+.Path119_2
+RW [ 0.189500 0.446000 0 0.258000 0.494000 ]
+.Path119_3
+RW [ 0.334000 0.494000 0 0.405000 0.494000 ]
+.Path119_4
+RW [ 0.448500 0.444000 0 0.492000 0.394000 ]
+.Path119_5
+RW [ 0.492000 0.318000 0 0.492000 0.241000 ]
+.Path119_6
+RW [ 0.451000 0.165500 0 0.410000 0.090000 ]
+.Path119_7
+RW [ 0.341500 0.042000 0 0.273000 -0.006000 ]
+.Path119_8
+RW [ 0.197000 -0.006000 0 0.125000 -0.006000 ]
+.Path119_9
+RW [ 0.081500 0.043500]
+.Path120
+RW [ 0.318000 0.086000 0 0.369000 0.126000 ]
+.Path120_0
+RW [ 0.400500 0.187500 1 ]
+.Path120_1
+RW [ 0.432000 0.310000 0 0.432000 0.370000 ]
+.Path120_2
+RW [ 0.402000 0.406000 0 0.372000 0.442000 ]
+.Path120_3
+RW [ 0.318000 0.442000 0 0.263000 0.442000 ]
+.Path120_4
+RW [ 0.212000 0.402000 0 0.161000 0.362000 ]
+.Path120_5
+RW [ 0.129500 0.300000 0 0.098000 0.238000 ]
+.Path120_6
+RW [ 0.098000 0.177000 0 0.098000 0.117000 ]
+.Path120_7
+RW [ 0.127500 0.081500 0 0.157000 0.046000 ]
+.Path120_8
+RW [ 0.212000 0.046000 0 0.267000 0.046000 ]
+.Path120_9
+RW [ 0.318000 0.086000]
+.Path121
+RW [ -0.004500 -0.190000 0 -0.011000 -0.181000 ]
+.Path121_0
+RW [ -0.009000 -0.169000 1 ]
+.Path121_1
+RW [ 0.126000 0.463000 0 0.128000 0.476000 ]
+.Path121_2
+RW [ 0.139000 0.485000 0 0.150000 0.494000 ]
+.Path121_3
+RW [ 0.162000 0.494000 0 0.174000 0.494000 ]
+.Path121_4
+RW [ 0.181500 0.485000 0 0.189000 0.476000 ]
+.Path121_5
+RW [ 0.186000 0.464000 1 ]
+.Path121_6
+RW [ 0.177000 0.426000 0 0.261000 0.494000 ]
+.Path121_7
+RW [ 0.359000 0.494000 0 0.427000 0.494000 ]
+.Path121_8
+RW [ 0.463500 0.452000 0 0.500000 0.410000 ]
+.Path121_9
+RW [ 0.500000 0.337000 0 0.500000 0.288000 ]
+.Path121_10
+RW [ 0.483500 0.232500 0 0.467000 0.177000 ]
+.Path121_11
+RW [ 0.442000 0.134000 0 0.406000 0.073000 ]
+.Path121_12
+RW [ 0.348500 0.035000 0 0.291000 -0.003000 ]
+.Path121_13
+RW [ 0.212000 -0.003000 0 0.178000 -0.003000 ]
+.Path121_14
+RW [ 0.150500 0.006000 0 0.123000 0.015000 ]
+.Path121_15
+RW [ 0.094000 0.031000 1 ]
+.Path121_16
+RW [ 0.051000 -0.169000 0 0.049000 -0.181000 ]
+.Path121_17
+RW [ 0.037500 -0.190000 0 0.026000 -0.199000 ]
+.Path121_18
+RW [ 0.015000 -0.199000 0 0.002000 -0.199000 ]
+.Path121_19
+RW [ -0.004500 -0.190000]
+.Path122
+RW [ 0.399000 0.165000 0 0.416000 0.197000 ]
+.Path122_0
+RW [ 0.428000 0.243500 0 0.440000 0.290000 ]
+.Path122_1
+RW [ 0.440000 0.329000 0 0.440000 0.441000 ]
+.Path122_2
+RW [ 0.345000 0.441000 0 0.286000 0.441000 ]
+.Path122_3
+RW [ 0.237500 0.412500 1 ]
+.Path122_4
+RW [ 0.163000 0.355000 1 ]
+.Path122_5
+RW [ 0.106000 0.086000 1 ]
+.Path122_6
+RW [ 0.159500 0.062000 0 0.194000 0.050000 ]
+.Path122_7
+RW [ 0.231000 0.050000 0 0.337000 0.050000 ]
+.Path122_8
+RW [ 0.399000 0.165000]
+.Path123
+RW [ 0.286000 -0.185500 0 0.280000 -0.178000 ]
+.Path123_0
+RW [ 0.280000 -0.168000 0 0.280000 -0.163000 ]
+.Path123_1
+RW [ 0.281000 -0.160000 1 ]
+.Path123_2
+RW [ 0.333000 0.050000 0 0.283000 -0.012000 ]
+.Path123_3
+RW [ 0.203000 -0.012000 0 0.129000 -0.012000 ]
+.Path123_4
+RW [ 0.081000 0.031500 0 0.033000 0.075000 ]
+.Path123_5
+RW [ 0.033000 0.153000 0 0.033000 0.241000 ]
+.Path123_6
+RW [ 0.079000 0.317000 0 0.125000 0.393000 ]
+.Path123_7
+RW [ 0.202000 0.438000 0 0.279000 0.483000 ]
+.Path123_8
+RW [ 0.369000 0.483000 0 0.404000 0.483000 ]
+.Path123_9
+RW [ 0.439000 0.476000 1 ]
+.Path123_10
+RW [ 0.441000 0.485000 0 0.444000 0.496000 ]
+.Path123_11
+RW [ 0.454500 0.504000 0 0.465000 0.512000 ]
+.Path123_12
+RW [ 0.476000 0.512000 0 0.488000 0.512000 ]
+.Path123_13
+RW [ 0.495000 0.503500 0 0.502000 0.495000 ]
+.Path123_14
+RW [ 0.498000 0.483000 1 ]
+.Path123_15
+RW [ 0.338000 -0.162000 0 0.334000 -0.178000 ]
+.Path123_16
+RW [ 0.324000 -0.185500 0 0.314000 -0.193000 ]
+.Path123_17
+RW [ 0.301000 -0.193000 0 0.292000 -0.193000 ]
+.Path123_18
+RW [ 0.286000 -0.185500]
+.Path124
+RW [ 0.306000 0.073000 0 0.348000 0.104000 ]
+.Path124_0
+RW [ 0.361000 0.159000 1 ]
+.Path124_1
+RW [ 0.426000 0.423000 0 0.388000 0.429000 ]
+.Path124_2
+RW [ 0.358000 0.429000 0 0.285000 0.429000 ]
+.Path124_3
+RW [ 0.223000 0.392000 0 0.161000 0.355000 ]
+.Path124_4
+RW [ 0.124500 0.294000 0 0.088000 0.233000 ]
+.Path124_5
+RW [ 0.088000 0.163000 0 0.088000 0.109000 ]
+.Path124_6
+RW [ 0.121000 0.075500 0 0.154000 0.042000 ]
+.Path124_7
+RW [ 0.206000 0.042000 0 0.264000 0.042000 ]
+.Path124_8
+RW [ 0.306000 0.073000]
+.Path125
+RW [ 0.413500 0.479000 0 0.430000 0.462000 ]
+.Path125_0
+RW [ 0.430000 0.437000 0 0.430000 0.423000 ]
+.Path125_1
+RW [ 0.425500 0.405000 0 0.421000 0.387000 ]
+.Path125_2
+RW [ 0.420000 0.381000 0 0.417000 0.369000 ]
+.Path125_3
+RW [ 0.407000 0.361000 0 0.397000 0.353000 ]
+.Path125_4
+RW [ 0.384000 0.353000 0 0.372000 0.353000 ]
+.Path125_5
+RW [ 0.366500 0.360000 0 0.361000 0.367000 ]
+.Path125_6
+RW [ 0.361000 0.375000 0 0.361000 0.378000 ]
+.Path125_7
+RW [ 0.365000 0.392500 0 0.369000 0.407000 ]
+.Path125_8
+RW [ 0.369000 0.415000 0 0.369000 0.437000 ]
+.Path125_9
+RW [ 0.341000 0.437000 0 0.309000 0.437000 ]
+.Path125_10
+RW [ 0.273000 0.413500 0 0.237000 0.390000 ]
+.Path125_11
+RW [ 0.203000 0.355000 0 0.179000 0.330000 ]
+.Path125_12
+RW [ 0.162000 0.300500 0 0.145000 0.271000 ]
+.Path125_13
+RW [ 0.140000 0.247000 1 ]
+.Path125_14
+RW [ 0.092000 0.022000 0 0.089000 0.011000 ]
+.Path125_15
+RW [ 0.078000 0.002500 0 0.067000 -0.006000 ]
+.Path125_16
+RW [ 0.056000 -0.006000 0 0.045000 -0.006000 ]
+.Path125_17
+RW [ 0.037000 0.002500 0 0.029000 0.011000 ]
+.Path125_18
+RW [ 0.031000 0.022000 1 ]
+.Path125_19
+RW [ 0.126000 0.464000 0 0.128000 0.476000 ]
+.Path125_20
+RW [ 0.139000 0.484500 0 0.150000 0.493000 ]
+.Path125_21
+RW [ 0.162000 0.493000 0 0.175000 0.493000 ]
+.Path125_22
+RW [ 0.182000 0.484500 0 0.189000 0.476000 ]
+.Path125_23
+RW [ 0.187000 0.464000 1 ]
+.Path125_24
+RW [ 0.169000 0.378000 0 0.205000 0.427000 ]
+.Path125_25
+RW [ 0.259000 0.461500 0 0.313000 0.496000 ]
+.Path125_26
+RW [ 0.362000 0.496000 0 0.397000 0.496000 ]
+.Path125_27
+RW [ 0.413500 0.479000]
+.Path126
+RW [ 0.069500 0.013500 0 0.032000 0.033000 ]
+.Path126_0
+RW [ 0.014000 0.061500 0 -0.004000 0.090000 ]
+.Path126_1
+RW [ -0.004000 0.115000 0 -0.004000 0.130000 ]
+.Path126_2
+RW [ 0.007000 0.142000 0 0.018000 0.154000 ]
+.Path126_3
+RW [ 0.032000 0.154000 0 0.052000 0.154000 ]
+.Path126_4
+RW [ 0.055000 0.134000 0 0.060000 0.091000 ]
+.Path126_5
+RW [ 0.089000 0.070000 0 0.118000 0.049000 ]
+.Path126_6
+RW [ 0.173000 0.049000 0 0.206000 0.049000 ]
+.Path126_7
+RW [ 0.235500 0.063500 0 0.265000 0.078000 ]
+.Path126_8
+RW [ 0.282500 0.102500 0 0.300000 0.127000 ]
+.Path126_9
+RW [ 0.300000 0.154000 0 0.300000 0.177000 ]
+.Path126_10
+RW [ 0.279000 0.193500 0 0.258000 0.210000 ]
+.Path126_11
+RW [ 0.202000 0.229000 0 0.136000 0.251000 ]
+.Path126_12
+RW [ 0.106000 0.279000 0 0.076000 0.307000 ]
+.Path126_13
+RW [ 0.076000 0.352000 0 0.076000 0.391000 ]
+.Path126_14
+RW [ 0.099000 0.423500 0 0.122000 0.456000 ]
+.Path126_15
+RW [ 0.165000 0.474500 0 0.208000 0.493000 ]
+.Path126_16
+RW [ 0.265000 0.493000 0 0.337000 0.493000 ]
+.Path126_17
+RW [ 0.373500 0.469500 0 0.410000 0.446000 ]
+.Path126_18
+RW [ 0.410000 0.403000 0 0.410000 0.377000 ]
+.Path126_19
+RW [ 0.398500 0.354500 0 0.387000 0.332000 ]
+.Path126_20
+RW [ 0.367000 0.332000 0 0.356000 0.332000 ]
+.Path126_21
+RW [ 0.349000 0.338000 0 0.342000 0.344000 ]
+.Path126_22
+RW [ 0.342000 0.353000 0 0.342000 0.359000 ]
+.Path126_23
+RW [ 0.347000 0.370000 0 0.352000 0.381000 ]
+.Path126_24
+RW [ 0.352000 0.393000 0 0.352000 0.440000 ]
+.Path126_25
+RW [ 0.264000 0.440000 0 0.204000 0.440000 ]
+.Path126_26
+RW [ 0.168500 0.418000 0 0.133000 0.396000 ]
+.Path126_27
+RW [ 0.133000 0.362000 0 0.133000 0.335000 ]
+.Path126_28
+RW [ 0.155000 0.318000 0 0.177000 0.301000 ]
+.Path126_29
+RW [ 0.231000 0.282000 0 0.302000 0.256000 ]
+.Path126_30
+RW [ 0.330500 0.232000 0 0.359000 0.208000 ]
+.Path126_31
+RW [ 0.359000 0.164000 0 0.359000 0.120000 ]
+.Path126_32
+RW [ 0.331500 0.080500 0 0.304000 0.041000 ]
+.Path126_33
+RW [ 0.258500 0.017500 0 0.213000 -0.006000 ]
+.Path126_34
+RW [ 0.162000 -0.006000 0 0.107000 -0.006000 ]
+.Path126_35
+RW [ 0.069500 0.013500]
+.Path127
+RW [ 0.077000 0.002000 0 0.071000 0.011000 ]
+.Path127_0
+RW [ 0.073000 0.023000 1 ]
+.Path127_1
+RW [ 0.162000 0.436000 1 ]
+.Path127_2
+RW [ 0.047000 0.436000 0 0.037000 0.436000 ]
+.Path127_3
+RW [ 0.030000 0.442500 0 0.023000 0.449000 ]
+.Path127_4
+RW [ 0.023000 0.460000 0 0.023000 0.475000 ]
+.Path127_5
+RW [ 0.034500 0.484500 0 0.046000 0.494000 ]
+.Path127_6
+RW [ 0.062000 0.494000 1 ]
+.Path127_7
+RW [ 0.174000 0.494000 1 ]
+.Path127_8
+RW [ 0.203000 0.633000 0 0.205000 0.645000 ]
+.Path127_9
+RW [ 0.216500 0.654500 0 0.228000 0.664000 ]
+.Path127_10
+RW [ 0.240000 0.664000 0 0.254000 0.664000 ]
+.Path127_11
+RW [ 0.260000 0.654000 0 0.266000 0.644000 ]
+.Path127_12
+RW [ 0.263000 0.633000 1 ]
+.Path127_13
+RW [ 0.234000 0.494000 1 ]
+.Path127_14
+RW [ 0.349000 0.494000 0 0.360000 0.494000 ]
+.Path127_15
+RW [ 0.366500 0.487500 0 0.373000 0.481000 ]
+.Path127_16
+RW [ 0.373000 0.470000 0 0.373000 0.457000 ]
+.Path127_17
+RW [ 0.361500 0.446500 0 0.350000 0.436000 ]
+.Path127_18
+RW [ 0.336000 0.436000 1 ]
+.Path127_19
+RW [ 0.222000 0.436000 1 ]
+.Path127_20
+RW [ 0.134000 0.022000 0 0.131000 0.010000 ]
+.Path127_21
+RW [ 0.119500 0.001500 0 0.108000 -0.007000 ]
+.Path127_22
+RW [ 0.097000 -0.007000 0 0.083000 -0.007000 ]
+.Path127_23
+RW [ 0.077000 0.002000]
+.Path128
+RW [ 0.074500 0.021000 0 0.047000 0.051000 ]
+.Path128_0
+RW [ 0.047000 0.112000 0 0.047000 0.172000 ]
+.Path128_1
+RW [ 0.070500 0.277500 0 0.094000 0.383000 ]
+.Path128_2
+RW [ 0.122000 0.458000 0 0.129000 0.479000 ]
+.Path128_3
+RW [ 0.137000 0.486500 0 0.145000 0.494000 ]
+.Path128_4
+RW [ 0.158000 0.494000 0 0.170000 0.494000 ]
+.Path128_5
+RW [ 0.176000 0.488000 0 0.182000 0.482000 ]
+.Path128_6
+RW [ 0.182000 0.472000 0 0.182000 0.468000 ]
+.Path128_7
+RW [ 0.180000 0.460000 0 0.151000 0.371000 ]
+.Path128_8
+RW [ 0.129000 0.279000 0 0.107000 0.187000 ]
+.Path128_9
+RW [ 0.107000 0.128000 0 0.107000 0.084000 ]
+.Path128_10
+RW [ 0.123500 0.064000 0 0.140000 0.044000 ]
+.Path128_11
+RW [ 0.173000 0.044000 0 0.217000 0.044000 ]
+.Path128_12
+RW [ 0.259000 0.063000 0 0.301000 0.082000 ]
+.Path128_13
+RW [ 0.331000 0.104000 1 ]
+.Path128_14
+RW [ 0.355000 0.128000 0 0.362000 0.140000 ]
+.Path128_15
+RW [ 0.367000 0.160000 1 ]
+.Path128_16
+RW [ 0.436000 0.467000 0 0.439000 0.479000 ]
+.Path128_17
+RW [ 0.449500 0.486500 0 0.460000 0.494000 ]
+.Path128_18
+RW [ 0.471000 0.494000 0 0.483000 0.494000 ]
+.Path128_19
+RW [ 0.489000 0.486000 0 0.495000 0.478000 ]
+.Path128_20
+RW [ 0.493000 0.467000 1 ]
+.Path128_21
+RW [ 0.399000 0.024000 0 0.396000 0.012000 ]
+.Path128_22
+RW [ 0.384500 0.003000 0 0.373000 -0.006000 ]
+.Path128_23
+RW [ 0.361000 -0.006000 0 0.348000 -0.006000 ]
+.Path128_24
+RW [ 0.340500 0.003500 0 0.333000 0.013000 ]
+.Path128_25
+RW [ 0.336000 0.028000 1 ]
+.Path128_26
+RW [ 0.344000 0.068000 0 0.316000 0.038000 ]
+.Path128_27
+RW [ 0.265000 0.014500 0 0.214000 -0.009000 ]
+.Path128_28
+RW [ 0.161000 -0.009000 0 0.102000 -0.009000 ]
+.Path128_29
+RW [ 0.074500 0.021000]
+.Path129
+RW [ 0.127000 0.014000 1 ]
+.Path129_0
+RW [ 0.044000 0.441000 0 0.041000 0.456000 ]
+.Path129_1
+RW [ 0.041000 0.459000 0 0.041000 0.472000 ]
+.Path129_2
+RW [ 0.053000 0.482500 0 0.065000 0.493000 ]
+.Path129_3
+RW [ 0.079000 0.493000 0 0.100000 0.493000 ]
+.Path129_4
+RW [ 0.103000 0.472000 1 ]
+.Path129_5
+RW [ 0.171000 0.096000 1 ]
+.Path129_6
+RW [ 0.403000 0.476000 0 0.408000 0.484000 ]
+.Path129_7
+RW [ 0.417000 0.489000 0 0.426000 0.494000 ]
+.Path129_8
+RW [ 0.435000 0.494000 0 0.445000 0.494000 ]
+.Path129_9
+RW [ 0.452500 0.487000 0 0.460000 0.480000 ]
+.Path129_10
+RW [ 0.460000 0.470000 0 0.460000 0.464000 ]
+.Path129_11
+RW [ 0.450000 0.448000 1 ]
+.Path129_12
+RW [ 0.182000 0.012000 0 0.169000 -0.007000 ]
+.Path129_13
+RW [ 0.150000 -0.007000 0 0.131000 -0.007000 ]
+.Path129_14
+RW [ 0.127000 0.014000]
+.Path130
+RW [ 0.062000 0.001500 0 0.055000 0.009000 ]
+.Path130_0
+RW [ 0.055000 0.020000 1 ]
+.Path130_1
+RW [ 0.055000 0.455000 0 0.055000 0.472000 ]
+.Path130_2
+RW [ 0.065500 0.483000 0 0.076000 0.494000 ]
+.Path130_3
+RW [ 0.091000 0.494000 0 0.103000 0.494000 ]
+.Path130_4
+RW [ 0.109500 0.486500 0 0.116000 0.479000 ]
+.Path130_5
+RW [ 0.116000 0.467000 1 ]
+.Path130_6
+RW [ 0.110000 0.109000 1 ]
+.Path130_7
+RW [ 0.310000 0.468000 0 0.316000 0.479000 ]
+.Path130_8
+RW [ 0.326000 0.486500 0 0.336000 0.494000 ]
+.Path130_9
+RW [ 0.347000 0.494000 0 0.359000 0.494000 ]
+.Path130_10
+RW [ 0.366500 0.486000 0 0.374000 0.478000 ]
+.Path130_11
+RW [ 0.374000 0.467000 1 ]
+.Path130_12
+RW [ 0.384000 0.104000 1 ]
+.Path130_13
+RW [ 0.571000 0.470000 0 0.576000 0.480000 ]
+.Path130_14
+RW [ 0.586000 0.486500 0 0.596000 0.493000 ]
+.Path130_15
+RW [ 0.606000 0.493000 0 0.617000 0.493000 ]
+.Path130_16
+RW [ 0.623500 0.487000 0 0.630000 0.481000 ]
+.Path130_17
+RW [ 0.630000 0.471000 0 0.630000 0.462000 ]
+.Path130_18
+RW [ 0.622000 0.448000 1 ]
+.Path130_19
+RW [ 0.392000 0.017000 0 0.380000 -0.006000 ]
+.Path130_20
+RW [ 0.359000 -0.006000 0 0.348000 -0.006000 ]
+.Path130_21
+RW [ 0.341000 0.001500 0 0.334000 0.009000 ]
+.Path130_22
+RW [ 0.333000 0.023000 1 ]
+.Path130_23
+RW [ 0.320000 0.376000 1 ]
+.Path130_24
+RW [ 0.113000 0.016000 0 0.099000 -0.006000 ]
+.Path130_25
+RW [ 0.081000 -0.006000 0 0.069000 -0.006000 ]
+.Path130_26
+RW [ 0.062000 0.001500]
+.Path131
+RW [ 0.359000 0.006000 1 ]
+.Path131_0
+RW [ 0.234000 0.211000 1 ]
+.Path131_1
+RW [ -0.010000 0.004000 0 -0.019000 -0.005000 ]
+.Path131_2
+RW [ -0.033000 -0.005000 0 -0.043000 -0.005000 ]
+.Path131_3
+RW [ -0.049500 0.002000 0 -0.056000 0.009000 ]
+.Path131_4
+RW [ -0.056000 0.019000 0 -0.056000 0.035000 ]
+.Path131_5
+RW [ -0.042000 0.047000 1 ]
+.Path131_6
+RW [ 0.204000 0.252000 1 ]
+.Path131_7
+RW [ 0.087000 0.439000 0 0.079000 0.452000 ]
+.Path131_8
+RW [ 0.079000 0.458000 0 0.079000 0.472000 ]
+.Path131_9
+RW [ 0.089000 0.483000 0 0.099000 0.494000 ]
+.Path131_10
+RW [ 0.111000 0.494000 0 0.120000 0.494000 ]
+.Path131_11
+RW [ 0.124000 0.491500 0 0.128000 0.489000 ]
+.Path131_12
+RW [ 0.131000 0.483000 1 ]
+.Path131_13
+RW [ 0.249000 0.289000 1 ]
+.Path131_14
+RW [ 0.479000 0.483000 0 0.488000 0.492000 ]
+.Path131_15
+RW [ 0.501000 0.492000 0 0.511000 0.492000 ]
+.Path131_16
+RW [ 0.518500 0.485000 0 0.526000 0.478000 ]
+.Path131_17
+RW [ 0.526000 0.468000 0 0.526000 0.453000 ]
+.Path131_18
+RW [ 0.512000 0.442000 1 ]
+.Path131_19
+RW [ 0.279000 0.249000 1 ]
+.Path131_20
+RW [ 0.407000 0.046000 0 0.414000 0.036000 ]
+.Path131_21
+RW [ 0.414000 0.028000 0 0.414000 0.015000 ]
+.Path131_22
+RW [ 0.404000 0.004500 0 0.394000 -0.006000 ]
+.Path131_23
+RW [ 0.382000 -0.006000 0 0.366000 -0.006000 ]
+.Path131_24
+RW [ 0.359000 0.006000]
+.Path132
+RW [ 0.011000 -0.194500 0 0.004000 -0.188000 ]
+.Path132_0
+RW [ 0.004000 -0.178000 0 0.004000 -0.167000 ]
+.Path132_1
+RW [ 0.011000 -0.155000 1 ]
+.Path132_2
+RW [ 0.153000 0.057000 1 ]
+.Path132_3
+RW [ 0.045000 0.439000 0 0.041000 0.450000 ]
+.Path132_4
+RW [ 0.041000 0.456000 0 0.041000 0.471000 ]
+.Path132_5
+RW [ 0.052500 0.482500 0 0.064000 0.494000 ]
+.Path132_6
+RW [ 0.079000 0.494000 0 0.088000 0.494000 ]
+.Path132_7
+RW [ 0.094500 0.488500 0 0.101000 0.483000 ]
+.Path132_8
+RW [ 0.103000 0.474000 1 ]
+.Path132_9
+RW [ 0.201000 0.128000 1 ]
+.Path132_10
+RW [ 0.435000 0.476000 0 0.440000 0.484000 ]
+.Path132_11
+RW [ 0.449000 0.489500 0 0.458000 0.495000 ]
+.Path132_12
+RW [ 0.468000 0.495000 0 0.479000 0.495000 ]
+.Path132_13
+RW [ 0.486000 0.488000 0 0.493000 0.481000 ]
+.Path132_14
+RW [ 0.493000 0.471000 0 0.493000 0.461000 ]
+.Path132_15
+RW [ 0.485000 0.450000 1 ]
+.Path132_16
+RW [ 0.060000 -0.182000 0 0.056000 -0.190000 ]
+.Path132_17
+RW [ 0.047000 -0.195500 0 0.038000 -0.201000 ]
+.Path132_18
+RW [ 0.028000 -0.201000 0 0.018000 -0.201000 ]
+.Path132_19
+RW [ 0.011000 -0.194500]
+.Path133
+RW [ -0.032000 0.005000 0 -0.039000 0.012000 ]
+.Path133_0
+RW [ -0.039000 0.023000 0 -0.039000 0.036000 ]
+.Path133_1
+RW [ -0.028000 0.047000 1 ]
+.Path133_2
+RW [ 0.353000 0.429000 1 ]
+.Path133_3
+RW [ 0.081000 0.429000 0 0.070000 0.429000 ]
+.Path133_4
+RW [ 0.063000 0.435500 0 0.056000 0.442000 ]
+.Path133_5
+RW [ 0.056000 0.453000 0 0.056000 0.466000 ]
+.Path133_6
+RW [ 0.067500 0.476500 0 0.079000 0.487000 ]
+.Path133_7
+RW [ 0.094000 0.487000 1 ]
+.Path133_8
+RW [ 0.420000 0.487000 0 0.430000 0.487000 ]
+.Path133_9
+RW [ 0.437000 0.480000 0 0.444000 0.473000 ]
+.Path133_10
+RW [ 0.444000 0.462000 1 ]
+.Path133_11
+RW [ 0.430000 0.434000 1 ]
+.Path133_12
+RW [ 0.056000 0.056000 1 ]
+.Path133_13
+RW [ 0.338000 0.056000 0 0.349000 0.056000 ]
+.Path133_14
+RW [ 0.356000 0.049500 0 0.363000 0.043000 ]
+.Path133_15
+RW [ 0.363000 0.033000 0 0.363000 0.020000 ]
+.Path133_16
+RW [ 0.351500 0.009000 0 0.340000 -0.002000 ]
+.Path133_17
+RW [ 0.326000 -0.002000 1 ]
+.Path133_18
+RW [ -0.014000 -0.002000 0 -0.025000 -0.002000 ]
+.Path133_19
+RW [ -0.032000 0.005000]
+.Path134
+RW [ 0.170000 -0.120500 0 0.146000 -0.112000 ]
+.Path134_0
+RW [ 0.130000 -0.100000 0 0.108000 -0.083000 ]
+.Path134_1
+RW [ 0.097500 -0.062000 0 0.087000 -0.041000 ]
+.Path134_2
+RW [ 0.087000 -0.011000 0 0.087000 0.003000 ]
+.Path134_3
+RW [ 0.095500 0.044500 0 0.104000 0.086000 ]
+.Path134_4
+RW [ 0.114000 0.129000 0 0.116000 0.140000 ]
+.Path134_5
+RW [ 0.126000 0.186000 0 0.136000 0.232000 ]
+.Path134_6
+RW [ 0.136000 0.245000 0 0.136000 0.271000 ]
+.Path134_7
+RW [ 0.123000 0.289000 0 0.110000 0.307000 ]
+.Path134_8
+RW [ 0.089000 0.316000 0 0.075000 0.322000 ]
+.Path134_9
+RW [ 0.075000 0.337000 0 0.075000 0.350000 ]
+.Path134_10
+RW [ 0.080000 0.356000 0 0.085000 0.362000 ]
+.Path134_11
+RW [ 0.098000 0.369000 0 0.140000 0.387000 ]
+.Path134_12
+RW [ 0.159000 0.409500 0 0.178000 0.432000 ]
+.Path134_13
+RW [ 0.185000 0.465000 1 ]
+.Path134_14
+RW [ 0.224000 0.652000 0 0.238000 0.719000 ]
+.Path134_15
+RW [ 0.301000 0.762000 0 0.325000 0.777000 ]
+.Path134_16
+RW [ 0.357500 0.788000 0 0.390000 0.799000 ]
+.Path134_17
+RW [ 0.406000 0.799000 0 0.417000 0.799000 ]
+.Path134_18
+RW [ 0.423000 0.792000 0 0.429000 0.785000 ]
+.Path134_19
+RW [ 0.429000 0.775000 0 0.429000 0.761000 ]
+.Path134_20
+RW [ 0.419500 0.752000 0 0.410000 0.743000 ]
+.Path134_21
+RW [ 0.395000 0.741000 0 0.357000 0.735000 ]
+.Path134_22
+RW [ 0.324000 0.714500 0 0.291000 0.694000 ]
+.Path134_23
+RW [ 0.282000 0.652000 1 ]
+.Path134_24
+RW [ 0.243000 0.466000 0 0.234000 0.427000 ]
+.Path134_25
+RW [ 0.212500 0.395500 0 0.191000 0.364000 ]
+.Path134_26
+RW [ 0.160000 0.343000 0 0.195000 0.310000 ]
+.Path134_27
+RW [ 0.195000 0.255000 0 0.195000 0.241000 ]
+.Path134_28
+RW [ 0.187000 0.201500 0 0.179000 0.162000 ]
+.Path134_29
+RW [ 0.170000 0.121000 0 0.161000 0.082000 ]
+.Path134_30
+RW [ 0.153500 0.046500 0 0.146000 0.011000 ]
+.Path134_31
+RW [ 0.146000 -0.002000 0 0.146000 -0.033000 ]
+.Path134_32
+RW [ 0.169500 -0.049000 0 0.193000 -0.065000 ]
+.Path134_33
+RW [ 0.223000 -0.071000 0 0.233000 -0.073000 ]
+.Path134_34
+RW [ 0.239000 -0.079000 0 0.245000 -0.085000 ]
+.Path134_35
+RW [ 0.245000 -0.093000 0 0.245000 -0.108000 ]
+.Path134_36
+RW [ 0.233500 -0.118500 0 0.222000 -0.129000 ]
+.Path134_37
+RW [ 0.206000 -0.129000 0 0.194000 -0.129000 ]
+.Path134_38
+RW [ 0.170000 -0.120500]
+.Path135
+RW [ -0.001000 -0.163500 0 -0.008000 -0.155000 ]
+.Path135_0
+RW [ -0.005000 -0.142000 1 ]
+.Path135_1
+RW [ 0.195000 0.801000 0 0.197000 0.813000 ]
+.Path135_2
+RW [ 0.208500 0.822000 0 0.220000 0.831000 ]
+.Path135_3
+RW [ 0.231000 0.831000 0 0.244000 0.831000 ]
+.Path135_4
+RW [ 0.250500 0.822500 0 0.257000 0.814000 ]
+.Path135_5
+RW [ 0.255000 0.801000 1 ]
+.Path135_6
+RW [ 0.055000 -0.142000 0 0.053000 -0.155000 ]
+.Path135_7
+RW [ 0.042000 -0.163500 0 0.031000 -0.172000 ]
+.Path135_8
+RW [ 0.019000 -0.172000 0 0.006000 -0.172000 ]
+.Path135_9
+RW [ -0.001000 -0.163500]
+.Path136
+RW [ -0.020000 -0.122000 0 -0.026000 -0.115000 ]
+.Path136_0
+RW [ -0.026000 -0.105000 0 -0.026000 -0.093000 ]
+.Path136_1
+RW [ -0.016000 -0.083000 0 -0.006000 -0.073000 ]
+.Path136_2
+RW [ 0.009000 -0.071000 0 0.045000 -0.065000 ]
+.Path136_3
+RW [ 0.078000 -0.044000 0 0.111000 -0.023000 ]
+.Path136_4
+RW [ 0.120000 0.018000 1 ]
+.Path136_5
+RW [ 0.160000 0.204000 0 0.176000 0.279000 ]
+.Path136_6
+RW [ 0.243000 0.327000 0 0.208000 0.360000 ]
+.Path136_7
+RW [ 0.208000 0.414000 0 0.208000 0.436000 ]
+.Path136_8
+RW [ 0.235000 0.556000 0 0.238000 0.571000 ]
+.Path136_9
+RW [ 0.247500 0.615000 0 0.257000 0.659000 ]
+.Path136_10
+RW [ 0.257000 0.670000 0 0.257000 0.702000 ]
+.Path136_11
+RW [ 0.233000 0.719000 0 0.209000 0.736000 ]
+.Path136_12
+RW [ 0.181000 0.741000 0 0.169000 0.743000 ]
+.Path136_13
+RW [ 0.164000 0.748500 0 0.159000 0.754000 ]
+.Path136_14
+RW [ 0.159000 0.764000 0 0.159000 0.778000 ]
+.Path136_15
+RW [ 0.170000 0.788500 0 0.181000 0.799000 ]
+.Path136_16
+RW [ 0.196000 0.799000 0 0.206000 0.799000 ]
+.Path136_17
+RW [ 0.227500 0.792000 0 0.249000 0.785000 ]
+.Path136_18
+RW [ 0.257000 0.779000 0 0.316000 0.747000 ]
+.Path136_19
+RW [ 0.316000 0.684000 0 0.316000 0.654000 ]
+.Path136_20
+RW [ 0.289000 0.536000 0 0.268000 0.444000 ]
+.Path136_21
+RW [ 0.268000 0.425000 0 0.268000 0.399000 ]
+.Path136_22
+RW [ 0.280500 0.381500 0 0.293000 0.364000 ]
+.Path136_23
+RW [ 0.315000 0.354000 0 0.332000 0.347000 ]
+.Path136_24
+RW [ 0.328000 0.329000 0 0.327000 0.317000 ]
+.Path136_25
+RW [ 0.322500 0.312500 0 0.318000 0.308000 ]
+.Path136_26
+RW [ 0.304000 0.301000 0 0.263000 0.282000 ]
+.Path136_27
+RW [ 0.244000 0.259500 0 0.225000 0.237000 ]
+.Path136_28
+RW [ 0.218000 0.205000 1 ]
+.Path136_29
+RW [ 0.178000 0.018000 0 0.165000 -0.048000 ]
+.Path136_30
+RW [ 0.106000 -0.088000 0 0.083000 -0.104000 ]
+.Path136_31
+RW [ 0.049500 -0.116500 0 0.016000 -0.129000 ]
+.Path136_32
+RW [ -0.003000 -0.129000 0 -0.014000 -0.129000 ]
+.Path136_33
+RW [ -0.020000 -0.122000]
+.Path137
+RW [ 0.312000 0.170500 0 0.290000 0.192000 ]
+.Path137_0
+RW [ 0.269000 0.234000 0 0.253000 0.266000 ]
+.Path137_1
+RW [ 0.239500 0.280500 0 0.226000 0.295000 ]
+.Path137_2
+RW [ 0.204000 0.295000 0 0.170000 0.295000 ]
+.Path137_3
+RW [ 0.141000 0.267000 0 0.112000 0.239000 ]
+.Path137_4
+RW [ 0.093000 0.204000 0 0.080000 0.182000 ]
+.Path137_5
+RW [ 0.061000 0.182000 0 0.050000 0.182000 ]
+.Path137_6
+RW [ 0.043000 0.189000 0 0.036000 0.196000 ]
+.Path137_7
+RW [ 0.036000 0.206000 0 0.036000 0.215000 ]
+.Path137_8
+RW [ 0.044000 0.227000 0 0.076000 0.282000 ]
+.Path137_9
+RW [ 0.119500 0.317500 0 0.163000 0.353000 ]
+.Path137_10
+RW [ 0.216000 0.353000 0 0.258000 0.353000 ]
+.Path137_11
+RW [ 0.280000 0.331000 0 0.302000 0.309000 ]
+.Path137_12
+RW [ 0.323000 0.268000 0 0.340000 0.235000 ]
+.Path137_13
+RW [ 0.353500 0.221000 0 0.367000 0.207000 ]
+.Path137_14
+RW [ 0.389000 0.207000 0 0.445000 0.207000 ]
+.Path137_15
+RW [ 0.506000 0.307000 0 0.522000 0.335000 ]
+.Path137_16
+RW [ 0.541000 0.335000 0 0.551000 0.335000 ]
+.Path137_17
+RW [ 0.558000 0.328000 0 0.565000 0.321000 ]
+.Path137_18
+RW [ 0.565000 0.311000 0 0.565000 0.302000 ]
+.Path137_19
+RW [ 0.558000 0.290000 0 0.528000 0.238000 ]
+.Path137_20
+RW [ 0.481500 0.193500 0 0.435000 0.149000 ]
+.Path137_21
+RW [ 0.376000 0.149000 0 0.334000 0.149000 ]
+.Path137_22
+RW [ 0.312000 0.170500]

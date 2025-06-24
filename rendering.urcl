@@ -1,0 +1,659 @@
+!!!
+
+!urcltype_Bounds
+.Bounds
+DW [0 0 0 0]
+!urcltype_Contours
+.Contours
+DW 0
+
+// Offsets are in em
+!urcltype_OffsetY
+.OffsetY
+DW 0
+!urcltype_OffsetX
+.OffsetX
+DW 0
+.Smallest
+DW 0
+.Smallest1
+DW 0
+.Smallest2
+DW 0
+.Smallest3
+DW 0
+.Color1
+DW 0
+.Color2
+DW 0
+.Color3
+DW 0
+.Color4
+DW 0
+.Depth1
+DW 0
+.Depth2
+DW 0
+.Depth3
+DW 0
+.Depth4
+DW 0
+.Next1
+DW 0
+.Next2
+DW 0
+.Next3
+DW 0
+.Next4
+DW 0
+.BuffEnd1
+DW 0
+.BuffEnd2
+DW 0
+.BuffEnd3
+DW 0
+.BuffEnd4
+DW 0
+.StartDup
+DW 0
+.ContourStart
+DW 0
+
+@DEFINE @SIZEF R22
+@DEFINE @SIZER R23
+@DEFINE @BUFFER R8
+@DEFINE @YC R1
+@DEFINE @XC R2
+@DEFINE @YF R3
+@DEFINE @XF R4
+@DEFINE @SMALLEST R5
+@DEFINE @COL R6
+@DEFINE @BUFFEND R7
+@DEFINE @COUNT R9
+
+@DEFINE @EPS 0.002
+
+@DEFINE @XMIN 0
+@DEFINE @XMAX 1
+@DEFINE @YMIN 2
+@DEFINE @YMAX 3
+
+//NO AA
+//@DEFINE @XOFF 0.5
+//@DEFINE @YOFF1 0.5
+
+// Horizontal AA resolution is infinite (up to float precision)
+// Multiplier refers to vertical AA resolution
+//1X AA
+//@DEFINE @XOFF 1.0
+//@DEFINE @YOFF1 0.5
+//@DEFINE @MULT 1.0
+//@DEFINE @AACOUNT 1
+
+//2X AA
+//@DEFINE @XOFF 1.0
+//@DEFINE @YOFF1 0.25
+//@DEFINE @YOFF2 0.75
+//@DEFINE @MULT 0.5
+//@DEFINE @AACOUNT 2
+
+//4X AA
+@DEFINE @XOFF 1.0
+@DEFINE @YOFF1 0.125
+@DEFINE @YOFF2 0.375
+@DEFINE @YOFF3 0.625
+@DEFINE @YOFF4 0.875
+@DEFINE @MULT 0.25
+@DEFINE @AACOUNT 4
+
+@DEFINE @BUFFER0 M2
+@DEFINE @BUFFER1 M34
+@DEFINE @BUFFER2 M66
+@DEFINE @BUFFER3 M98
+
+.YCoord
+DW 0
+
+NOP
+!urcltype_RenderGlyph
+.RenderGlyph
+LOD @XF .OffsetY
+LLOD @YF .Bounds @YMAX
+FSUB @YF @XF @YF
+FMLT @YF @YF @SIZEF
+FSUB @YF @YF 1.0
+NOT @YC @YF
+FTOI @YC @YC
+ITOF @XF @YC
+
+LSTR @BUFFER0 -2 0x8000
+LSTR @BUFFER0 -1 0
+LSTR @BUFFER1 -2 0x8000
+LSTR @BUFFER1 -1 0
+LSTR @BUFFER2 -2 0x8000
+LSTR @BUFFER2 -1 0
+LSTR @BUFFER3 -2 0x8000
+LSTR @BUFFER3 -1 0
+.BigLoop
+FTOI @XF @SIZEF
+SUB @XC @XF @YC
+BRP ~+2 @XC
+IMM @XC 0
+IMM R21 0 // num at end
+
+IN%Y @XF
+SBGE .End1 @XC @XF
+OUT%Y @XC
+STR .YCoord @XC
+
+LOD @XC .OffsetY
+ITOF @YF @YC
+FADD @YF @YF @YOFF1
+FMLT @YF @YF @SIZER
+FADD @YF @YF @XC
+
+IMM @BUFFER @BUFFER0
+HPSH @SMAX
+HCAL .InitBuffer
+HPOP @XF
+STR .Smallest @SMALLEST 
+BNE ~+3 @SMALLEST 10000000000.0
+INC R21 R21
+JMP ~+3
+SBGE ~+2 @SMALLEST @XF
+MOV @XF @SMALLEST
+STR .Color1 0 
+STR .BuffEnd1 @BUFFEND
+STR .Next1 @NEXT
+STR .Depth1 0
+
+LOD @XC .OffsetY
+
+// 2X AA stuff
+ITOF @YF @YC 
+FADD @YF @YF @YOFF2 
+FMLT @YF @YF @SIZER 
+FADD @YF @YF @XC
+
+IMM @BUFFER @BUFFER1 
+HPSH @XF
+HCAL .InitBuffer 
+HPOP @XF
+STR .Smallest1 @SMALLEST 
+BNE ~+3 @SMALLEST 10000000000.0
+INC R21 R21
+JMP ~+3
+SBGE ~+2 @SMALLEST @XF
+MOV @XF @SMALLEST
+STR .Color2 0 
+STR .BuffEnd2 @BUFFEND 
+STR .Next2 @NEXT
+STR .Depth2 0
+
+LOD @XC .OffsetY
+
+// 4X AA stuff
+ITOF @YF @YC 
+FADD @YF @YF @YOFF3 
+FMLT @YF @YF @SIZER 
+FADD @YF @YF @XC
+
+IMM @BUFFER @BUFFER2 
+HPSH @XF
+HCAL .InitBuffer 
+HPOP @XF
+STR .Smallest2 @SMALLEST 
+BNE ~+3 @SMALLEST 10000000000.0
+INC R21 R21
+JMP ~+3
+SBGE ~+2 @SMALLEST @XF
+MOV @XF @SMALLEST
+STR .Color3 0 
+STR .BuffEnd3 @BUFFEND 
+STR .Next3 @NEXT
+STR .Depth3 0
+
+LOD @XC .OffsetY
+ITOF @YF @YC 
+FADD @YF @YF @YOFF4 
+FMLT @YF @YF @SIZER 
+FADD @YF @YF @XC
+
+LOD @XC .YCoord
+SBLE .Loop_End @XC 0
+
+IMM @BUFFER @BUFFER3 
+HPSH @XF
+HCAL .InitBuffer 
+HPOP @XF
+STR .Smallest3 @SMALLEST 
+BNE ~+3 @SMALLEST 10000000000.0
+INC R21 R21
+JMP ~+3
+SBGE ~+2 @SMALLEST @XF
+MOV @XF @SMALLEST
+STR .Color4 0 
+STR .BuffEnd4 @BUFFEND 
+STR .Next4 @NEXT
+STR .Depth4 0
+
+LOD @PATHEND .OffsetX
+FADD @XF @XF @PATHEND
+FMLT @XF @XF @SIZEF
+FSUB @XF @XF 1.0
+// LOD @YF .OffsetX
+// LLOD @XF .Bounds @XMIN
+// FADD @XF @XF @YF
+// FMLT @XF @XF @SIZEF
+// FSUB @XF @XF 1.0
+FTOI @XC @XF
+
+//IMM @COL 0 
+.Loop
+BRE .Loop_End R21 @AACOUNT
+IMM @COUNT 0 
+OUT%X @XC
+ITOF @XF @XC
+FADD @XF @XF @XOFF
+FMLT @XF @XF @SIZER
+
+LOD @PATHEND .OffsetX
+FSUB @XF @XF @PATHEND
+
+LOD @COL .Color1 
+LOD @SMALLEST .Smallest 
+SBGE .UpdateSmallest1 @XF @SMALLEST
+FADD @COUNT @COUNT @COL 
+.UpdateSmallest1_Ret
+
+// 2X AA STUFF
+LOD @COL .Color2 
+LOD @SMALLEST .Smallest1 
+SBGE .UpdateSmallest2 @XF @SMALLEST 
+FADD @COUNT @COUNT @COL 
+.UpdateSmallest2_Ret
+
+// 4X AA STUFF
+LOD @COL .Color3 
+LOD @SMALLEST .Smallest2 
+SBGE .UpdateSmallest3 @XF @SMALLEST 
+FADD @COUNT @COUNT @COL 
+.UpdateSmallest3_Ret
+
+LOD @COL .Color4 
+LOD @SMALLEST .Smallest3 
+SBGE .UpdateSmallest4 @XF @SMALLEST 
+FADD @COUNT @COUNT @COL
+.UpdateSmallest4_Ret
+
+FMLT @COUNT @COUNT @MULT 
+BRZ ~+2 @COUNT
+FSQRT @COUNT @COUNT 
+FMLT @COUNT @COUNT 255.0
+FTOI @COUNT @COUNT
+//BGE ~+2 @COUNT 2
+//IMM @COUNT 0
+//JMP ~+2
+//IMM @COUNT 255
+IN%COLOR @COL
+ADD @COUNT @COUNT @COL
+BLE ~+2 @COUNT 255
+IMM @COUNT 255
+OUT%COLOR @COUNT
+//OUT%COLOR 255
+INC @XC @XC
+LLOD @COL .Bounds @XMAX
+SBRL .Loop @XF @COL
+.Loop_End
+DEC @YC @YC
+LLOD @XF .Bounds @YMIN
+SBGE .BigLoop @YF @XF
+.End1
+HRET
+
+
+
+@DEFINE @X1 R15
+@DEFINE @Y1 R16
+@DEFINE @X2 R17
+@DEFINE @Y2 R18
+@DEFINE @X3 R19
+@DEFINE @Y3 R20
+
+@DEFINE @NEXT R24
+@DEFINE @PATHEND R25
+
+.InitBuffer
+MOV R10 @BUFFER
+LOD R11 .Contours
+IMM @SMALLEST 1000000.0
+SUB R11 R11 2
+HPSH R11
+JMP .InitBuffer_Glyph_Loop_First
+.InitBuffer_Glyph_Loop
+LOD R14 .ContourStart
+BRE .InitBuffer_Glyph_Loop_First R14 R10
+LOD R16 .StartDup
+BNZ .InitBuffer_Glyph_End_Dup_Force R16
+BNZ .InitBuffer_Glyph_End_Dup_Force R24
+LOD R12 R14
+LLOD R16 R10 -2
+FSUB R12 R12 R16
+BRP ~+2 R12
+NOT R12 R12
+BGE .InitBuffer_Glyph_Loop_First R12 @EPS
+.InitBuffer_Glyph_End_Dup_Force
+LLOD R18 R14 1
+LLOD R12 R10 -1
+SUB R10 R10 2
+BRE .InitBuffer_Glyph_Loop_First R12 R18
+.InitBuffer_Glyph_End_Dup_Resolve
+MOV R12 R14
+ADD R13 R14 2
+SUB R10 R10 2
+BRE .InitBuffer_Glyph_Loop_First R12 R10
+.InitBuffer_Glyph_End_Dup_Loop
+CPY R12 R13
+INC R12 R12
+INC R13 R13
+BRL .InitBuffer_Glyph_End_Dup_Loop R12 R10
+
+.InitBuffer_Glyph_Loop_First
+HPOP @Y1
+ADD @Y1 @Y1 2
+HPSH @Y1
+LOD R11 @Y1
+BRZ .InitBuffer_End R11
+LLOD @PATHEND @Y1 1
+IMM R24 0
+STR .ContourStart R10
+STR .StartDup 0
+.InitBuffer_Loop
+LLOD R15 R11 2
+LLOD @Y1 R11 1
+BNZ .InitBuffer_Loop_Linear R15
+LLOD @Y3 R11 6
+SBGE ~+2 @YF @Y1
+SBRL .InitBuffer_Continue_Quadratic @YF @Y3
+SBLE ~+2 @YF @Y1
+SBRG .InitBuffer_Continue_Quadratic @YF @Y3
+LLOD @X3 R11 5
+BNE .InitBuffer_Not_On_REdge @YF @Y3
+MOV R13 @X3
+MOV @Y2 @Y3
+ADD R11 R11 2
+JMP .InitBuffer_Write_Linear
+.InitBuffer_Not_On_REdge
+LLOD @X1 R11 0
+BNE .InitBuffer_Not_On_LEdge @YF @Y1
+MOV R13 @X1
+MOV @Y2 @Y3
+ADD R11 R11 2
+JMP .InitBuffer_Write_Linear
+.InitBuffer_Not_On_LEdge
+
+LLOD @Y2 R11 4
+//A = y1 - 2y2 + y3
+FMLT R13 @Y2 2.0
+FSUB R12 @Y1 R13
+FADD R12 R12 @Y3
+//B = -2y1 + 2y2 2(y2-y1)
+FSUB R13 @Y2 @Y1
+FMLT R13 R13 2.0
+//C = y1 - y
+FSUB R14 @Y1 @YF
+//D = B^2 - 4AC
+FMLT R14 R12 R14
+FMLT R14 R14 -4.0
+
+FMLT R18 R13 R13
+FADD R14 R14 R18
+
+SBGE ~+2 R14 0.0001
+MOV R14 0.0001
+MOV R7 R0
+BRZ ~+2 R14
+FSQRT R14 R14
+NOT R13 R13 // FNEG
+FMLT R12 R12 2.0
+FDIV R13 R13 R12
+FDIV R14 R14 R12
+// Positive branch
+FADD R12 R13 R14 // t
+LLOD @X2 R11 3
+INC R7 R7
+BRN .InitBuffer_Skip_Positive_Quadratic R12
+BRG .InitBuffer_Skip_Positive_Quadratic R12 1.0
+DEC R7 R7
+
+FSUB R16 1.0 R12
+FMLT R18 R16 R12
+FMLT R18 R18 2.0
+FMLT R16 R16 R16
+FMLT R16 R16 @X1
+FMLT R18 R18 @X2
+FADD R16 R16 R18
+FMLT R18 R12 R12
+FMLT R18 R18 @X3
+FADD R16 R16 R18
+
+LLOD R12 R10 -2
+BNZ .InitBuffer_Positive_Quadratic_Duplicate R24
+
+FSUB R12 R12 R16
+BRP ~+2 R12
+NOT R12 R12
+BGE .InitBuffer_Skip_Positive_Quadratic_Duplicate R12 @EPS
+.InitBuffer_Positive_Quadratic_Duplicate
+IMM R24 0
+LOD R18 .ContourStart
+BNE ~+3 R10 R18
+STR .StartDup 1
+JMP .InitBuffer_Skip_Positive_Quadratic_Duplicate
+LLOD R12 R10 -1
+SUB R10 R10 2
+BNE .InitBuffer_Skip_Positive_Quadratic R12 1.0
+.InitBuffer_Skip_Positive_Quadratic_Duplicate
+STR R10 R16
+LSTR R10 1 1.0
+ADD R10 R10 2
+.InitBuffer_Skip_Positive_Quadratic
+FSUB R12 R13 R14 //t
+INC R7 R7
+BRN .InitBuffer_Skip_Negative_Quadratic R12
+BRG .InitBuffer_Skip_Negative_Quadratic R12 1.0
+DEC R7 R7
+FSUB R16 1.0 R12
+FMLT R18 R16 R12
+FMLT R18 R18 2.0
+FMLT R16 R16 R16
+FMLT R16 R16 @X1
+FMLT R18 R18 @X2
+FADD R16 R16 R18
+FMLT R18 R12 R12
+FMLT R18 R18 @X3
+FADD R16 R16 R18
+LLOD R12 R10 -2
+BNZ .InitBuffer_Negative_Quadratic_Duplicate R24
+
+FSUB R12 R12 R16
+BRP ~+2 R12
+NOT R12 R12
+BGE .InitBuffer_Skip_Negative_Quadratic_Duplicate R12 @EPS
+.InitBuffer_Negative_Quadratic_Duplicate
+IMM R24 0
+LOD R18 .ContourStart
+BNE ~+3 R10 R18
+STR .StartDup 1
+JMP .InitBuffer_Skip_Negative_Quadratic
+LLOD R12 R10 -1
+SUB R10 R10 2
+BNE .InitBuffer_Skip_Negative_Quadratic R12 0
+.InitBuffer_Skip_Negative_Quadratic_Duplicate
+STR R10 R16
+LSTR R10 1 0
+ADD R10 R10 2
+.InitBuffer_Skip_Negative_Quadratic
+BNE .InitBuffer_Continue_Quadratic R7 2
+MOV @Y2 @Y3
+LOD @X1 R11
+ADD R11 R11 2
+JMP .InitBuffer_Loop_Linear_Skip_Setup
+.InitBuffer_Continue_Quadratic
+ADD R11 R11 5
+BLE .InitBuffer_Loop R11 @PATHEND
+JMP .InitBuffer_Glyph_Loop
+.InitBuffer_End
+MOV @SMALLEST -1000000000.0
+MOV @BUFFEND R10
+MOV @XF -1000000000.0
+HCAL .UpdateSmallestReal
+HPOP R0
+HRET
+
+.InitBuffer_Loop_Linear
+LLOD @Y2 R11 4
+SBLE ~+2 @YF @Y1
+SBRG .InitBuffer_Skip_Linear @YF @Y2
+SBGE ~+2 @YF @Y1
+SBRL .InitBuffer_Skip_Linear @YF @Y2
+
+LOD @X1 R11
+.InitBuffer_Loop_Linear_Skip_Setup
+FSUB R13 @Y2 @Y1
+BNZ .InitBuffer_NotFlat_Linear R13
+IMM R24 1
+JMP .InitBuffer_Skip_Linear
+
+.InitBuffer_NotFlat_Linear
+FSUB R12 @YF @Y1
+FDIV R12 R12 R13 //t value
+LLOD @X2 R11 3
+FSUB R14 @X2 @X1
+FMLT R13 R12 R14
+FADD R13 R13 @X1
+.InitBuffer_Write_Linear
+LLOD R12 R10 -2
+BNZ .InitBuffer_Linear_Duplicate R24
+FSUB R12 R12 R13
+BRP ~+2 R12
+NOT R12 R12
+BGE .InitBuffer_Skip_Linear_Duplicate R12 @EPS
+.InitBuffer_Linear_Duplicate
+IMM R24 0
+LOD R14 .ContourStart
+BNE ~+3 R10 R14
+STR .StartDup 1
+JMP .InitBuffer_Skip_Linear_Duplicate
+FSUB R14 @Y2 @Y1
+SETL R14 R14 @MSB
+AND R14 R14 1.0
+LLOD R12 R10 -1
+
+SUB R10 R10 2
+BNE .InitBuffer_Skip_Linear R12 R14
+.InitBuffer_Skip_Linear_Duplicate
+STR R10 R13
+FSUB R14 @Y2 @Y1
+SETL R14 R14 @MSB
+AND R14 R14 1.0
+LSTR R10 1 R14
+ADD R10 R10 2
+.InitBuffer_Skip_Linear
+ADD R11 R11 3
+BLE .InitBuffer_Loop R11 @PATHEND
+JMP .InitBuffer_Glyph_Loop
+
+.UpdateSmallest1
+IMM @BUFFER @BUFFER0
+LOD @BUFFEND .BuffEnd1
+IMM R14 1.0
+LOD R15 .Depth1
+LOD R24 .Next1
+HCAL .UpdateSmallest
+STR .Smallest @SMALLEST
+BNE ~+2 @SMALLEST 10000000000.0
+INC R21 R21
+STR .Color1 @COL
+STR .Next1 R24
+STR .Depth1 R15
+JMP .UpdateSmallest1_Ret
+
+.UpdateSmallest2
+IMM @BUFFER @BUFFER1
+LOD @BUFFEND .BuffEnd2
+IMM R14 1.0
+LOD R15 .Depth2
+LOD R24 .Next2
+HCAL .UpdateSmallest
+STR .Smallest1 @SMALLEST
+BNE ~+2 @SMALLEST 10000000000.0
+INC R21 R21
+STR .Color2 @COL
+STR .Next2 R24
+STR .Depth2 R15
+JMP .UpdateSmallest2_Ret
+
+.UpdateSmallest3
+IMM @BUFFER @BUFFER2
+LOD @BUFFEND .BuffEnd3
+IMM R14 1.0
+LOD R15 .Depth3
+LOD R24 .Next3
+HCAL .UpdateSmallest
+STR .Smallest2 @SMALLEST
+BNE ~+2 @SMALLEST 10000000000.0
+INC R21 R21
+STR .Color3 @COL
+STR .Next3 R24
+STR .Depth3 R15
+JMP .UpdateSmallest3_Ret
+
+.UpdateSmallest4
+IMM @BUFFER @BUFFER3
+LOD @BUFFEND .BuffEnd4
+IMM R14 1.0
+LOD R15 .Depth4
+LOD R24 .Next4
+HCAL .UpdateSmallest
+STR .Smallest3 @SMALLEST
+BNE ~+2 @SMALLEST 10000000000.0
+INC R21 R21
+STR .Color4 @COL
+STR .Next4 R24
+STR .Depth4 R15
+JMP .UpdateSmallest4_Ret
+
+.UpdateSmallest
+FSUB R13 @XF @SMALLEST 
+FMLT R13 R13 @SIZEF 
+FSUB R10 R14 R13 
+FSUB R14 R14 R10 // update remaining part of pixel
+FMLT R10 R10 @COL 
+FADD @COUNT @COUNT R10 
+INC R15 R15
+BNZ ~+2 R24
+SUB R15 R15 2
+MOV @COL R24
+.UpdateSmallestReal
+MOV R10 @BUFFER
+IMM R12 1000000000.0 // new smallest
+IMM R24 0
+BGE .UpdateSmallest_End R10 @BUFFEND
+.UpdateSmallest_Loop
+LOD R11 R10
+SBLE .UpdateSmallest_NoUpdate R11 @SMALLEST
+SBRG .UpdateSmallest_NoUpdate R11 R12
+MOV R12 R11
+LLOD R24 R10 1
+.UpdateSmallest_NoUpdate
+ADD R10 R10 2
+BRL .UpdateSmallest_Loop R10 @BUFFEND
+.UpdateSmallest_End
+MOV @SMALLEST R12
+SBGE .UpdateSmallest @XF @SMALLEST
+FMLT R13 R13 @COL
+FADD @COUNT @COUNT R13
+HRET
+
+!!

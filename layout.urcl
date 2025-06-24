@@ -1,0 +1,531 @@
+@DEFINE @LF 10
+@DEFINE @VT 11
+
+@DEFINE @WRAP_NONE 0
+@DEFINE @WRAP_STD 1
+@DEFINE @WRAP_FORCE 2
+
+@DEFINE @LAYOUT M128
+
+!!!
+NOP
+!urcltype_LayoutString
+.LayoutString
+STR !urcltype_layout_SpaceCount 0
+LOD R1 !urcltype_LayoutPtr
+LOD R2 !urcltype_StrPtr
+IMM R16 0 // glyph
+IMM R4 0 // previous advance
+IMM R5 0 // current line width
+IMM R15 0 // current line width without spaces
+LOD R6 !urcltype_LayoutPtr // line start ptr
+IMM R11 0 // number of paragraph breaks
+IMM R19 0 // number of line breaks
+LOD R17 !urcltype_Indent // indentation
+.LayoutString_Loop
+MOV R20 R16 // previous glyph
+LOD R3 R2 // character
+// evaluate control characters
+BNZ .LayoutString_NotEnd R3
+HCAL @HORALIGN
+HCAL @VERTALIGN
+STR R1 0
+HRET
+.LayoutString_NotEnd
+BNE .LayoutString_NotNewLine R3 @LF
+INC R11 R11
+HCAL @HORALIGN
+IMM R3 @LF
+IMM R7 -1
+IMM R8 -1
+IMM R9 0
+IMM R12 0
+IMM R16 0
+INC R2 R2
+ADD R6 R6 8
+LOD R17 !urcltype_Indent
+JMP .LayoutString_SkipWrapping
+.LayoutString_NotNewLine
+BNE .LayoutString_NotVerticalTab R3 @VT
+INC R19 R19
+HCAL @HORALIGN
+IMM R3 @VT
+IMM R7 -1
+IMM R8 -1
+IMM R9 0
+IMM R12 0
+IMM R16 0
+INC R2 R2
+ADD R6 R6 8
+LOD R17 !urcltype_HangingIndent
+JMP .LayoutString_SkipWrapping
+.LayoutString_NotVerticalTab
+IMM R21 -2 // Not inside of multi glyph substitution
+// determine glyph to insert and add string pointer offset
+BRL .LayoutString_Ascii R3 128
+IMM R8 !urcltype_UnicodeMappings
+.LayoutString_FindCodepointLoop
+LOD R7 R8
+ADD R8 R8 2
+BRZ .LayoutString_CodepointNotFound R7
+BNE .LayoutString_FindCodepointLoop R7 R3
+LLOD R16 R8 -1
+JMP .LayoutString_GlyphFound
+.LayoutString_CodepointNotFound
+IMM R3 127
+.LayoutString_Ascii
+LLOD R16 !urcltype_Mappings R3
+.LayoutString_GlyphFound
+BSL R8 R16 2
+INC R2 R2
+BRZ .LayoutString_NoSubstitutions_NoStack @SUBSTITUTIONS
+HPSH R3
+HPSH R2
+ADD R7 R8 3
+LLOD R7 !urcltype_Glyphs R7 //.SubstitutionsX
+LOD R3 R2
+LLOD R3 !urcltype_Mappings R3
+.LayoutString_SubstitutionsLoop
+LOD R13 R7
+INC R2 R2
+BRZ .LayoutString_NoSubstitutions R13
+BRE .LayoutString_SubstitutionFound R13 -1
+BNE .LayoutString_NextSubstitution R13 R3
+LOD R3 R2
+LLOD R3 !urcltype_Mappings R3
+INC R7 R7
+JMP .LayoutString_SubstitutionsLoop
+.LayoutString_NextSubstitution
+HPOP R2
+HPSH R2
+INC R7 R7
+LOD R3 R7
+INC R7 R7
+BNE ~-2 R3 -2
+LOD R3 R2
+LLOD R3 !urcltype_Mappings R3
+JMP .LayoutString_SubstitutionsLoop
+.LayoutString_SubstitutionFound
+INC R7 R7
+LOD R16 R7 // new glyph
+INC R24 R7
+LOD R21 R24 // next glyph in replacement sequence
+BSL R8 R16 2
+DEC R2 R2
+HPOP R0
+HPSH R2
+.LayoutString_NoSubstitutions
+HPOP R2
+HPOP R3
+.LayoutString_NoSubstitutions_NoStack
+LLOD R7 !urcltype_Glyphs R8
+INC R8 R8
+LLOD R8 !urcltype_Glyphs R8
+// find advance and evaluate line wrapping
+// Kerning
+IMM R13 0
+BRZ .LayoutString_SkipKerning @KERN
+// Get previous character kerning table
+BSL R9 R20 2
+ADD R9 R9 2
+LLOD R9 !urcltype_Glyphs R9 //.KerningX
+.LayoutString_KernLoop
+LOD R10 R9
+BRZ .LayoutString_SkipKerning R10
+ADD R9 R9 2
+BNE .LayoutString_KernLoop R10 R16
+LLOD R13 R9 -1
+LLOD R10 R1 -1 // advance em of previous char
+FADD R10 R10 R13
+LSTR R1 -1 R10
+FMLT R10 R10 @SIZEF
+LSTR R1 -2 R10 // advance px of previous char
+FMLT R13 R13 @SIZEF
+.LayoutString_SkipKerning
+LLOD R9 R8 4 // advance
+BNE .LayoutString_NotSpace R3 0x20
+LOD R10 !urcltype_SpaceWidthMultiplier
+FMLT R9 R9 R10
+LOD R10 !urcltype_layout_SpaceCount
+INC R10 R10
+STR !urcltype_layout_SpaceCount R10
+.LayoutString_NotSpace
+FMLT R12 R9 @SIZEF
+BRE ~+3 R3 0x20
+FADD R15 R15 R12
+FADD R15 R15 R13
+FADD R5 R5 R12
+FADD R5 R5 R13
+BRZ .LayoutString_SkipWrapping @WRAP
+BRE ~+2 @WRAP @WRAP_FORCE
+BRE .LayoutString_SkipWrapping R3 0x20 // Don't line wrap on spaces (they can hang over edge of line)
+IN%X R10
+ITOF R10 R10
+LOD R14 !urcltype_MarginL
+FSUB R10 R10 R14
+LOD R14 !urcltype_MarginR
+FSUB R10 R10 R14
+FSUB R10 R10 R17
+BRL .LayoutString_SkipWrapping R5 R10
+// Find most recent wrappable glyph
+HPSH R1
+HPSH R5
+HPSH R15
+IMM R14 0
+.LayoutString_FindWrappable_Loop
+SUB R1 R1 8
+LLOD R13 R1 5
+BRE .LayoutString_FindWrappable_Found @WRAP @WRAP_FORCE
+BRE .LayoutString_FindWrappable_Found R13 0x20
+BRE .LayoutString_FindWrappable_Found R13 '-'
+BRE .LayoutString_Cannot_Wrap R1 R6
+LLOD R13 R1 6
+FADD R14 R14 R13
+FSUB R5 R5 R13
+FSUB R15 R15 R13
+JMP .LayoutString_FindWrappable_Loop
+.LayoutString_FindWrappable_Found
+FSUB R5 R5 R12
+FSUB R15 R15 R12
+ADD R1 R1 8
+INC R19 R19
+HPSH R7
+HPSH R8
+HPSH R3
+HPSH R9
+HPSH R12
+HCAL @HORALIGN
+HPOP R12
+HPOP R9
+HPOP R3
+HPOP R8
+HPOP R7
+
+HPOP R0
+HPOP R0
+HPOP R1
+// move all after forward by 1
+MOV R5 R14
+FADD R5 R5 R12
+MOV R15 R5
+MOV R14 R1
+ADD R1 R1 8
+MOV R13 R1
+LOD R17 !urcltype_HangingIndent
+.LayoutString_Wrap_MoveForwardLoop
+CPY R13 R14
+DEC R13 R13
+DEC R14 R14
+BGE .LayoutString_Wrap_MoveForwardLoop R14 R6
+// insert new line after spot
+STR R6 -1
+LSTR R6 1 -1
+LSTR R6 4 @SIZEF
+LSTR R6 5 @VT
+LSTR R6 6 0
+LSTR R6 7 0
+HPSH R1
+HPSH R5
+HPSH R15
+ADD R6 R6 8
+.LayoutString_Cannot_Wrap
+HPOP R15
+HPOP R5
+HPOP R1
+.LayoutString_SkipWrapping
+// make layout entry with glyph, bounds, and size
+STR R1 R7 // glyph ptr
+LSTR R1 1 R8 // bounds ptr
+LSTR R1 4 @SIZEF // size in px
+LSTR R1 5 R3 // char
+LSTR R1 6 R12 // advance in px
+LSTR R1 7 R9 // advance in em
+// increment layout pointer
+ADD R1 R1 8
+BRZ .LayoutString_Loop @SUBSTITUTIONS
+BRE .LayoutString_Loop R21 -2
+MOV R20 R16
+MOV R16 R21
+BSL R8 R16 2
+INC R24 R24
+LOD R21 R24
+JMP .LayoutString_NoSubstitutions_NoStack
+!!
+
+!!!
+!urcltype_Justified
+.LayoutString_EvalNewLine_Justified
+LOD R10 !urcltype_SingleMode
+BRE R10 R3 @LF
+BRE R10 R3 0
+JMP !urcltype_Distributed
+!!
+!!!
+!urcltype_Distributed
+.LayoutString_EvalNewLine_Distributed
+// remove spaces at the end of the line
+HPSH R1
+BRZ .LayoutString_EvalNewLine_Distributed_SpaceLoop_End @TRIMEND
+BRE .LayoutString_EvalNewLine_Distributed_SpaceLoop_End R1 R6
+.LayoutString_EvalNewLine_Distributed_SpaceLoop
+SUB R1 R1 8
+LLOD R3 R1 5 // char
+BNE .LayoutString_EvalNewLine_Distributed_SpaceLoop_End R3 0x20
+LOD R3 !urcltype_layout_SpaceCount
+DEC R3 R3
+STR !urcltype_layout_SpaceCount R3
+JMP .LayoutString_EvalNewLine_Distributed_SpaceLoop
+.LayoutString_EvalNewLine_Distributed_SpaceLoop_End
+HPOP R1
+// remove spaces at the beginning of the line
+BRZ .LayoutString_EvalNewLine_Distributed_SpaceLoop2_End @TRIMBEGIN
+BRE .LayoutString_EvalNewLine_Distributed_SpaceLoop2_End R1 R6
+.LayoutString_EvalNewLine_Distributed_SpaceLoop2
+LLOD R3 R6 5
+BNE .LayoutString_EvalNewLine_Distributed_SpaceLoop2_End R3 0x20
+ADD R6 R6 8
+LOD R3 !urcltype_layout_SpaceCount
+DEC R3 R3
+STR !urcltype_layout_SpaceCount R3
+JMP .LayoutString_EvalNewLine_Distributed_SpaceLoop2
+.LayoutString_EvalNewLine_Distributed_SpaceLoop2_End
+LOD R3 !urcltype_layout_SpaceCount
+LOD R10 !urcltype_SingleMode
+BRZ R10 R3
+// calculate space width in em
+IN%X R3
+ITOF R3 R3
+LOD R7 !urcltype_MarginR
+FSUB R3 R3 R7
+LOD R7 !urcltype_MarginL
+FSUB R3 R3 R7
+FSUB R3 R3 R17
+FSUB R3 R3 R15 // space remaining for spaces in px
+LOD R15 !urcltype_layout_SpaceCount
+ITOF R15 R15
+FDIV R15 R3 R15 // px
+FMLT R15 R15 @SIZER // em
+// calculate left position in em
+IMM R3 R7 // px
+FADD R3 R3 R17
+FMLT R3 R3 @SIZER // em
+BRE .LayoutString_EvalNewLine_Distributed_End R6 R1
+.LayoutString_EvalNewLine_Distributed_Loop
+LSTR R6 2 R3 // write x position
+LLOD R10 R6 5 // char
+LLOD R7 R6 7 // advance in em
+BNE ~+2 R10 0x20
+MOV R7 R15
+FADD R3 R3 R7
+ADD R6 R6 8
+BNE .LayoutString_EvalNewLine_Distributed_Loop R6 R1
+.LayoutString_EvalNewLine_Distributed_End
+STR !urcltype_layout_SpaceCount 0
+IMM R5 0
+IMM R15 0
+HRET
+!!
+!!!
+!urcltype_RightAligned
+.LayoutString_EvalNewLine_RightAligned
+// remove spaces at the end of the line
+HPSH R1
+BRZ .LayoutString_EvalNewLine_RightAligned_SpaceLoop_End @TRIMEND
+BRE .LayoutString_EvalNewLine_RightAligned_SpaceLoop_End R1 R6
+.LayoutString_EvalNewLine_RightAligned_SpaceLoop
+SUB R1 R1 8
+LLOD R3 R1 5 // char
+BNE .LayoutString_EvalNewLine_RightAligned_SpaceLoop_End R3 0x20
+LLOD R3 R1 6 // advance px
+FSUB R5 R5 R3
+JMP .LayoutString_EvalNewLine_RightAligned_SpaceLoop
+.LayoutString_EvalNewLine_RightAligned_SpaceLoop_End
+HPOP R1
+// calculate left position in em
+IN%X R3
+ITOF R3 R3
+LOD R7 !urcltype_MarginR
+FSUB R3 R3 R7
+FSUB R3 R3 R5 // px
+FMLT R3 R3 @SIZER // em
+JMP !urcltype_layout_EvalNewLine
+!!
+!!!
+!urcltype_Centered
+.LayoutString_EvalNewLine_Centered
+// remove spaces at the start of the line
+BRZ .LayoutString_EvalNewLine_Centered_SpaceLoop2_End @TRIMBEGIN
+BRE .LayoutString_EvalNewLine_Centered_SpaceLoop2_End R1 R6
+.LayoutString_EvalNewLine_Centered_SpaceLoop2
+LLOD R3 R6 5
+BNE .LayoutString_EvalNewLine_Centered_SpaceLoop2_End R3 0x20
+ADD R6 R6 8
+JMP .LayoutString_EvalNewLine_Centered_SpaceLoop2
+.LayoutString_EvalNewLine_Centered_SpaceLoop2_End
+// remove spaces at the end of the line
+HPSH R1
+BRZ .LayoutString_EvalNewLine_Centered_SpaceLoop_End @TRIMEND
+BRE .LayoutString_EvalNewLine_Centered_SpaceLoop_End R1 R6
+.LayoutString_EvalNewLine_Centered_SpaceLoop
+SUB R1 R1 8
+LLOD R3 R1 5 // char
+BNE .LayoutString_EvalNewLine_Centered_SpaceLoop_End R3 0x20
+LLOD R3 R1 6 // advance px
+FSUB R5 R5 R3
+JMP .LayoutString_EvalNewLine_Centered_SpaceLoop
+.LayoutString_EvalNewLine_Centered_SpaceLoop_End
+HPOP R1
+// calculate left position in em
+IN%X R3
+ITOF R3 R3
+LOD R7 !urcltype_MarginR
+FSUB R3 R3 R7
+LOD R7 !urcltype_MarginL
+FSUB R3 R3 R7
+FSUB R3 R3 R17
+FSUB R3 R3 R5
+FMLT R3 R3 0.5 // px
+FADD R3 R3 R7
+FADD R3 R3 R17
+FMLT R3 R3 @SIZER
+JMP !urcltype_layout_EvalNewLine
+!!
+!!!
+!urcltype_LeftAligned
+.LayoutString_EvalNewLine_LeftAligned
+// remove spaces at the start of the line
+BRZ .LayoutString_EvalNewLine_LeftAligned_SpaceLoop2_End @TRIMBEGIN
+BRE .LayoutString_EvalNewLine_LeftAligned_SpaceLoop2_End R1 R6
+.LayoutString_EvalNewLine_LeftAligned_SpaceLoop2
+LLOD R3 R6 5
+BNE .LayoutString_EvalNewLine_LeftAligned_SpaceLoop2_End R3 0x20
+ADD R6 R6 8
+JMP .LayoutString_EvalNewLine_LeftAligned_SpaceLoop2
+.LayoutString_EvalNewLine_LeftAligned_SpaceLoop2_End
+// calculate left position in em
+LOD R7 !urcltype_MarginL
+IMM R3 R7 // px
+FADD R3 R3 R17
+FMLT R3 R3 @SIZER // em
+JMP !urcltype_layout_EvalNewLine
+!!
+!!!
+!urcltype_BottomAligned
+.LayoutString_EvalEnd_BottomAligned
+//@DEBUG
+// calculate line spacing in em
+LOD R12 !urcltype_LineSpacing // em
+// calculate paragraph spacing in em
+LOD R18 !urcltype_ParagraphSpacing
+// calculate max position in em
+IN%Y R14
+ITOF R14 R14
+MOV R13 R14
+// calculate top position in em
+LOD R6 !urcltype_MarginB
+FSUB R14 R14 R6
+ITOF R11 R11
+FMLT R11 R11 R18
+ITOF R19 R19
+FMLT R19 R19 R12
+FADD R11 R11 R19
+FADD R11 R11 1.0 // total height offset
+FMLT R11 R11 @SIZEF // total height px
+FSUB R3 R14 R11 // px
+LOD R6 !urcltype_MarginT
+SBGE ~+2 R3 R6
+NOP // Off bottom
+FMLT R3 R3 @SIZER // em
+JMP !urcltype_layout_EvalEnd
+!!
+!!!
+!urcltype_Centered
+.LayoutString_EvalEnd_Centered
+// calculate line spacing in em
+LOD R12 !urcltype_LineSpacing // em
+// calculate paragraph spacing in em
+LOD R18 !urcltype_ParagraphSpacing
+// calculate max position in em
+IN%Y R14
+ITOF R14 R14
+LOD R6 !urcltype_MarginB
+FSUB R14 R14 R6
+FMLT R13 R14 @SIZER
+// calculate top position in em
+ITOF R11 R11
+FMLT R11 R11 R18
+ITOF R19 R19
+FMLT R19 R19 R12
+FADD R11 R11 R19
+FADD R11 R11 1.0 // total height em
+FMLT R11 R11 @SIZEF // total height px
+LOD R6 !urcltype_MarginT
+FSUB R14 R14 R6
+FSUB R3 R14 R11
+FMLT R3 R3 0.5 // px
+FADD R3 R3 R6
+FMLT R3 R3 @SIZER // em
+JMP !urcltype_layout_EvalEnd
+!!
+!!!
+!urcltype_TopAligned
+.LayoutString_EvalEnd_TopAligned
+// calculate top position in em
+LOD R3 !urcltype_MarginT // px
+FMLT R3 R3 @SIZER // em
+// calculate line spacing in em
+LOD R12 !urcltype_LineSpacing // em
+// calculate paragraph spacing in em
+LOD R18 !urcltype_ParagraphSpacing
+// calculate max position in em
+IN%Y R13
+ITOF R13 R13
+LOD R6 !urcltype_MarginB
+FSUB R13 R13 R6
+FMLT R13 R13 @SIZER
+JMP !urcltype_layout_EvalEnd
+!!
+!!!
+!urcltype_layout_EvalNewLine
+.LayoutString_EvalNewLine
+BRE .LayoutString_EvalNewLine_Loop_End R6 R1
+.LayoutString_EvalNewLine_Loop
+LSTR R6 2 R3 // write x position
+LLOD R7 R6 7 // advance in em
+FADD R3 R3 R7
+ADD R6 R6 8
+BNE .LayoutString_EvalNewLine_Loop R6 R1
+.LayoutString_EvalNewLine_Loop_End
+STR !urcltype_layout_SpaceCount 0
+IMM R5 0
+IMM R15 0
+HRET
+!!
+!!!
+!urcltype_layout_EvalEnd
+.LayoutString_EvalEnd
+LOD R6 !urcltype_LayoutPtr
+BRE .LayoutString_EvalEnd_Loop_End R6 R1
+.LayoutString_EvalEnd_Loop
+LSTR R6 3 R3 // set y offset
+LLOD R9 R6 5 // load char id
+BNE .LayoutString_EvalEnd_NotNewline R9 @LF
+FADD R3 R3 R18
+SBRL ~+2 R3 R13
+NOP // Off Bottom
+.LayoutString_EvalEnd_NotNewline
+BNE .LayoutString_EvalEnd_NotVerticalTab R9 @VT
+FADD R3 R3 R12
+SBRL ~+2 R3 R13
+NOP // Off Bottom
+.LayoutString_EvalEnd_NotVerticalTab
+ADD R6 R6 8
+BNE .LayoutString_EvalEnd_Loop R6 R1
+.LayoutString_EvalEnd_Loop_End
+HRET
+!!
+!!!
+!urcltype_layout_SpaceCount
+.SpaceCount
+DW 0
+!!

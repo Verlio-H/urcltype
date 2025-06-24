@@ -1,0 +1,105 @@
+!urcltype_StrPtr
+.StrPtr
+DW !String
+!urcltype_LayoutPtr
+.LayoutPtr
+DW @LAYOUT
+
+// Margins around text in px (left, right, top, bottom)
+!urcltype_MarginL
+.MarginL
+DW 16.0
+!urcltype_MarginR
+.MarginR
+DW 16.0
+!urcltype_MarginT
+.MarginT
+DW 0.0
+!urcltype_MarginB
+.MarginB
+DW 8.0
+
+
+// @WRAP_NONE indicates no line wrapping
+// @WRAP_STD indicates standard line wrapping
+//   Line wrapping will be performed whenever a non space glyph does not have enough room to fit on a line
+//   Space characters are ignored within wrapping calculation (they are allowed to be hanging off the edge of a line)
+//   Lines will only be broken on spaces or pre-existing hyphens, hyphenation is not supported
+//   If a word is too large to fit on a line by itself, it will be given its own line and will not be wrapped (it will go off 
+//     screeen)
+//   If a hyphen is part of a ligature then no wrapping will be performed with said hyphen
+// @WRAP_FORCE indicates forced line wrapping
+//   Line wrapping will be performed whenever any glyph does not have enough room to fit on a line
+//   Line wrapping will not respect word boundaries
+@DEFINE @WRAP @WRAP_STD
+
+// Non-zero value enables kerning
+@DEFINE @KERN 1
+
+// Non-zero value enables glyph substitutions (such as ligatures)
+@DEFINE @SUBSTITUTIONS 1
+
+// Non-zero value indicates that ending spaces should be trimmed on right, centered, distributed, and justified horizontal alignment
+@DEFINE @TRIMEND 1
+
+// Non-zero value indicates that leading spaces should be trimmed on left, centered, distributed, and justified horizontal alignment
+@DEFINE @TRIMBEGIN 1
+
+// Horizontal alignment options for text
+//   LeftAligned - The first glyph of a line of text will be aligned with the left margin. Spaces will remain evenly sized. Spaces
+//     at the beginning of the line will be trimmed if enabled.
+//   RightAligned - The final glyph of a line of text will be aligned with the right margin. Spaces will remain evenly sized. Spaces
+//     at the end of the line will be trimmed if enabled.
+//   Centered - The line of text will be positioned such that there is the same amount of space between the left margin and the left
+//     most glyph as between the right margin and the right most character. Spaces will remain evenly sized. Spaces at the end and
+//     beginning of the line will be trimmed if enabled.
+//   Distributed - The words within the line of text will be positioned such that the left most word aligns with the left margin and
+//     the right most word aligns with the right margin. Spaces will be resized with a minimum size multiplier specified by the
+//     .SpaceWidthMultiplier variable. Depending on .SingleMode variable, lines with only one word will be aligned according to a
+//     different rule. This allows the normal behavior of justified text (left alignment) to be implemented as well as the normal 
+//     behavior of distributed text (as seen in Microsoft Word for example) (centered alignment). Spaces at the beginning and end of 
+//     the line will be trimmed if enabled.
+//   Justified - Behaves identically to distributed alignment on lines generated as the result of line wrapping, and otherwise
+//     behaves identically to .SingleMode. It is recommended to set .SingleMode to LeftAligned in justified alignment.
+@DEFINE @HORALIGN !urcltype_LeftAligned
+
+// Vertical alignment options for text
+//   TopAligned - The first row of text is aligned such that the baseline is 1em below the top margin
+//   BottomAligned - The final row of the text is aligned such that the baseline is on the bottom margin
+//   Centered - The rows of text are aligned such that the top margin is 1em further away from the top most baseline than the bottom
+//     most baseline is away from the bottom margin
+@DEFINE @VERTALIGN !urcltype_TopAligned
+
+// In justified and distributed horizontal alignment, use this modifier to adjust the minimum space size
+// In other alignment modes, use this modifier to adjust all space widths
+// In justified and distributed horizontal alignment it is recommended to use a value between 0.5-0.8
+!urcltype_SpaceWidthMultiplier
+.SpaceWidthMultiplier
+DW 1.0
+
+// Determines how lines with a singular word should have under distributed horizontal alignment or when line wrapped on justified
+//   horizontal alignment
+// DO NOT SET TO DISTRIBUTED OR JUSTIFIED
+!urcltype_SingleMode
+.SingleMode
+DW !urcltype_LeftAligned
+
+// Determines the distance between subsequent baselines within a paragraph in em
+!urcltype_LineSpacing
+.LineSpacing
+DW 1.2
+
+// Determines the distance between the final baseline of a paragraph and the initial baseline of the subsequent paragraph in em
+!urcltype_ParagraphSpacing
+.ParagraphSpacing
+DW 2.0
+
+// Determines the indentation on the first line of text in a paragraph in px
+!urcltype_Indent
+.Indent
+DW 0.0
+
+// Determines the indentation on subsequent lines of text in a paragraph in px
+!urcltype_HangingIndent
+.HangingIndent
+DW 0.0

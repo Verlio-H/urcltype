@@ -1,0 +1,149 @@
+BITS == 16
+MINREG 25
+MINHEAP 16000
+
+!String
+.String
+//Latin1 Test
+// DW ["Faðir vor, þú sem ert á himnum.\v"]
+// DW ["Helgist þitt nafn,\v"]
+// DW ["Til komi þitt ríki,\v"]
+// DW ["verði þinn vilji, svo á jörðu sem á himni.\v"]
+// DW ["Gef oss í dag vort daglegt brauð.\v"]
+// DW ["Fyrirgef oss vorar skuldir,\v"]
+// DW ["svo sem vér og fyrirgefum vorum skuldunautum.\v"]
+// DW ["Eigi leið þú oss í freistni, heldur frelsa oss frá illu.\v"]
+// DW ["Því að þitt er ríkið, mátturinn og dýrðin að eilífu, amen." 0]
+//Cyrillic
+// DW ["Сва људска бића рађају се слободна и једнака у достојанству и правима. Она су обдарена разумом и свешћу и треба једни према другима да поступају у духу братства." 0]
+//Greek Test
+// DW ["Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι στην αξιοπρέπεια και τα δικαιώματα. Είναι προικισμένοι με λογική και συνείδηση, και οφείλουν να συμπεριφέρονται μεταξύ τους με πνεύμα αδελφοσύνης." 0]
+//Toki Pona Test
+// DW ["kijetesantakalu li soweli epiku." 0]
+//Star Wars Test
+// DW ["It is a period of civil war. "]
+// DW ["Rebel spaceships, striking "]
+// DW ["from a hidden base, have "]
+// DW ["won their first victory "]
+// DW ["against the evil Galactic "]
+// DW ["Empire.\n"]
+// DW ["During the battle, rebel "]
+// DW ["spies managed to steal "]
+// DW ["secret plans to the Empire's "]
+// DW ["ultimate weapon, the "]
+// DW ["DEATH STAR, an armored space "]
+// DW ["station with enough "]
+// DW ["power to destroy an entire "]
+// DW ["planet.\n"]
+// DW ["Pursued by the Empire's "]
+// DW ["sinister agents, Princess "]
+// DW ["Leia races home aboard her "]
+// DW ["starship, custodian of the "]
+// DW ["stolen plans that can save "]
+// DW ["her people and restore "]
+// DW ["freedom to the galaxy...." 0]
+//Rick Roll Test
+DW ["We're no strangers to love\v"]
+DW ["You know the rules and so do I\v"]
+DW ["A full commitment's what I'm thinkin' of\v"]
+DW ["You wouldn't get this from any other guy\n"]
+DW ["I just wanna tell you how I'm feeling\v"]
+DW ["Gotta make you understand\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you\n"]
+DW ["We've known each other for so long\v"]
+DW ["Your heart's been aching, but you're too shy to say it\v"]
+DW ["Inside, we both know what's been going on\v"]
+DW ["We know the game and we're gonna play it\n"]
+DW ["And if you ask me how I'm feeling\v"]
+DW ["Don't tell me you're too blind to see\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you\n"]
+DW ["We've known each other for so long\n"]
+DW ["Your heart's been aching, but you're too shy to say it\v"]
+DW ["Inside, we both know what's been going on\v"]
+DW ["We know the game and we're gonna play it\n"]
+DW ["I just wanna tell you how I'm feeling\v"]
+DW ["Gotta make you understand\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you\n"]
+DW ["Never gonna give you up, never gonna let you down\v"]
+DW ["Never gonna run around and desert you\v"]
+DW ["Never gonna make you cry, never gonna say goodbye\v"]
+DW ["Never gonna tell a lie and hurt you" 0]
+
+IMM @SIZEF 16.0 // Font Size in px
+
+// Start text scrolling from bottom
+IN%Y R2
+ITOF R2 R2
+STR !urcltype_MarginT R2
+.Beginning
+//FADD @SIZEF @SIZEF 0.1 // Animate font size
+
+// Animate scrolling
+LOD R2 !urcltype_MarginT
+FSUB R2 R2 1.0
+STR !urcltype_MarginT R2
+
+OUT%WAIT 80
+OUT%BUFFER 1
+OUT%BUFFER 0
+
+OUT%BUFFER 1
+
+// Shape String
+STR !urcltype_StrPtr !String
+FDIV @SIZER 1.0 @SIZEF
+STR !urcltype_LayoutPtr @LAYOUT
+HCAL !urcltype_LayoutString
+
+// Render laid out string
+.RenderGlyphLoop
+LOD R2 !urcltype_LayoutPtr
+LOD R3 R2
+BRZ .End R3
+LLOD R3 R2 5
+BRG .RenderGlyphLoop_Not_Skip R3 0x20
+ADD R2 R2 8
+STR !urcltype_LayoutPtr R2
+JMP .RenderGlyphLoop
+.RenderGlyphLoop_Not_Skip
+CPY !urcltype_Contours R2
+LLOD R3 R2 1
+LLOD R1 R3 @XMIN
+LSTR !urcltype_Bounds @XMIN R1
+LLOD R1 R3 @XMAX
+LSTR !urcltype_Bounds @XMAX R1
+LLOD R1 R3 @YMIN
+LSTR !urcltype_Bounds @YMIN R1
+LLOD R1 R3 @YMAX
+LSTR !urcltype_Bounds @YMAX R1
+LLOD R3 R2 2
+STR !urcltype_OffsetX R3
+LLOD R3 R2 3
+STR !urcltype_OffsetY R3
+ADD R2 R2 8
+STR !urcltype_LayoutPtr R2
+HCAL !urcltype_RenderGlyph
+JMP .RenderGlyphLoop
+.End
+
+// Output and wait for next frame
+IN%WAIT R0
+OUT%BUFFER 2
+JMP .Beginning
